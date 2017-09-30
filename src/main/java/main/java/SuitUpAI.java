@@ -8,10 +8,7 @@ import java.util.*;
  */
 public class SuitUpAI {
 
-    private ValueSimilarity valueSimilarity;
-
     public SuitUpAI() {
-        valueSimilarity = new ValueSimilarity();
     }
 
     /**
@@ -56,7 +53,7 @@ public class SuitUpAI {
 
         for (DatabaseItem item : truncatedDataBaseItems) {
             double[] dataVectorValues = item.generateValues();
-            double temp = valueSimilarity.cosineSimilarity(dataVectorValues, queryVectorValues);
+            double temp = ValueSimilarity.cosineSimilarity(dataVectorValues, queryVectorValues);
             similarityWithQueryitem.put(temp, item);
         }
 
