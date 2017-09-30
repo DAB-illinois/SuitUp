@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15d0b05a-f4e0-413b-a08d-69fdb43ca8c0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20090211.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_util_6_1_25.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_immutables_gson_2_5_7_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Clothes.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/url/mongodb/MongoDBUrl.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Attributes.java" afterPath="$PROJECT_DIR$/src/main/java/main/java/Attributes.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Clothes.java" afterPath="$PROJECT_DIR$/src/main/java/main/java/Clothes.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/SuitUpAI.java" afterPath="$PROJECT_DIR$/src/main/java/main/java/SuitUpAI.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Test.java" afterPath="$PROJECT_DIR$/src/main/java/main/java/Test.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/url/mongodb/MongoDBUrl.java" afterPath="$PROJECT_DIR$/src/main/mongodb/mongodb/MongoDBUtility.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SuitUp.iml" afterPath="$PROJECT_DIR$/SuitUp.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/main/java/Attributes.java" afterPath="$PROJECT_DIR$/src/main/java/main/java/Attributes.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,16 +29,16 @@
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1360">
-              <caret line="379" column="22" lean-forward="false" selection-start-line="379" selection-start-column="22" selection-end-line="379" selection-end-column="22" />
+            <state relative-caret-position="-1345">
+              <caret line="380" column="22" lean-forward="false" selection-start-line="380" selection-start-column="22" selection-end-line="380" selection-end-column="22" />
               <folding>
-                <marker date="1506775125000" expanded="true" signature="52816:53060" ph="..." />
-                <marker date="1506775125000" expanded="true" signature="52816:53075" ph="..." />
-                <marker date="1506775125000" expanded="true" signature="52816:53089" ph="..." />
-                <marker date="1506775125000" expanded="true" signature="52816:53104" ph="..." />
-                <marker date="1506775125000" expanded="true" signature="52862:53040" ph="..." />
-                <marker date="1506775125000" expanded="true" signature="52902:53006" ph="..." />
-                <marker date="1506775125000" expanded="true" signature="52923:52984" ph="..." />
+                <marker date="1506775346000" expanded="true" signature="52916:53160" ph="..." />
+                <marker date="1506775346000" expanded="true" signature="52916:53175" ph="..." />
+                <marker date="1506775346000" expanded="true" signature="52916:53189" ph="..." />
+                <marker date="1506775346000" expanded="true" signature="52916:53204" ph="..." />
+                <marker date="1506775346000" expanded="true" signature="52962:53140" ph="..." />
+                <marker date="1506775346000" expanded="true" signature="53002:53106" ph="..." />
+                <marker date="1506775346000" expanded="true" signature="53023:53084" ph="..." />
               </folding>
             </state>
           </provider>
@@ -66,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MongoDBUtility.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MongoDBUtility.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/mongodb/mongodb/MongoDBUtility.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="58" column="7" lean-forward="true" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
+            <state relative-caret-position="-286">
+              <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -79,9 +67,28 @@
       <file leaf-file-name="Attributes.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/main/java/Attributes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-              <folding />
+            <state relative-caret-position="900">
+              <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+              <folding>
+                <element signature="e#658#659#0" expanded="true" />
+                <element signature="e#683#684#0" expanded="true" />
+                <element signature="e#717#718#0" expanded="true" />
+                <element signature="e#747#748#0" expanded="true" />
+                <element signature="e#828#829#0" expanded="true" />
+                <element signature="e#855#856#0" expanded="true" />
+                <element signature="e#893#894#0" expanded="true" />
+                <element signature="e#927#928#0" expanded="true" />
+                <element signature="e#962#963#0" expanded="true" />
+                <element signature="e#993#994#0" expanded="true" />
+                <element signature="e#1026#1027#0" expanded="true" />
+                <element signature="e#1055#1056#0" expanded="true" />
+                <element signature="e#1086#1087#0" expanded="true" />
+                <element signature="e#1113#1114#0" expanded="true" />
+                <element signature="e#1148#1149#0" expanded="true" />
+                <element signature="e#1179#1180#0" expanded="true" />
+                <element signature="e#1210#1211#0" expanded="true" />
+                <element signature="e#1237#1238#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,7 +103,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SuitUpAI.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SuitUpAI.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/main/java/SuitUpAI.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
@@ -141,6 +148,7 @@
         <option value="$PROJECT_DIR$/src/main/mongodb/MongoDBUtility.java" />
         <option value="$PROJECT_DIR$/src/main/java/main/java/Clothes.java" />
         <option value="$PROJECT_DIR$/src/main/mongodb/mongodb/MongoDBUtility.java" />
+        <option value="$PROJECT_DIR$/src/main/java/main/java/Attributes.java" />
       </list>
     </option>
   </component>
@@ -572,11 +580,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506768178874</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added new Maven library and Dependencies.&#10;Added code that parses String into Json String.&#10;&#10;TODO: The string of data is being truncated for some reason. I need to fix this.">
+      <created>1506775401029</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1506775401029</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10251000" />
+    <option name="totallyTimeSpent" value="10794000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="6" y="23" width="1260" height="731" extended-state="0" />
@@ -590,7 +605,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26555386" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26555386" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30955994" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -645,7 +660,8 @@
     <MESSAGE value="Add Maven support" />
     <MESSAGE value="Hopefully there are no more merge conflict message" />
     <MESSAGE value="Commit!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit!!" />
+    <MESSAGE value="Added new Maven library and Dependencies.&#10;Added code that parses String into Json String.&#10;&#10;TODO: The string of data is being truncated for some reason. I need to fix this." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new Maven library and Dependencies.&#10;Added code that parses String into Json String.&#10;&#10;TODO: The string of data is being truncated for some reason. I need to fix this." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -734,16 +750,16 @@
     <entry file="file://$PROJECT_DIR$/src/url/mongodb/MongoDBUrl.java" />
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1360">
-          <caret line="379" column="22" lean-forward="false" selection-start-line="379" selection-start-column="22" selection-end-line="379" selection-end-column="22" />
+        <state relative-caret-position="-1345">
+          <caret line="380" column="22" lean-forward="false" selection-start-line="380" selection-start-column="22" selection-end-line="380" selection-end-column="22" />
           <folding>
-            <marker date="1506775125000" expanded="true" signature="52816:53060" ph="..." />
-            <marker date="1506775125000" expanded="true" signature="52816:53075" ph="..." />
-            <marker date="1506775125000" expanded="true" signature="52816:53089" ph="..." />
-            <marker date="1506775125000" expanded="true" signature="52816:53104" ph="..." />
-            <marker date="1506775125000" expanded="true" signature="52862:53040" ph="..." />
-            <marker date="1506775125000" expanded="true" signature="52902:53006" ph="..." />
-            <marker date="1506775125000" expanded="true" signature="52923:52984" ph="..." />
+            <marker date="1506775346000" expanded="true" signature="52916:53160" ph="..." />
+            <marker date="1506775346000" expanded="true" signature="52916:53175" ph="..." />
+            <marker date="1506775346000" expanded="true" signature="52916:53189" ph="..." />
+            <marker date="1506775346000" expanded="true" signature="52916:53204" ph="..." />
+            <marker date="1506775346000" expanded="true" signature="52962:53140" ph="..." />
+            <marker date="1506775346000" expanded="true" signature="53002:53106" ph="..." />
+            <marker date="1506775346000" expanded="true" signature="53023:53084" ph="..." />
           </folding>
         </state>
       </provider>
@@ -756,11 +772,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/java/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/mongodb/mongodb/MongoDBUtility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-286">
+          <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/main/java/Attributes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-          <folding />
+        <state relative-caret-position="900">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding>
+            <element signature="e#658#659#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
+            <element signature="e#747#748#0" expanded="true" />
+            <element signature="e#828#829#0" expanded="true" />
+            <element signature="e#855#856#0" expanded="true" />
+            <element signature="e#893#894#0" expanded="true" />
+            <element signature="e#927#928#0" expanded="true" />
+            <element signature="e#962#963#0" expanded="true" />
+            <element signature="e#993#994#0" expanded="true" />
+            <element signature="e#1026#1027#0" expanded="true" />
+            <element signature="e#1055#1056#0" expanded="true" />
+            <element signature="e#1086#1087#0" expanded="true" />
+            <element signature="e#1113#1114#0" expanded="true" />
+            <element signature="e#1148#1149#0" expanded="true" />
+            <element signature="e#1179#1180#0" expanded="true" />
+            <element signature="e#1210#1211#0" expanded="true" />
+            <element signature="e#1237#1238#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -776,22 +827,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/main/java/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/mongodb/mongodb/MongoDBUtility.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="58" column="7" lean-forward="true" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
           <folding />
         </state>
       </provider>
