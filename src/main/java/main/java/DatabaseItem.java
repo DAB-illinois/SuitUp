@@ -22,11 +22,14 @@ public class DatabaseItem {
         FORMAL_CATEGORY = new HashMap<String, Double>();
         FORMAL_CATEGORY.put("denim", 0.0);
     }
+
+    // athletic, leisure, business, fancy
     private static final HashMap<String, Double[]> TYPE_VALUES;
     static {
         TYPE_VALUES = new HashMap<String, Double[]>();
         TYPE_VALUES.put("bomber", new Double[]{2.0, 5.0, 0.0, 0.0});
         TYPE_VALUES.put("tee", new Double[]{4.5, 2.5, 0.0, 0.0});
+        TYPE_VALUES.put("t-shirt", new Double[]{4.5, 2.5, 0.0, 0.0});
         TYPE_VALUES.put("jean", new Double[]{0.0, 8.0, 1.0, 0.0});
         TYPE_VALUES.put("jogger", new Double[]{7.0, 2.0, 0.0, 0.0});
         TYPE_VALUES.put("cardigan", new Double[]{0.0, 6.0, 3.0, 0.0});
@@ -37,6 +40,14 @@ public class DatabaseItem {
         TYPE_VALUES.put("polo", new Double[]{0.0, 1.0, 7.0, 0.0});
         TYPE_VALUES.put("shirtdress", new Double[]{0.0, 6.0, 0.0, 0.0});
         TYPE_VALUES.put("boatneck", new Double[]{1.0, 7.0, 0.0, 0.0});
+        TYPE_VALUES.put("crewneck", new Double[]{0.0, 6.0, 1.0, 0.0});
+        TYPE_VALUES.put("shirt", new Double[]{0.0, 2.0, 6.0, 0.0});
+        TYPE_VALUES.put("pant", new Double[]{0.0, 7.0, 8.0, 6.0});
+        TYPE_VALUES.put("top", new Double[]{0.0, 7.0, 8.0, 6.0});
+        TYPE_VALUES.put("hoodie", new Double[]{4.0, 3.0, 0.0, 0.0});
+        TYPE_VALUES.put("sweater", new Double[]{4.0, 3.0, 0.0, 0.0});
+        TYPE_VALUES.put("tank", new Double[]{4.0, 4.0, 0.0, 0.0});
+        TYPE_VALUES.put("jegging", new Double[]{3.0, 6.0, 0.0, 0.0});
     }
 
     // Document{{_id=59cf60d1f9a4758a54139dfa, styleId=mw00750, gender=men,
