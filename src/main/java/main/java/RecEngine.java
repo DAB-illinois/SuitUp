@@ -57,10 +57,12 @@ public class RecEngine {
         //System.out.println("query: "+query.getLink());
         //System.out.println("recommendation:"+recommendation.getLink());
 
-        //query = databaseItems[200];
-
-        //query = databaseItems[400];
         DatabaseItem recommendation = recommendOutfit(query);
+        query = databaseItems[200];
+        recommendation = recommendOutfit(query);
+
+        query = databaseItems[400];
+        recommendation = recommendOutfit(query);
 
         System.out.println("query: "+query.getLink());
         System.out.println("recommendation:"+recommendation.getLink());
