@@ -1,12 +1,88 @@
 package main.java;
 
+import org.jcp.xml.dsig.internal.dom.DOMUtils;
+
+import java.util.HashMap;
+
 public class DatabaseItem {
 
-    private static final int VECTOR_LENGTH = 5;
+    private static final int VECTOR_LENGTH = 7;
     private static final int GENDER_WEIGHT = 10;
-    private static final int PRICE_WEIGHT = 2;
+    private static final int PRICE_WEIGHT = 5;
     private static final int PRICE_MIN = 20;
-    private static final int PRICE_MAX = 395;
+    private static final int PRICE_MAX = 1690;
+
+    private static final HashMap<String, Double> CASUAL_CATEGORY;
+    static {
+        CASUAL_CATEGORY = new HashMap<String, Double>();
+        CASUAL_CATEGORY.put("denim", 8.0);
+    }
+    private static final HashMap<String, Double> FORMAL_CATEGORY;
+    static {
+        FORMAL_CATEGORY = new HashMap<String, Double>();
+        FORMAL_CATEGORY.put("denim", 0.0);
+    }
+    private static final HashMap<String, Double[]> TYPE_VALUES;
+    static {
+        TYPE_VALUES = new HashMap<String, Double[]>();
+        TYPE_VALUES.put("bomber", new Double[]{2.0, 5.0, 0.0, 0.0});
+        TYPE_VALUES.put("tee", new Double[]{4.5, 2.5, 0.0, 0.0);
+        TYPE_VALUES.put("jean", 0.0);
+        TYPE_VALUES.put("jogger", 7.0);
+        TYPE_VALUES.put("cardigan", 0.0);
+        TYPE_VALUES.put("sweatshirt", 3.0);
+        TYPE_VALUES.put("blouse", 0.0);
+        TYPE_VALUES.put("dress", 0.0);
+        TYPE_VALUES.put("skirt", 0.0);
+        TYPE_VALUES.put("polo", 0.0);
+        TYPE_VALUES.put("shirtdress", 0.0);
+        TYPE_VALUES.put("boatneck", 1.0);
+    }
+    private static final HashMap<String, Double> LEISURE_TYPE;
+    static {
+        LEISURE_TYPE = new HashMap<String, Double>();
+        LEISURE_TYPE.put("tee", 2.5);
+        LEISURE_TYPE.put("jean", 8.0);
+        LEISURE_TYPE.put("jogger", 2.0);
+        LEISURE_TYPE.put("cardigan", 6.0);
+        LEISURE_TYPE.put("sweatshirt", 3.0);
+        LEISURE_TYPE.put("blouse", 2.0);
+        LEISURE_TYPE.put("dress", 7.0);
+        LEISURE_TYPE.put("skirt", 6.0);
+        LEISURE_TYPE.put("polo", 1.0);
+        LEISURE_TYPE.put("shirtdress", 6.0);
+        LEISURE_TYPE.put("boatneck", 7.0);
+    }
+    private static final HashMap<String, Double> BUSINESS_TYPE;
+    static {
+        BUSINESS_TYPE = new HashMap<String, Double>();
+        BUSINESS_TYPE.put("tee", 0.0);
+        BUSINESS_TYPE.put("jean", 1.0);
+        BUSINESS_TYPE.put("jogger", 0.0);
+        BUSINESS_TYPE.put("cardigan", 3.0);
+        BUSINESS_TYPE.put("sweatshirt", 0.0);
+        BUSINESS_TYPE.put("blouse", 6.0);
+        BUSINESS_TYPE.put("dress", 5.0);
+        BUSINESS_TYPE.put("skirt", 6.0);
+        BUSINESS_TYPE.put("polo", 7.0);
+        BUSINESS_TYPE.put("shirtdress", 0.0);
+        BUSINESS_TYPE.put("boatneck", 0.0);
+    }
+    private static final HashMap<String, Double> FANCY_TYPE;
+    static {
+        FANCY_TYPE = new HashMap<String, Double>();
+        FANCY_TYPE.put("tee", 0.0);
+        FANCY_TYPE.put("jean", 0.0);
+        FANCY_TYPE.put("jogger", 0.0);
+        FANCY_TYPE.put("cardigan", 0.0);
+        FANCY_TYPE.put("sweatshirt", 0.0);
+        FANCY_TYPE.put("blouse", 0.0);
+        FANCY_TYPE.put("dress", 2.0);
+        FANCY_TYPE.put("skirt", 0.0);
+        FANCY_TYPE.put("polo", 0.0);
+        FANCY_TYPE.put("shirtdress", 0.0);
+        FANCY_TYPE.put("boatneck", 0.0);
+    }
 
     // Document{{_id=59cf60d1f9a4758a54139dfa, styleId=mw00750, gender=men,
     // link=http://usa.tommy.com/en/sale/sale-final-sale-men/final-sale-city-windbreaker-mw00750,
@@ -27,10 +103,14 @@ public class DatabaseItem {
     private String name;
     private String category;
     private String type;
-    private String price; //use in vector (20-395)
+    private String price; //use in vector (20-1690)
 
-    private double casual; //athletic = positive leisure = negative
-    private double formal; //business = positive fancy = negative
+    private double athletic; // [0, 8]
+    private double leisure; // [0, 8]
+    private double business; // [0, 8]
+    private double fancy; // [0, 8]
+
+
     private double pattern; //true = positive false = negative
     private double[] vector;
 
@@ -73,8 +153,8 @@ public class DatabaseItem {
     public void generateValues() {
         vector = new double[VECTOR_LENGTH];
         vector[0] = generateGenderValue();
-        //price
-        //causul
+        vector[1] = generatePriceValue();
+        //casual
         //formal
         //pattern
     }
@@ -87,12 +167,16 @@ public class DatabaseItem {
         }
     }
 
-    public static double generatePriceValue(String price) {
-        double priceDouble = Double.parseDouble(price);
+    private double generatePriceValue() {
+        double priceDouble = Double.parseDouble(this.price);
         priceDouble -= PRICE_MIN;
         priceDouble -= (PRICE_MAX-PRICE_MIN)/2.0;
         priceDouble /= (PRICE_MAX-PRICE_MIN)/2;
         priceDouble *= PRICE_WEIGHT;
         return priceDouble;
+    }
+
+    private double generateCasualValue() {
+        return 0.0;
     }
 }
