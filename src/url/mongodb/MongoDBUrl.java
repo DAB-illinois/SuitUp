@@ -39,11 +39,12 @@ public class MongoDBUrl {
 
         System.out.println(documents);
 
-        //HashMap<Document, Set<String>> data = new HashMap<>();
-        for(Document document : documents){
-            System.out.println(document.keySet().toString());
+        HashMap<Document, Set<String>> data = new HashMap<>();
+        ArrayList<String> specificData;
 
-        }
+
+
+        //for (String identity : data)
         //mongoClient.getDatabaseNames().forEach(System.out::println);
     }
     public static void main(String[] args) {
