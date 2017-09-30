@@ -1,4 +1,6 @@
 
+import main.java.Attributes;
+
 import java.util.HashMap;
 
 public class Clothes {

@@ -1,8 +1,6 @@
 # Brandon Wang. Sept. 30
 
 import urlHelper
-import key
-from pymongo import MongoClient
 import lxml.html
 import itemDataExtractor
 
@@ -11,10 +9,6 @@ HREF = "href"
 URL_BASE = "http://usa.tommy.com/en/"
 WOMEN_CATEGORY_BEGIN = "women"
 MEN_CATEGORY_BEGIN = "men"
-
-# make a new mongodb data table
-client = MongoClient(key.url)
-db = client.bmDataset
 
 # function to see if href is url
 def validElement(element):
@@ -46,7 +40,6 @@ thUrl = ["http://usa.tommy.com/en/women-hilfiger-denim", "http://usa.tommy.com/e
 
 # item urls
 itemUrls = []
-visitedUrls = []
 
 # category urls
 categoryUrls = []
@@ -77,26 +70,8 @@ for url in categoryUrls:
 			if isItem(link) and link not in itemUrls:
 				itemUrls.append(link)
 
-# crawling the item urls
-print("crawling item urls")
-while len(itemUrls) > 0:
-	url = itemUrls[0]
-	urlLxml = urlHelper.getLxml(url)
-	if urlLxml == None:
-		continue
-	print("extracting related urls from:", url)
-	visitedUrls.append(url)
-	itemUrls.remove(url)
-	for element in urlLxml.iter():
-		attrib = element.attrib
+f = open("urls","w")
+for url in itemUrls:
+	f.write(url+"\n")
 
-		# get related items
-		if validElement(element):
-			link = attrib[HREF]
-			if isItem(link) and link not in itemUrls and link not in visitedUrls:
-				itemUrls.append(link)
-
-		if itemDataExtractor.validColor(element):
-			print(itemDataExtractor.getColor(element))
-
-print(len(visitedUrls))
+f.close()
