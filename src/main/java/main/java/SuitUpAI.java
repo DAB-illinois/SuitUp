@@ -1,6 +1,7 @@
 package main.java;
 
 import com.sun.corba.se.impl.orb.DataCollectorBase;
+import mongodb.MongoDBUtility;
 
 import javax.xml.crypto.Data;
 import java.awt.image.DataBuffer;
@@ -12,9 +13,13 @@ import java.util.*;
 public class SuitUpAI {
 
     private HashMap<DatabaseItem, DatabaseItem> userPreference;
+    private static DatabaseItem[] database;
+    private DatabaseItem queryItem;
 
-    public SuitUpAI() {
+    public SuitUpAI(DatabaseItem queryItem) {
         userPreference = new HashMap<>();
+        database = MongoDBUtility.retrieveMongoDatabase();
+        this.queryItem = queryItem;
     }
 
     /**
@@ -22,16 +27,18 @@ public class SuitUpAI {
      * other data and the query data. When either of them are true, items get added/removed to/from the
      * truncatedDataBseitems arraylist.
      *
-     * @param databaseItems : array of all the data
-     * @param queryItem : one particular data that the user provided
      * @return truncatedDataBaseitems : list of the data that has been truncated with getGeneralType() and getGender()
      */
-    public ArrayList<DatabaseItem> getAllRelatedItems(DatabaseItem[] databaseItems, DatabaseItem queryItem) {
+    public ArrayList<DatabaseItem> getAllRelatedItems() {
+        if (database == null || database.length == 0 || queryItem == null) {
+            return null;
+        }
+
         ArrayList<DatabaseItem> truncatedDataBaseItems = new ArrayList<>();
 
-        for (int i = 0; i < databaseItems.length; i++) {
-            if (queryItem.getGeneralType().equalsIgnoreCase(databaseItems[i].getGeneralType())) {
-                truncatedDataBaseItems.add(databaseItems[i]);
+        for (int i = 0; i < database.length; i++) {
+            if (queryItem.getGeneralType().equalsIgnoreCase(database[i].getGeneralType())) {
+                truncatedDataBaseItems.add(database[i]);
             }
         }
 
@@ -49,11 +56,13 @@ public class SuitUpAI {
      * sort them to find the most similar product.
      *
      * @param truncatedDataBaseItems : Items that have been truncated based on the user's taste
-     * @param queryItem : Item that the user inputed
      * @return sortedSimilarItems : returns the HashMap<DatabaseItem, Double> that is sorted
      */
-    public HashMap<DatabaseItem, Double> retrieveSortedCosinSimilarity(ArrayList<DatabaseItem> truncatedDataBaseItems,
-                                                             DatabaseItem queryItem) {
+    public HashMap<DatabaseItem, Double> retrieveSortedCosinSimilarity(ArrayList<DatabaseItem> truncatedDataBaseItems) {
+        if (truncatedDataBaseItems == null || truncatedDataBaseItems.size() == 0 || queryItem == null) {
+            return null;
+        }
+
         HashMap<Double, DatabaseItem> similarityWithQueryitem = new HashMap<>();
         double[] queryVectorValues = queryItem.generateValues();
 
@@ -74,7 +83,36 @@ public class SuitUpAI {
         return sortedSimilarItems;
     }
 
-    public String presentItemToUser(HashMap<DatabaseItem, Double> itemPresentOrder) {
-        return null;
+    public void presentItemToUser(HashMap<DatabaseItem, Double> itemPresentOrder) {
+        if (itemPresentOrder == null || itemPresentOrder.size() == 0) {
+            return;
+        }
+        Scanner userInput = new Scanner(System.in);
+
+        List<DatabaseItem> recItems = new ArrayList<DatabaseItem>(itemPresentOrder.keySet());
+        Iterator iterator = recItems.iterator();
+        boolean likedRecommendation = false;
+
+        while (iterator.hasNext() && !likedRecommendation) {
+            DatabaseItem currentRecommendation = (DatabaseItem) iterator.next();
+            System.out.println(currentRecommendation.toString());
+            System.out.println("\nIf you like the recommendation, type 'yes'. If not, type 'no'.");
+            String answer = userInput.nextLine();
+            if (answer.equalsIgnoreCase("yes")) {
+                userPreference.put(queryItem, currentRecommendation);
+                likedRecommendation = true;
+            } else {
+                System.out.println("Next Recommendation:");
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        DatabaseItem[] databaseItems = MongoDBUtility.retrieveMongoDatabase();
+        SuitUpAI suit = new SuitUpAI(databaseItems[752]);
+        System.out.println(databaseItems[752].toString());
+        ArrayList<DatabaseItem> truncated = suit.getAllRelatedItems();
+        HashMap<DatabaseItem, Double> sorted = suit.retrieveSortedCosinSimilarity(truncated);
+        suit.presentItemToUser(sorted);
     }
 }
