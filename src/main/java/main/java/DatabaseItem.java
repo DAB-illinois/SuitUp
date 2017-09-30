@@ -12,6 +12,25 @@ public class DatabaseItem {
     private static final int PRICE_MIN = 20;
     private static final int PRICE_MAX = 1690;
 
+    private static final String[] TOP = new String[]{"tee", "blouse", "polo", "shirt", "boatneck",
+            "crewneck", "t-shirt", "top", "tank", "t-shirtdress", "crew", "turtleneck", "henley"};
+    private static final String[] BOTTOM = new String[]{"jean", "jogger", "skirt", "pant",
+            "jegging", "trouser", "short", "shorts", "legging", "trousers", "sweatpant", "chino",
+            "sweatpant", "john", "tights"};
+    private static final String[] FULL_BODY = new String[]{"dress", "shirtdress", "tunic",
+            "jumpsuit", "coverup", "suit"};
+    private static final String[] FOOTWEAR = new String[]{"sneaker", "shoe", "shoes", "loafer",
+            "flat", "bootie", "hi-top", "creeper", "boot", "ballerina", "mule", "hiker", "slip-on",
+            "oxford", "gilet", "moccasin", "wedge"};
+    private static final String[] OUTER = new String[]{"bomber", "cardigan", "sweatshirt",
+            "sweater", "hoodie", "jacket", "coat", "blazer", "flannel", "puffer", "parka", "bike",
+            "vest", "windbreaker", "trench", "peacoat", "lounger", "fleece"};
+    private static final String[] IGNORE = new String[]{"print", "bra", "brief", "bikini", "bag",
+            "backpack", "scarf", "necklace", "tie", "belt", "set", "socks", "sock", "thong", "2pk",
+            "3pk", "trunk", "bralette", "watch", "sunglasses", "square", "ring", "cap", "hat", "ii",
+            "duffle", "halter", "beanie", "rugby", "flex", "tote", "wallet", "folio", "clutch",
+            "crossover", "hipster", "hadid"};
+
     private static final HashMap<String, Double> CASUAL_CATEGORY;
     static {
         CASUAL_CATEGORY = new HashMap<String, Double>();
