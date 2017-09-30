@@ -4,9 +4,10 @@ import java.util.HashMap;
 
 public class DatabaseItem {
 
-    private static final int VECTOR_LENGTH = 7;
+    private static final int VECTOR_LENGTH = 6;
     private static final int GENDER_WEIGHT = 10;
     private static final int PRICE_WEIGHT = 5;
+    private static final int TYPE_WEIGHT = 8;
     private static final int PRICE_MIN = 20;
     private static final int PRICE_MAX = 1690;
 
@@ -205,6 +206,12 @@ public class DatabaseItem {
         vector = new double[VECTOR_LENGTH];
         vector[0] = generateGenderValue();
         vector[1] = generatePriceValue();
+
+        double[] styleVector = generateStyleValue();
+        int vectorStyleIndex = 2;
+        for (int i = 0; i < styleVector.length; i++) {
+            vector[i+vectorStyleIndex] = styleVector[i];
+        }
         //casual
         //formal
         //pattern
@@ -237,11 +244,11 @@ public class DatabaseItem {
         // get category value
         String categoryLower = category.toLowerCase();
         double casualCategoryValue = -1;
-        double formalCategoryValues = -1;
+        double formalCategoryValue = -1;
         for (String c : CATEGORY_VALUES.keySet()) {
             if (categoryLower.contains(c)) {
                 casualCategoryValue = CATEGORY_VALUES.get(c);
-                formalCategoryValues = 8 - casualCategoryValue;
+                formalCategoryValue = TYPE_WEIGHT - casualCategoryValue;
                 break;
             }
         }
@@ -252,11 +259,14 @@ public class DatabaseItem {
                 fourStyles[i] = typeValues[i];
             }
         } else {
-
+            Double[] typeValues = TYPE_VALUES.get(type.toLowerCase());
+            for (int i = 0; i < 2; i++) {
+                fourStyles[i] = typeValues[i]*casualCategoryValue/TYPE_WEIGHT;
+            }
+            for (int i = 2; i < 4; i++) {
+                fourStyles[i] = typeValues[i]*formalCategoryValue/TYPE_WEIGHT;
+            }
         }
-
-
-
 
         return fourStyles;
     }
