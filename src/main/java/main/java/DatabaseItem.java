@@ -14,7 +14,7 @@ public class DatabaseItem {
     private static final String[] TOP = new String[]{"tee", "blouse", "polo", "shirt", "boatneck",
             "crewneck", "t-shirt", "top", "tank", "t-shirtdress", "crew", "turtleneck", "henley"};
     private static final String[] BOTTOM = new String[]{"jean", "jogger", "skirt", "pant",
-            "jegging", "trouser", "short", "shorts", "legging", "trousers", "sweatpant", "chino",
+            "jegging", "trouser", "short", "shorts", "legging", "trousers", "sweatpants", "chino",
             "sweatpant", "john", "tights"};
     private static final String[] FULL_BODY = new String[]{"dress", "shirtdress", "tunic",
             "jumpsuit", "suit"};
