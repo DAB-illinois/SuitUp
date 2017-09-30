@@ -65,9 +65,6 @@ public class SuitUpAI {
         }
 
         List<DatabaseItem> sorted = ValueSimilarity.sort(similarityWithQueryitem);
-        for (int i = 0; i < sorted.size(); i++) {
-            System.out.println(similarityWithQueryitem.get(sorted.get(i)));
-        }
 
         return sorted;
     }
