@@ -75,7 +75,12 @@ public class MongoDBUtility {
 
     public static void main(String[] args) {
         MongoDBUtility testData = new MongoDBUtility();
-        System.out.println(testData.getJsonFromString(testData.retrieveData()));
+        DatabaseItem[] databaseItems = testData.getJsonFromString(testData.retrieveData());
+        for (DatabaseItem databaseItem : databaseItems) {
+            if (databaseItem.getPrice().equalsIgnoreCase("")) {
+                System.out.println(databaseItem.getLink());
+            }
+        }
     }
 
     public static DatabaseItem[] retrieveMongoDatabase() {
