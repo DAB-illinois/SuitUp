@@ -3,6 +3,8 @@
 import urlHelper
 import key
 from pymongo import MongoClient
+import lxml.html
+import itemDataExtractor
 
 # some constants
 HREF = "href"
@@ -27,14 +29,11 @@ def validElement(element):
 def isItem(link):
 	locationOfId = -7
 	id = link[locationOfId:]
-	hasDm = id[0:2] == "dm"
 	try:
 		num = int(id[2:])
 	except ValueError as e:
 		return False
-	if hasDm:
-		return True
-	return False
+	return True
 
 # valid url : http://usa.tommy.com/en/JACKETS-OUTERWEAR-MEN
 # valid url : http://usa.tommy.com/en/men-athleisure
@@ -89,9 +88,15 @@ while len(itemUrls) > 0:
 	visitedUrls.append(url)
 	itemUrls.remove(url)
 	for element in urlLxml.iter():
+		attrib = element.attrib
+
+		# get related items
 		if validElement(element):
-			link = element.attrib[HREF]
+			link = attrib[HREF]
 			if isItem(link) and link not in itemUrls and link not in visitedUrls:
 				itemUrls.append(link)
+
+		if itemDataExtractor.validColor(element):
+			print(itemDataExtractor.getColor(element))
 
 print(len(visitedUrls))
