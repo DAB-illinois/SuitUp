@@ -3,8 +3,7 @@ package main.java;
 import mongodb.MongoDBUtility;
 
 import javax.xml.crypto.Data;
-import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.*;
 
 public class ValueSimilarity {
 
@@ -33,7 +32,25 @@ public class ValueSimilarity {
         System.out.println(testData.getJsonFromString(testData.retrieveData()));
     }
 
-    public static ArrayList<DatabaseItem> sort(HashMap<DatabaseItem, Double> hashMap) {
-        return null;
+    public static List<DatabaseItem> sort(HashMap<DatabaseItem, Double> hashMap) {
+        List<DatabaseItem> keys = new ArrayList<>(hashMap.keySet());
+        List<Double> values = new ArrayList<>(hashMap.values());
+        Collections.sort(values);
+        Collections.reverse(values);
+
+        List<DatabaseItem> sorted = new ArrayList<>();
+
+        for (int i = 0; i < values.size(); i++) {
+            double value = values.get(i);
+            for (DatabaseItem databaseItem : hashMap.keySet()) {
+                if (hashMap.get(databaseItem) == value) {
+                    sorted.add(databaseItem);
+                    hashMap.remove(databaseItem);
+                    break;
+                }
+            }
+        }
+
+        return sorted;
     }
 }
