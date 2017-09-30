@@ -9,8 +9,8 @@ def validColor(element):
 		return("id" in attrib and attrib["id"] == "colorValue")
 	return False
 
-def getColor(element):
+def getColor(link):
 	rawHtml = str(lxml.html.tostring(element))
-	rawHtml = etree.tostring(element, pretty_print=True)
-	return("color: "+rawHtml)#[rawHtml.index(">")+1:rawHtml.index("<")])
+	rawHtml = str(etree.tostring(element, pretty_print=True))
+	return("color: "+element.text_content())#[rawHtml.index(">")+1:rawHtml.index("<")])
 			

@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15d0b05a-f4e0-413b-a08d-69fdb43ca8c0" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itemDataExtractor.py" afterPath="$PROJECT_DIR$/itemDataExtractor.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thCrawler.py" afterPath="$PROJECT_DIR$/thCrawler.py" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,6 +37,39 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="546" column="14" lean-forward="false" selection-start-line="546" selection-start-column="14" selection-end-line="546" selection-end-column="14" />
+              <folding>
+                <marker date="1506758082000" expanded="true" signature="29428:29672" ph="..." />
+                <marker date="1506758082000" expanded="true" signature="29428:29687" ph="..." />
+                <marker date="1506758082000" expanded="true" signature="29428:30758" ph="..." />
+                <marker date="1506758082000" expanded="true" signature="29428:30773" ph="..." />
+                <marker date="1506758082000" expanded="true" signature="29474:29652" ph="..." />
+                <marker date="1506758082000" expanded="true" signature="29514:29618" ph="..." />
+                <marker date="1506758082000" expanded="true" signature="29535:29596" ph="..." />
+                <marker date="1506758082000" expanded="true" signature="29738:30086" ph="..." />
+                <marker date="1506758082000" expanded="true" signature="29757:30071" ph="..." />
+                <marker date="1506758082000" expanded="true" signature="29834:30051" ph="..." />
+                <marker date="1506758082000" expanded="true" signature="29874:30017" ph="..." />
+                <marker date="1506758082000" expanded="true" signature="29895:29995" ph="..." />
+                <marker date="1506758082000" expanded="true" signature="30121:30427" ph="..." />
+                <marker date="1506758082000" expanded="true" signature="30140:30412" ph="..." />
+                <marker date="1506758082000" expanded="true" signature="30214:30392" ph="..." />
+                <marker date="1506758082000" expanded="true" signature="30254:30358" ph="..." />
+                <marker date="1506758082000" expanded="true" signature="30275:30336" ph="..." />
+                <marker date="1506758082000" expanded="true" signature="30479:30744" ph="..." />
+                <marker date="1506758082000" expanded="true" signature="30498:30729" ph="..." />
+                <marker date="1506758082000" expanded="true" signature="30531:30709" ph="..." />
+                <marker date="1506758082000" expanded="true" signature="30571:30675" ph="..." />
+                <marker date="1506758082000" expanded="true" signature="30592:30653" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -59,6 +95,7 @@
         <option value="$PROJECT_DIR$/src/Test.java" />
         <option value="$PROJECT_DIR$/src/Clothes.java" />
         <option value="$PROJECT_DIR$/src/Attributes.java" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
       </list>
     </option>
   </component>
@@ -99,6 +136,22 @@
             <path>
               <item name="SuitUp" type="b2602c69:ProjectViewProjectNode" />
               <item name="SuitUp" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SuitUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SuitUp" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SuitUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SuitUp" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SuitUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SuitUp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -115,6 +168,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -223,7 +279,7 @@
       <updated>1506747543417</updated>
       <workItem from="1506747549379" duration="2793000" />
       <workItem from="1506750618295" duration="1239000" />
-      <workItem from="1506757536086" duration="31000" />
+      <workItem from="1506757536086" duration="625000" />
     </task>
     <task id="LOCAL-00001" summary="added python crawler">
       <created>1506747277906</created>
@@ -232,14 +288,22 @@
       <option name="project" value="LOCAL" />
       <updated>1506747277906</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fixed workspace configs">
+      <created>1506757575254</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1506757575254</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="603000" />
+    <option name="totallyTimeSpent" value="1197000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="23" width="1260" height="731" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -251,7 +315,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30974844" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30974844" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24958949" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -278,7 +342,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added python crawler" />
-    <option name="LAST_COMMIT_MESSAGE" value="added python crawler" />
+    <MESSAGE value="fixed workspace configs" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed workspace configs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -356,6 +421,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="546" column="14" lean-forward="false" selection-start-line="546" selection-start-column="14" selection-end-line="546" selection-end-column="14" />
+          <folding>
+            <marker date="1506758082000" expanded="true" signature="29428:29672" ph="..." />
+            <marker date="1506758082000" expanded="true" signature="29428:29687" ph="..." />
+            <marker date="1506758082000" expanded="true" signature="29428:30758" ph="..." />
+            <marker date="1506758082000" expanded="true" signature="29428:30773" ph="..." />
+            <marker date="1506758082000" expanded="true" signature="29474:29652" ph="..." />
+            <marker date="1506758082000" expanded="true" signature="29514:29618" ph="..." />
+            <marker date="1506758082000" expanded="true" signature="29535:29596" ph="..." />
+            <marker date="1506758082000" expanded="true" signature="29738:30086" ph="..." />
+            <marker date="1506758082000" expanded="true" signature="29757:30071" ph="..." />
+            <marker date="1506758082000" expanded="true" signature="29834:30051" ph="..." />
+            <marker date="1506758082000" expanded="true" signature="29874:30017" ph="..." />
+            <marker date="1506758082000" expanded="true" signature="29895:29995" ph="..." />
+            <marker date="1506758082000" expanded="true" signature="30121:30427" ph="..." />
+            <marker date="1506758082000" expanded="true" signature="30140:30412" ph="..." />
+            <marker date="1506758082000" expanded="true" signature="30214:30392" ph="..." />
+            <marker date="1506758082000" expanded="true" signature="30254:30358" ph="..." />
+            <marker date="1506758082000" expanded="true" signature="30275:30336" ph="..." />
+            <marker date="1506758082000" expanded="true" signature="30479:30744" ph="..." />
+            <marker date="1506758082000" expanded="true" signature="30498:30729" ph="..." />
+            <marker date="1506758082000" expanded="true" signature="30531:30709" ph="..." />
+            <marker date="1506758082000" expanded="true" signature="30571:30675" ph="..." />
+            <marker date="1506758082000" expanded="true" signature="30592:30653" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Clothes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -404,7 +500,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>9</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

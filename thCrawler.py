@@ -96,7 +96,6 @@ while len(itemUrls) > 0:
 			if isItem(link) and link not in itemUrls and link not in visitedUrls:
 				itemUrls.append(link)
 
-		if itemDataExtractor.validColor(element):
-			print(itemDataExtractor.getColor(element))
+		
 
 print(len(visitedUrls))
