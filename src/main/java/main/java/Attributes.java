@@ -5,7 +5,7 @@ import java.util.HashMap;
 public class Attributes {
     private String id;
     private String styleid;
-    private double gender; //female = 100 male = -100
+    private double gender; //female = 10 male = -10
     private String link;
     private String description;
     private String pic_link;
@@ -13,7 +13,7 @@ public class Attributes {
     private String name;
     private String category;
     private String type;
-    private double price; //"high" = positive "low" = negative
+    private double price; //"high" = positive (2) "low" = negative (-2)
 
     private double casual; //athletic = positive leisure = negative
     private double formal; //business = positive fancy = negative

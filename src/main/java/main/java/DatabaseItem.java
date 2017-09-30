@@ -48,8 +48,64 @@ public class DatabaseItem {
         TYPE_VALUES.put("sweater", new Double[]{4.0, 3.0, 0.0, 0.0});
         TYPE_VALUES.put("tank", new Double[]{4.0, 4.0, 0.0, 0.0});
         TYPE_VALUES.put("jegging", new Double[]{3.0, 6.0, 0.0, 0.0});
-    }
+        TYPE_VALUES.put("jacket", new Double[]{1.0, 6.0, 0.0, 0.0});
+        TYPE_VALUES.put("tunic", new Double[]{1.0, 7.0, 0.0, 0.0});
+        TYPE_VALUES.put("flannel", new Double[]{0.0, 8.0, 0.0, 0.0});
+        TYPE_VALUES.put("puffer", new Double[]{0.0, 8.0, 0.0, 0.0});
+        TYPE_VALUES.put("parka", new Double[]{0.0, 5.0, 3.0, 0.0});
+        TYPE_VALUES.put("coat", new Double[]{0.0, 1.0, 3.0, 8.0});
+        TYPE_VALUES.put("blazer", new Double[]{0.0, 0.0, 2.0, 8.0});
+        TYPE_VALUES.put("biker", new Double[]{0.0, 8.0, 0.0, 0.0});
+        TYPE_VALUES.put("trouser", new Double[]{0.0, 2.0, 6.0, 4.0});
+        TYPE_VALUES.put("legging", new Double[]{3.0, 6.0, 0.0, 0.0});
+        TYPE_VALUES.put("chino", new Double[]{0.0, 6.0, 3.0, 0.0});
+        TYPE_VALUES.put("jumpsuit", new Double[]{0.0, 8.0, 0.0, 0.0});
+        TYPE_VALUES.put("t-shirtdress", new Double[]{0.0, 8.0, 0.0, 0.0});
+        TYPE_VALUES.put("short", new Double[]{6.0, 2.0, 0.0, 0.0});
+        TYPE_VALUES.put("shorts", new Double[]{0.0, 6.0, 2.0, 0.0});
+        TYPE_VALUES.put("suit", new Double[]{0.0, 0.0, 4.0, 6.0});
+        TYPE_VALUES.put("bootie", new Double[]{0.0, 8.0, 0.0, 0.0});
+        TYPE_VALUES.put("hi-top", new Double[]{0.0, 8.0, 0.0, 0.0});
+        TYPE_VALUES.put("sneaker", new Double[]{6.0, 8.0, 0.0, 0.0});
+        TYPE_VALUES.put("creeper", new Double[]{0.0, 8.0, 0.0, 0.0});
+        TYPE_VALUES.put("flat", new Double[]{0.0, 8.0, 2.0, 0.0});
+        TYPE_VALUES.put("ballerina", new Double[]{0.0, 6.0, 2.0, 0.0});
+        TYPE_VALUES.put("mule", new Double[]{0.0, 4.0, 4.0, 0.0});
+        TYPE_VALUES.put("boot", new Double[]{0.0, 6.0, 4.0, 0.0});
+        TYPE_VALUES.put("hiker", new Double[]{0.0, 6.0, 2.0, 0.0});
+        TYPE_VALUES.put("slip-on", new Double[]{0.0, 8.0, 0.0, 0.0});
+        TYPE_VALUES.put("oxford", new Double[]{0.0, 0.0, 7.0, 2.0});
+        TYPE_VALUES.put("cardigan", new Double[]{0.0, 4.0, 4.0, 0.0});
+        TYPE_VALUES.put("gilet", new Double[]{0.0, 8.0, 0.0, 0.0});
 
+        TYPE_VALUES.put("vest", new Double[]{0.0, 6.0, 0.0, 0.0});
+        TYPE_VALUES.put("trousers", new Double[]{0.0, 6.0, 0.0, 0.0});
+        TYPE_VALUES.put("crew", new Double[]{0.0, 6.0, 0.0, 0.0});
+        TYPE_VALUES.put("sweatpant", new Double[]{0.0, 6.0, 0.0, 0.0});
+        TYPE_VALUES.put("lounger", new Double[]{0.0, 6.0, 0.0, 0.0});
+        TYPE_VALUES.put("turtleneck", new Double[]{0.0, 6.0, 0.0, 0.0});
+        TYPE_VALUES.put("rugby", new Double[]{0.0, 6.0, 0.0, 0.0});
+
+    }
+    /*
+RUGBY
+HENLEY
+MOCCASIN
+SHOE
+SHOES
+LOAFER
+CAP
+HAT
+JOHN
+flex
+SWEATPANTS
+FOLIO
+TIGHTS
+FLEECE
+WEDGE
+PEACOAT
+TRENCH
+WINDBREAKER */
     // Document{{_id=59cf60d1f9a4758a54139dfa, styleId=mw00750, gender=men,
     // link=http://usa.tommy.com/en/sale/sale-final-sale-men/final-sale-city-windbreaker-mw00750,
     // description=Tommy Hilfiger men's jacket. Ideal for those in-between days of spring and fall,
