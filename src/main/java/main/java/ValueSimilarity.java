@@ -2,6 +2,10 @@ package main.java;
 
 import mongodb.MongoDBUtility;
 
+import javax.xml.crypto.Data;
+import java.util.ArrayList;
+import java.util.HashMap;
+
 public class ValueSimilarity {
 
     public static double cosineSimilarity(double[] query, double[] rec) {
@@ -27,5 +31,9 @@ public class ValueSimilarity {
     public static void main (String[] args) {
         MongoDBUtility testData = new MongoDBUtility();
         System.out.println(testData.getJsonFromString(testData.retrieveData()));
+    }
+
+    public static ArrayList<DatabaseItem> sort(HashMap<DatabaseItem, Double> hashMap) {
+        return null;
     }
 }

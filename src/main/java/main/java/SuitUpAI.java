@@ -14,15 +14,8 @@ public class SuitUpAI {
 
     private static final String IGNORE = "ignore";
 
-    private HashMap<DatabaseItem, DatabaseItem> userPreference;
-    private static DatabaseItem[] database;
-    private DatabaseItem queryItem;
-
-    public SuitUpAI(DatabaseItem queryItem) {
-        userPreference = new HashMap<>();
-        database = MongoDBUtility.retrieveMongoDatabase();
-        this.queryItem = queryItem;
-    }
+    private static HashMap<DatabaseItem, DatabaseItem> userPreference;
+    private static DatabaseItem[] databaseItems;
 
     /**
      * This method checks whether the general type is matching and the general gender is different between all the
@@ -31,20 +24,20 @@ public class SuitUpAI {
      *
      * @return truncatedDataBaseitems : list of the data that has been truncated with getGeneralType() and getGender()
      */
-    public ArrayList<DatabaseItem> getAllRelatedItems() {
-        if (database == null || database.length == 0 || queryItem == null) {
+    public static ArrayList<DatabaseItem> getAllRelatedItems(DatabaseItem queryItem) {
+        if (databaseItems == null || databaseItems.length == 0 || queryItem == null) {
             return null;
         }
 
         ArrayList<DatabaseItem> filteredDataBaseItems = new ArrayList<>();
 
-        for (int i = 0; i < database.length; i++) {
-            DatabaseItem currentItem = database[i];
+        for (int i = 0; i < databaseItems.length; i++) {
+            DatabaseItem currentItem = databaseItems[i];
             if (!queryItem.getName().equalsIgnoreCase(currentItem.getName()) &&
                     queryItem.getGender().equalsIgnoreCase(currentItem.getGender()) &&
                     !queryItem.getGeneralType().equalsIgnoreCase(currentItem.getGeneralType()) &&
                     !currentItem.getGeneralType().equalsIgnoreCase(IGNORE)) {
-                filteredDataBaseItems.add(database[i]);
+                filteredDataBaseItems.add(databaseItems[i]);
             }
         }
 
@@ -58,32 +51,38 @@ public class SuitUpAI {
      * @param filteredDataBaseItems : Items that have been truncated based on the user's taste
      * @return sortedSimilarItems : returns the HashMap<DatabaseItem, Double> that is sorted
      */
-    public HashMap<DatabaseItem, Double> retrieveSortedCosinSimilarity(ArrayList<DatabaseItem> filteredDataBaseItems) {
+    public static HashMap<DatabaseItem, Double> retrieveSortedCosinSimilarity(DatabaseItem queryItem,
+                                                                         ArrayList<DatabaseItem>
+                                                                               filteredDataBaseItems) {
         if (filteredDataBaseItems == null || filteredDataBaseItems.size() == 0 || queryItem == null) {
             return null;
         }
 
-        HashMap<Double, DatabaseItem> similarityWithQueryitem = new HashMap<>();
+        final HashMap<DatabaseItem, Double> similarityWithQueryitem = new HashMap<>();
         double[] queryVectorValues = queryItem.generateValues();
+
 
         for (DatabaseItem item : filteredDataBaseItems) {
             double[] dataVectorValues = item.generateValues();
             double temp = ValueSimilarity.cosineSimilarity(dataVectorValues, queryVectorValues);
-            similarityWithQueryitem.put(temp, item);
+            similarityWithQueryitem.put(item, temp);
         }
 
-        List<Double> sortCosinSimilarity = new ArrayList<Double>(similarityWithQueryitem.keySet());
-        Collections.sort(sortCosinSimilarity);
+        List<DatabaseItem> sorted = ValueSimilarity.sort(similarityWithQueryitem);
 
+        /*List<Double> sortedCosines = new ArrayList<Double>(similarityWithQueryitem.values());
+        Collections.sort(sortedCosines);
+        Collections.reverse(sortedCosines);
+*/
         HashMap<DatabaseItem, Double> sortedSimilarItems = new HashMap<>();
         for (int i = 0; i < similarityWithQueryitem.size(); i++) {
-            sortedSimilarItems.put(similarityWithQueryitem.get(sortCosinSimilarity.get(i)), sortCosinSimilarity.get(i));
+            sortedSimilarItems.put(similarityWithQueryitem.get(sortedCosines.get(i)), sortedCosines.get(i));
         }
 
         return sortedSimilarItems;
     }
 
-    public void presentItemToUser(HashMap<DatabaseItem, Double> itemPresentOrder) {
+    public static void presentItemToUser(DatabaseItem queryItem, HashMap<DatabaseItem, Double> itemPresentOrder) {
         if (itemPresentOrder == null || itemPresentOrder.size() == 0) {
             return;
         }
@@ -108,16 +107,15 @@ public class SuitUpAI {
     }
 
     public static void main(String[] args) {
-        DatabaseItem[] databaseItems = MongoDBUtility.retrieveMongoDatabase();
+        databaseItems = MongoDBUtility.retrieveMongoDatabase();
         DatabaseItem queryItem = databaseItems[752];
         if (!queryItem.getGeneralType().equalsIgnoreCase(IGNORE)) {
-            SuitUpAI suit = new SuitUpAI(queryItem);
-
             System.out.println(databaseItems[752].toString());
 
-            ArrayList<DatabaseItem> filtered = suit.getAllRelatedItems();
-            HashMap<DatabaseItem, Double> sorted = suit.retrieveSortedCosinSimilarity(filtered);
-            suit.presentItemToUser(sorted);
+            ArrayList<DatabaseItem> filtered = getAllRelatedItems(queryItem);
+            System.out.println(filtered.size());
+            HashMap<DatabaseItem, Double> sorted = retrieveSortedCosinSimilarity(queryItem, filtered);
+            presentItemToUser(queryItem, sorted);
         }
     }
 }

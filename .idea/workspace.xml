@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15d0b05a-f4e0-413b-a08d-69fdb43ca8c0" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/main/java/SuitUpAI.class" afterPath="$PROJECT_DIR$/target/classes/main/java/SuitUpAI.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/main/java/SuitUpAI.java" afterPath="$PROJECT_DIR$/src/main/java/main/java/SuitUpAI.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/main/java/ValueSimilarity.java" afterPath="$PROJECT_DIR$/src/main/java/main/java/ValueSimilarity.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,16 +31,16 @@
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-295">
-              <caret line="450" column="22" lean-forward="false" selection-start-line="450" selection-start-column="22" selection-end-line="450" selection-end-column="22" />
+            <state relative-caret-position="-415">
+              <caret line="442" column="22" lean-forward="false" selection-start-line="442" selection-start-column="22" selection-end-line="442" selection-end-column="22" />
               <folding>
-                <marker date="1506807276000" expanded="true" signature="67731:67975" ph="..." />
-                <marker date="1506807276000" expanded="true" signature="67731:67990" ph="..." />
-                <marker date="1506807276000" expanded="true" signature="67731:68004" ph="..." />
-                <marker date="1506807276000" expanded="true" signature="67731:68019" ph="..." />
-                <marker date="1506807276000" expanded="true" signature="67777:67955" ph="..." />
-                <marker date="1506807276000" expanded="true" signature="67817:67921" ph="..." />
-                <marker date="1506807276000" expanded="true" signature="67838:67899" ph="..." />
+                <marker date="1506808169000" expanded="true" signature="65603:65847" ph="..." />
+                <marker date="1506808169000" expanded="true" signature="65603:65862" ph="..." />
+                <marker date="1506808169000" expanded="true" signature="65603:65876" ph="..." />
+                <marker date="1506808169000" expanded="true" signature="65603:65891" ph="..." />
+                <marker date="1506808169000" expanded="true" signature="65649:65827" ph="..." />
+                <marker date="1506808169000" expanded="true" signature="65689:65793" ph="..." />
+                <marker date="1506808169000" expanded="true" signature="65710:65771" ph="..." />
               </folding>
             </state>
           </provider>
@@ -47,9 +49,13 @@
       <file leaf-file-name="ValueSimilarity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/main/java/ValueSimilarity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="465">
+              <caret line="35" column="84" lean-forward="false" selection-start-line="35" selection-start-column="84" selection-end-line="35" selection-end-column="84" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1064#1065#0" expanded="true" />
+                <element signature="e#1091#1092#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -161,12 +167,11 @@
       <file leaf-file-name="SuitUpAI.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/main/java/SuitUpAI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+            <state relative-caret-position="334">
+              <caret line="74" column="38" lean-forward="true" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3024#3032#0" expanded="true" />
-                <element signature="e#3723#3737#0" expanded="true" />
+                <element signature="e#3892#3906#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -209,8 +214,8 @@
         <option value="$PROJECT_DIR$/src/main/mongodb/mongodb/MongoDBUtility.java" />
         <option value="$PROJECT_DIR$/src/main/java/main/java/Attributes.java" />
         <option value="$PROJECT_DIR$/src/main/java/main/java/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/main/java/ValueSimilarity.java" />
         <option value="$PROJECT_DIR$/src/main/java/main/java/DatabaseItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/main/java/ValueSimilarity.java" />
         <option value="$PROJECT_DIR$/src/main/java/main/java/SuitUpAI.java" />
       </list>
     </option>
@@ -317,6 +322,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/danielchoi/IdeaProjects/SuitUp/src/main/java/main/java/ValueSimilarity.java" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -745,11 +751,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506806585156</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="ignore items with general type of ignore">
+      <created>1506807703614</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1506807703614</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23394000" />
+    <option name="totallyTimeSpent" value="24670000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1394" height="877" extended-state="6" />
@@ -825,7 +838,8 @@
     <MESSAGE value="CosineSimilarity done" />
     <MESSAGE value="adding the ability to present the recommendation to the user" />
     <MESSAGE value="Is the AI done?" />
-    <option name="LAST_COMMIT_MESSAGE" value="Is the AI done?" />
+    <MESSAGE value="ignore items with general type of ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="ignore items with general type of ignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -897,16 +911,16 @@
     <entry file="file://$PROJECT_DIR$/src/url/mongodb/MongoDBUrl.java" />
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-295">
-          <caret line="450" column="22" lean-forward="false" selection-start-line="450" selection-start-column="22" selection-end-line="450" selection-end-column="22" />
+        <state relative-caret-position="-415">
+          <caret line="442" column="22" lean-forward="false" selection-start-line="442" selection-start-column="22" selection-end-line="442" selection-end-column="22" />
           <folding>
-            <marker date="1506807276000" expanded="true" signature="67731:67975" ph="..." />
-            <marker date="1506807276000" expanded="true" signature="67731:67990" ph="..." />
-            <marker date="1506807276000" expanded="true" signature="67731:68004" ph="..." />
-            <marker date="1506807276000" expanded="true" signature="67731:68019" ph="..." />
-            <marker date="1506807276000" expanded="true" signature="67777:67955" ph="..." />
-            <marker date="1506807276000" expanded="true" signature="67817:67921" ph="..." />
-            <marker date="1506807276000" expanded="true" signature="67838:67899" ph="..." />
+            <marker date="1506808169000" expanded="true" signature="65603:65847" ph="..." />
+            <marker date="1506808169000" expanded="true" signature="65603:65862" ph="..." />
+            <marker date="1506808169000" expanded="true" signature="65603:65876" ph="..." />
+            <marker date="1506808169000" expanded="true" signature="65603:65891" ph="..." />
+            <marker date="1506808169000" expanded="true" signature="65649:65827" ph="..." />
+            <marker date="1506808169000" expanded="true" signature="65689:65793" ph="..." />
+            <marker date="1506808169000" expanded="true" signature="65710:65771" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1013,20 +1027,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/main/java/ValueSimilarity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="465">
+          <caret line="35" column="84" lean-forward="false" selection-start-line="35" selection-start-column="84" selection-end-line="35" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1064#1065#0" expanded="true" />
+            <element signature="e#1091#1092#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/main/java/SuitUpAI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        <state relative-caret-position="334">
+          <caret line="74" column="38" lean-forward="true" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3024#3032#0" expanded="true" />
-            <element signature="e#3723#3737#0" expanded="true" />
+            <element signature="e#3892#3906#0" expanded="true" />
           </folding>
         </state>
       </provider>
