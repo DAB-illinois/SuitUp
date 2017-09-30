@@ -1,5 +1,7 @@
 package main.java;
 
+import mongodb.MongoDBUtility;
+
 import java.util.HashMap;
 
 public class Test {
@@ -18,5 +20,10 @@ public class Test {
         }
         norm2 = Math.sqrt(norm2);
         return scalar/(norm1*norm2);
+    }
+
+    public static void main (String[] args) {
+        MongoDBUtility testData = new MongoDBUtility();
+        System.out.println(testData.getJsonFromString(testData.retrieveData()));
     }
 }
