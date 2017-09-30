@@ -75,15 +75,17 @@ public class MongoDBUtility {
     public static void main(String[] args) {
         MongoDBUtility testData = new MongoDBUtility();
         DatabaseItem[] databaseItems = testData.getJsonFromString(testData.retrieveData());
-        double priceMax = Double.parseDouble(databaseItems[0].getPrice());
+        List<String> types = new ArrayList<String>();
         for (DatabaseItem databaseItem : databaseItems) {
-            double priceDouble = Double.parseDouble(databaseItem.getPrice());
-            if (priceDouble > priceMax) {
-                priceMax = priceDouble;
+            String type = databaseItem.getType();
+            if (!types.contains(type)) {
+                types.add(type);
             }
             System.out.println(databaseItem.getCategory() + " " + databaseItem.getType() + " " + databaseItem.getLink());
         }
-        System.out.println(priceMax);
+        for (String type : types) {
+            System.out.println(type);
+        }
     }
 
     public static DatabaseItem[] retrieveMongoDatabase() {
