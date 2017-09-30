@@ -6,10 +6,7 @@ import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 import org.bson.Document;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 /**
  * The url for submitting and retrieving data from the MongoDB database.
@@ -34,14 +31,12 @@ public class MongoDBUrl {
         MongoCollection<Document> collection = check
                 .getCollection("tommyHil");
 
-        List<Document> documents = (List<Document>) collection.find().into(
-                new ArrayList<Document>());
+        List<Document> documents = (List<Document>) collection.find().into(new ArrayList<Document>());
 
-        System.out.println(documents);
-
-        HashMap<Document, Set<String>> data = new HashMap<>();
-        ArrayList<String> specificData;
-
+        Iterator iterator = documents.iterator();
+        while (iterator.hasNext()) {
+            System.out.println(iterator.next().toString());
+        }
 
 
         //for (String identity : data)
