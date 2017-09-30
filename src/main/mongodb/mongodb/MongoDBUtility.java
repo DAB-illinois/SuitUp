@@ -5,6 +5,7 @@ import com.mongodb.MongoClient;
 import com.mongodb.MongoClientURI;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
+import main.java.DatabaseItem;
 import org.bson.Document;
 
 import java.util.*;
@@ -17,6 +18,9 @@ public class MongoDBUtility {
             "mongodb://DAB:DAB020407@cluster0-shard-00-00-dx2qu.mongodb.net:27017,cluster0-shard-00-01-dx2qu." +
             "mongodb.net:27017,cluster0-shard-00-02-dx2qu.mongodb.net:27017/test?ssl=true&replicaSet=" +
             "Cluster0-shard-0&authSource=admin";
+
+    private final String DATABASE_NAME = "bmDataset";
+    private final String COLLECTION_NAME = "tommyHil";
 
     /**
      * @return the url that directs all the data to/from
@@ -33,18 +37,16 @@ public class MongoDBUtility {
      */
     public String[] retrieveData() {
         MongoClient mongoClient = new MongoClient(new MongoClientURI(getUrl()));
-        MongoDatabase check = mongoClient.getDatabase("bmDataset");
+        MongoDatabase check = mongoClient.getDatabase(DATABASE_NAME);
 
-        MongoCollection<Document> collection = check.getCollection("tommyHil");
+        MongoCollection<Document> collection = check.getCollection(COLLECTION_NAME);
 
         List<Document> documents = (List<Document>) collection.find().into(new ArrayList<Document>());
         String[] dataSet = new String[documents.size()];
 
-        Iterator iterator = documents.iterator();
-        int count = 0;
-        while (iterator.hasNext()) {
-            dataSet[count] = iterator.next().toString();
-            count++;
+        for (int i = 0; i < documents.size(); i++) {
+            Document document = documents.get(i);
+            dataSet[i] = document.toJson();
         }
 
         return dataSet;
@@ -62,7 +64,9 @@ public class MongoDBUtility {
 
         String jsonData = "";
         for (int i = 0; i < stringData.length; i++) {
-            jsonData += gson.toJson(stringData[i]) + "\n";
+            System.out.println(stringData[i]);
+            DatabaseItem databaseItem = gson.fromJson(stringData[i], DatabaseItem.class);
+            jsonData += databaseItem.getName() + "\n";
         }
         return jsonData;
     }
