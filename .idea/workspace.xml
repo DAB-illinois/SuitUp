@@ -28,16 +28,16 @@
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-415">
-              <caret line="442" column="22" lean-forward="false" selection-start-line="442" selection-start-column="22" selection-end-line="442" selection-end-column="22" />
+            <state relative-caret-position="-310">
+              <caret line="449" column="22" lean-forward="false" selection-start-line="449" selection-start-column="22" selection-end-line="449" selection-end-column="22" />
               <folding>
-                <marker date="1506806565000" expanded="true" signature="64572:64816" ph="..." />
-                <marker date="1506806565000" expanded="true" signature="64572:64831" ph="..." />
-                <marker date="1506806565000" expanded="true" signature="64572:64845" ph="..." />
-                <marker date="1506806565000" expanded="true" signature="64572:64860" ph="..." />
-                <marker date="1506806565000" expanded="true" signature="64618:64796" ph="..." />
-                <marker date="1506806565000" expanded="true" signature="64658:64762" ph="..." />
-                <marker date="1506806565000" expanded="true" signature="64679:64740" ph="..." />
+                <marker date="1506806574000" expanded="true" signature="67017:67261" ph="..." />
+                <marker date="1506806574000" expanded="true" signature="67017:67276" ph="..." />
+                <marker date="1506806574000" expanded="true" signature="67017:67290" ph="..." />
+                <marker date="1506806574000" expanded="true" signature="67017:67305" ph="..." />
+                <marker date="1506806574000" expanded="true" signature="67063:67241" ph="..." />
+                <marker date="1506806574000" expanded="true" signature="67103:67207" ph="..." />
+                <marker date="1506806574000" expanded="true" signature="67124:67185" ph="..." />
               </folding>
             </state>
           </provider>
@@ -739,11 +739,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506806540881</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Is the AI done?">
+      <created>1506806577037</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1506806577037</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22288000" />
+    <option name="totallyTimeSpent" value="22295000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1394" height="877" extended-state="6" />
@@ -891,16 +898,16 @@
     <entry file="file://$PROJECT_DIR$/src/url/mongodb/MongoDBUrl.java" />
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-415">
-          <caret line="442" column="22" lean-forward="false" selection-start-line="442" selection-start-column="22" selection-end-line="442" selection-end-column="22" />
+        <state relative-caret-position="-310">
+          <caret line="449" column="22" lean-forward="false" selection-start-line="449" selection-start-column="22" selection-end-line="449" selection-end-column="22" />
           <folding>
-            <marker date="1506806565000" expanded="true" signature="64572:64816" ph="..." />
-            <marker date="1506806565000" expanded="true" signature="64572:64831" ph="..." />
-            <marker date="1506806565000" expanded="true" signature="64572:64845" ph="..." />
-            <marker date="1506806565000" expanded="true" signature="64572:64860" ph="..." />
-            <marker date="1506806565000" expanded="true" signature="64618:64796" ph="..." />
-            <marker date="1506806565000" expanded="true" signature="64658:64762" ph="..." />
-            <marker date="1506806565000" expanded="true" signature="64679:64740" ph="..." />
+            <marker date="1506806574000" expanded="true" signature="67017:67261" ph="..." />
+            <marker date="1506806574000" expanded="true" signature="67017:67276" ph="..." />
+            <marker date="1506806574000" expanded="true" signature="67017:67290" ph="..." />
+            <marker date="1506806574000" expanded="true" signature="67017:67305" ph="..." />
+            <marker date="1506806574000" expanded="true" signature="67063:67241" ph="..." />
+            <marker date="1506806574000" expanded="true" signature="67103:67207" ph="..." />
+            <marker date="1506806574000" expanded="true" signature="67124:67185" ph="..." />
           </folding>
         </state>
       </provider>
