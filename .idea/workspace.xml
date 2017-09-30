@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="15d0b05a-f4e0-413b-a08d-69fdb43ca8c0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/main/java/SuitUpAI.java" afterPath="$PROJECT_DIR$/src/main/java/main/java/SuitUpAI.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,16 +28,16 @@
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-445">
-              <caret line="440" column="22" lean-forward="false" selection-start-line="440" selection-start-column="22" selection-end-line="440" selection-end-column="22" />
+            <state relative-caret-position="-385">
+              <caret line="444" column="22" lean-forward="false" selection-start-line="444" selection-start-column="22" selection-end-line="444" selection-end-column="22" />
               <folding>
-                <marker date="1506804537000" expanded="true" signature="62159:62403" ph="..." />
-                <marker date="1506804537000" expanded="true" signature="62159:62418" ph="..." />
-                <marker date="1506804537000" expanded="true" signature="62159:62432" ph="..." />
-                <marker date="1506804537000" expanded="true" signature="62159:62447" ph="..." />
-                <marker date="1506804537000" expanded="true" signature="62205:62383" ph="..." />
-                <marker date="1506804537000" expanded="true" signature="62245:62349" ph="..." />
-                <marker date="1506804537000" expanded="true" signature="62266:62327" ph="..." />
+                <marker date="1506804883000" expanded="true" signature="63161:63405" ph="..." />
+                <marker date="1506804883000" expanded="true" signature="63161:63420" ph="..." />
+                <marker date="1506804883000" expanded="true" signature="63161:63434" ph="..." />
+                <marker date="1506804883000" expanded="true" signature="63161:63449" ph="..." />
+                <marker date="1506804883000" expanded="true" signature="63207:63385" ph="..." />
+                <marker date="1506804883000" expanded="true" signature="63247:63351" ph="..." />
+                <marker date="1506804883000" expanded="true" signature="63268:63329" ph="..." />
               </folding>
             </state>
           </provider>
@@ -84,26 +83,7 @@
             <state relative-caret-position="1062">
               <caret line="207" column="6" lean-forward="false" selection-start-line="207" selection-start-column="6" selection-end-line="207" selection-end-column="6" />
               <folding>
-                <element signature="e#9406#9407#0" expanded="true" />
-                <element signature="e#9435#9436#0" expanded="true" />
-                <element signature="e#9466#9467#0" expanded="true" />
-                <element signature="e#9493#9494#0" expanded="true" />
-                <element signature="e#9531#9532#0" expanded="true" />
-                <element signature="e#9565#9566#0" expanded="true" />
-                <element signature="e#9599#9600#0" expanded="true" />
-                <element signature="e#9630#9631#0" expanded="true" />
-                <element signature="e#9665#9666#0" expanded="true" />
-                <element signature="e#9694#9695#0" expanded="true" />
-                <element signature="e#9725#9726#0" expanded="true" />
-                <element signature="e#9752#9753#0" expanded="true" />
-                <element signature="e#9787#9788#0" expanded="true" />
-                <element signature="e#9818#9819#0" expanded="true" />
-                <element signature="e#9849#9850#0" expanded="true" />
-                <element signature="e#9876#9877#0" expanded="true" />
-                <element signature="e#9908#9909#0" expanded="true" />
-                <element signature="e#9936#9937#0" expanded="true" />
-                <element signature="e#9974#9975#0" expanded="true" />
-                <element signature="e#10009#10010#0" expanded="true" />
+                <marker date="1506804880000" expanded="true" signature="11832:12581" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -346,7 +326,7 @@
           <option name="myId" value="UPDATED" />
           <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/main/java/DatabaseItem.java</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/main/java/RecEngine.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/main/java/ValueSimilarity.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/main/java/SuitUpAI.class</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -361,7 +341,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="true" />
           <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/main/java/Test.class</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Restored" />
@@ -693,11 +672,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506804532682</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="adding the ability to present the recommendation to the user">
+      <created>1506804868912</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1506804868912</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20572000" />
+    <option name="totallyTimeSpent" value="20608000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1394" height="877" extended-state="6" />
@@ -771,7 +757,8 @@
     <MESSAGE value="Basic algorithm for AI is working. I do not know if they actually work but hopefully it does." />
     <MESSAGE value="commmit/pull test again" />
     <MESSAGE value="CosineSimilarity done" />
-    <option name="LAST_COMMIT_MESSAGE" value="CosineSimilarity done" />
+    <MESSAGE value="adding the ability to present the recommendation to the user" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding the ability to present the recommendation to the user" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -843,16 +830,16 @@
     <entry file="file://$PROJECT_DIR$/src/url/mongodb/MongoDBUrl.java" />
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-445">
-          <caret line="440" column="22" lean-forward="false" selection-start-line="440" selection-start-column="22" selection-end-line="440" selection-end-column="22" />
+        <state relative-caret-position="-385">
+          <caret line="444" column="22" lean-forward="false" selection-start-line="444" selection-start-column="22" selection-end-line="444" selection-end-column="22" />
           <folding>
-            <marker date="1506804537000" expanded="true" signature="62159:62403" ph="..." />
-            <marker date="1506804537000" expanded="true" signature="62159:62418" ph="..." />
-            <marker date="1506804537000" expanded="true" signature="62159:62432" ph="..." />
-            <marker date="1506804537000" expanded="true" signature="62159:62447" ph="..." />
-            <marker date="1506804537000" expanded="true" signature="62205:62383" ph="..." />
-            <marker date="1506804537000" expanded="true" signature="62245:62349" ph="..." />
-            <marker date="1506804537000" expanded="true" signature="62266:62327" ph="..." />
+            <marker date="1506804883000" expanded="true" signature="63161:63405" ph="..." />
+            <marker date="1506804883000" expanded="true" signature="63161:63420" ph="..." />
+            <marker date="1506804883000" expanded="true" signature="63161:63434" ph="..." />
+            <marker date="1506804883000" expanded="true" signature="63161:63449" ph="..." />
+            <marker date="1506804883000" expanded="true" signature="63207:63385" ph="..." />
+            <marker date="1506804883000" expanded="true" signature="63247:63351" ph="..." />
+            <marker date="1506804883000" expanded="true" signature="63268:63329" ph="..." />
           </folding>
         </state>
       </provider>
@@ -941,26 +928,7 @@
         <state relative-caret-position="1062">
           <caret line="207" column="6" lean-forward="false" selection-start-line="207" selection-start-column="6" selection-end-line="207" selection-end-column="6" />
           <folding>
-            <element signature="e#9406#9407#0" expanded="true" />
-            <element signature="e#9435#9436#0" expanded="true" />
-            <element signature="e#9466#9467#0" expanded="true" />
-            <element signature="e#9493#9494#0" expanded="true" />
-            <element signature="e#9531#9532#0" expanded="true" />
-            <element signature="e#9565#9566#0" expanded="true" />
-            <element signature="e#9599#9600#0" expanded="true" />
-            <element signature="e#9630#9631#0" expanded="true" />
-            <element signature="e#9665#9666#0" expanded="true" />
-            <element signature="e#9694#9695#0" expanded="true" />
-            <element signature="e#9725#9726#0" expanded="true" />
-            <element signature="e#9752#9753#0" expanded="true" />
-            <element signature="e#9787#9788#0" expanded="true" />
-            <element signature="e#9818#9819#0" expanded="true" />
-            <element signature="e#9849#9850#0" expanded="true" />
-            <element signature="e#9876#9877#0" expanded="true" />
-            <element signature="e#9908#9909#0" expanded="true" />
-            <element signature="e#9936#9937#0" expanded="true" />
-            <element signature="e#9974#9975#0" expanded="true" />
-            <element signature="e#10009#10010#0" expanded="true" />
+            <marker date="1506804880000" expanded="true" signature="11832:12581" ph="{...}" />
           </folding>
         </state>
       </provider>
