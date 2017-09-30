@@ -46,7 +46,6 @@ public class ValueSimilarity {
 
             for (DatabaseItem databaseItem : copy.keySet()) {
                 if (copy.get(databaseItem) == value) {
-                    System.out.println(sorted.size());
                     sorted.add(databaseItem);
                     copy.remove(databaseItem);
                     break;
