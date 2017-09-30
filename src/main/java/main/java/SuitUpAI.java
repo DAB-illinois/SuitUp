@@ -1,6 +1,9 @@
 package main.java;
 
+import com.sun.corba.se.impl.orb.DataCollectorBase;
+
 import javax.xml.crypto.Data;
+import java.awt.image.DataBuffer;
 import java.util.*;
 
 /**
@@ -8,7 +11,10 @@ import java.util.*;
  */
 public class SuitUpAI {
 
+    private HashMap<DatabaseItem, DatabaseItem> userPreference;
+
     public SuitUpAI() {
+        userPreference = new HashMap<>();
     }
 
     /**
@@ -66,5 +72,9 @@ public class SuitUpAI {
         }
 
         return sortedSimilarItems;
+    }
+
+    public String presentItemToUser(HashMap<DatabaseItem, Double> itemPresentOrder) {
+        return null;
     }
 }
