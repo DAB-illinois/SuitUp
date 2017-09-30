@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15d0b05a-f4e0-413b-a08d-69fdb43ca8c0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/main/java/DatabaseItemTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SuitUp.iml" afterPath="$PROJECT_DIR$/SuitUp.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/main/java/DatabaseItem.java" afterPath="$PROJECT_DIR$/src/main/java/main/java/DatabaseItem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/main/java/RecEngine.java" afterPath="$PROJECT_DIR$/src/main/java/main/java/RecEngine.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/mongodb/mongodb/MongoDBUtility.java" afterPath="$PROJECT_DIR$/src/main/mongodb/mongodb/MongoDBUtility.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,16 +29,16 @@
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2166">
-              <caret line="303" column="22" lean-forward="false" selection-start-line="303" selection-start-column="22" selection-end-line="303" selection-end-column="22" />
+            <state relative-caret-position="2106">
+              <caret line="299" column="22" lean-forward="false" selection-start-line="299" selection-start-column="22" selection-end-line="299" selection-end-column="22" />
               <folding>
-                <marker date="1506789405000" expanded="true" signature="49946:50190" ph="..." />
-                <marker date="1506789405000" expanded="true" signature="49946:50205" ph="..." />
-                <marker date="1506789405000" expanded="true" signature="49946:50219" ph="..." />
-                <marker date="1506789405000" expanded="true" signature="49946:50234" ph="..." />
-                <marker date="1506789405000" expanded="true" signature="49992:50170" ph="..." />
-                <marker date="1506789405000" expanded="true" signature="50032:50136" ph="..." />
-                <marker date="1506789405000" expanded="true" signature="50053:50114" ph="..." />
+                <marker date="1506792099000" expanded="true" signature="50322:50566" ph="..." />
+                <marker date="1506792099000" expanded="true" signature="50322:50581" ph="..." />
+                <marker date="1506792099000" expanded="true" signature="50322:50595" ph="..." />
+                <marker date="1506792099000" expanded="true" signature="50322:50610" ph="..." />
+                <marker date="1506792099000" expanded="true" signature="50368:50546" ph="..." />
+                <marker date="1506792099000" expanded="true" signature="50408:50512" ph="..." />
+                <marker date="1506792099000" expanded="true" signature="50429:50490" ph="..." />
               </folding>
             </state>
           </provider>
@@ -54,8 +47,8 @@
       <file leaf-file-name="MongoDBUtility.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/mongodb/mongodb/MongoDBUtility.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="80" column="12" lean-forward="false" selection-start-line="80" selection-start-column="12" selection-end-line="80" selection-end-column="12" />
+            <state relative-caret-position="291">
+              <caret line="79" column="64" lean-forward="false" selection-start-line="79" selection-start-column="64" selection-end-line="79" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,47 +84,50 @@
       <file leaf-file-name="Attributes.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/main/java/Attributes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="19" column="62" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="19" selection-end-column="62" />
+            <state relative-caret-position="210">
+              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DatabaseItem.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DatabaseItem.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/main/java/DatabaseItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="89" column="17" lean-forward="false" selection-start-line="89" selection-start-column="17" selection-end-line="89" selection-end-column="17" />
+            <state relative-caret-position="585">
+              <caret line="39" column="5" lean-forward="false" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
               <folding>
-                <element signature="e#1704#1705#0" expanded="true" />
-                <element signature="e#1733#1734#0" expanded="true" />
-                <element signature="e#1764#1765#0" expanded="true" />
-                <element signature="e#1791#1792#0" expanded="true" />
-                <element signature="e#1829#1830#0" expanded="true" />
-                <element signature="e#1863#1864#0" expanded="true" />
-                <element signature="e#1897#1898#0" expanded="true" />
-                <element signature="e#1928#1929#0" expanded="true" />
-                <element signature="e#1963#1964#0" expanded="true" />
-                <element signature="e#1992#1993#0" expanded="true" />
-                <element signature="e#2023#2024#0" expanded="true" />
-                <element signature="e#2050#2051#0" expanded="true" />
-                <element signature="e#2085#2086#0" expanded="true" />
-                <element signature="e#2116#2117#0" expanded="true" />
-                <element signature="e#2147#2148#0" expanded="true" />
-                <element signature="e#2174#2175#0" expanded="true" />
-                <element signature="e#2206#2207#0" expanded="true" />
-                <element signature="e#2234#2235#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#3141#3142#0" expanded="true" />
+                <element signature="e#3170#3171#0" expanded="true" />
+                <element signature="e#3201#3202#0" expanded="true" />
+                <element signature="e#3228#3229#0" expanded="true" />
+                <element signature="e#3266#3267#0" expanded="true" />
+                <element signature="e#3300#3301#0" expanded="true" />
+                <element signature="e#3334#3335#0" expanded="true" />
+                <element signature="e#3365#3366#0" expanded="true" />
+                <element signature="e#3400#3401#0" expanded="true" />
+                <element signature="e#3429#3430#0" expanded="true" />
+                <element signature="e#3460#3461#0" expanded="true" />
+                <element signature="e#3487#3488#0" expanded="true" />
+                <element signature="e#3522#3523#0" expanded="true" />
+                <element signature="e#3553#3554#0" expanded="true" />
+                <element signature="e#3584#3585#0" expanded="true" />
+                <element signature="e#3611#3612#0" expanded="true" />
+                <element signature="e#3643#3644#0" expanded="true" />
+                <element signature="e#3671#3672#0" expanded="true" />
+                <element signature="e#4443#4444#0" expanded="true" />
+                <element signature="e#4469#4470#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DatabaseItemTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DatabaseItemTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/main/java/DatabaseItemTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+            <state relative-caret-position="405">
+              <caret line="27" column="10" lean-forward="false" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -168,9 +164,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/url/mongodb/MongoDBUrl.java" />
         <option value="$PROJECT_DIR$/src/main/java/main/java/RecEngine.java" />
+        <option value="$PROJECT_DIR$/tests/main/java/DatabaseItemTest.java" />
         <option value="$PROJECT_DIR$/src/main/mongodb/mongodb/MongoDBUtility.java" />
         <option value="$PROJECT_DIR$/src/main/java/main/java/DatabaseItem.java" />
-        <option value="$PROJECT_DIR$/tests/main/java/DatabaseItemTest.java" />
       </list>
     </option>
   </component>
@@ -292,6 +288,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -313,7 +310,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DatabaseItemTest">
+  <component name="RunManager" selected="Application.MongoDBUtility">
     <configuration name="DatabaseItemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -491,9 +488,9 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.DatabaseItemTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.DatabaseItemTest.getPrice1" />
-        <item index="2" class="java.lang.String" itemvalue="Application.MongoDBUtility" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MongoDBUtility" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.DatabaseItemTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.DatabaseItemTest.getPrice1" />
         <item index="3" class="java.lang.String" itemvalue="Application.MongoDBUrl" />
       </list>
     </recent_temporary>
@@ -514,7 +511,7 @@
       <workItem from="1506758762614" duration="42000" />
       <workItem from="1506758993230" duration="3560000" />
       <workItem from="1506770122943" duration="735000" />
-      <workItem from="1506786250653" duration="3162000" />
+      <workItem from="1506786250653" duration="5947000" />
     </task>
     <task id="LOCAL-00001" summary="added python crawler">
       <created>1506747277906</created>
@@ -572,7 +569,21 @@
       <option name="project" value="LOCAL" />
       <updated>1506787586747</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added generate gender and price value">
+      <created>1506789434934</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1506789434934</updated>
+    </task>
+    <task id="LOCAL-00010" summary="added hashmap values for type&#10;not finished">
+      <created>1506792085954</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1506792085954</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -590,7 +601,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10986000" />
+    <option name="totallyTimeSpent" value="13771000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="733" extended-state="0" />
@@ -611,6 +622,7 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23182553" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -623,7 +635,6 @@
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -640,11 +651,13 @@
     <MESSAGE value="mongo db works for brandon" />
     <MESSAGE value="Json parsing for mongoDB working" />
     <MESSAGE value="added rec engine" />
-    <option name="LAST_COMMIT_MESSAGE" value="added rec engine" />
+    <MESSAGE value="added generate gender and price value" />
+    <MESSAGE value="added hashmap values for type&#10;not finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="added hashmap values for type&#10;not finished" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -737,16 +750,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2166">
-          <caret line="303" column="22" lean-forward="false" selection-start-line="303" selection-start-column="22" selection-end-line="303" selection-end-column="22" />
+        <state relative-caret-position="2106">
+          <caret line="299" column="22" lean-forward="false" selection-start-line="299" selection-start-column="22" selection-end-line="299" selection-end-column="22" />
           <folding>
-            <marker date="1506789405000" expanded="true" signature="49946:50190" ph="..." />
-            <marker date="1506789405000" expanded="true" signature="49946:50205" ph="..." />
-            <marker date="1506789405000" expanded="true" signature="49946:50219" ph="..." />
-            <marker date="1506789405000" expanded="true" signature="49946:50234" ph="..." />
-            <marker date="1506789405000" expanded="true" signature="49992:50170" ph="..." />
-            <marker date="1506789405000" expanded="true" signature="50032:50136" ph="..." />
-            <marker date="1506789405000" expanded="true" signature="50053:50114" ph="..." />
+            <marker date="1506792099000" expanded="true" signature="50322:50566" ph="..." />
+            <marker date="1506792099000" expanded="true" signature="50322:50581" ph="..." />
+            <marker date="1506792099000" expanded="true" signature="50322:50595" ph="..." />
+            <marker date="1506792099000" expanded="true" signature="50322:50610" ph="..." />
+            <marker date="1506792099000" expanded="true" signature="50368:50546" ph="..." />
+            <marker date="1506792099000" expanded="true" signature="50408:50512" ph="..." />
+            <marker date="1506792099000" expanded="true" signature="50429:50490" ph="..." />
           </folding>
         </state>
       </provider>
@@ -759,29 +772,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/main/java/Attributes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="19" column="62" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="19" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tests">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/mongodb/mongodb/MongoDBUtility.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="80" column="12" lean-forward="false" selection-start-line="80" selection-start-column="12" selection-end-line="80" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -798,38 +793,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/main/java/DatabaseItem.java">
+    <entry file="file://$PROJECT_DIR$/tests/main/java/DatabaseItemTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="89" column="17" lean-forward="false" selection-start-line="89" selection-start-column="17" selection-end-line="89" selection-end-column="17" />
+        <state relative-caret-position="405">
+          <caret line="27" column="10" lean-forward="false" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/mongodb/mongodb/MongoDBUtility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="79" column="64" lean-forward="false" selection-start-line="79" selection-start-column="64" selection-end-line="79" selection-end-column="64" />
           <folding>
-            <element signature="e#1704#1705#0" expanded="true" />
-            <element signature="e#1733#1734#0" expanded="true" />
-            <element signature="e#1764#1765#0" expanded="true" />
-            <element signature="e#1791#1792#0" expanded="true" />
-            <element signature="e#1829#1830#0" expanded="true" />
-            <element signature="e#1863#1864#0" expanded="true" />
-            <element signature="e#1897#1898#0" expanded="true" />
-            <element signature="e#1928#1929#0" expanded="true" />
-            <element signature="e#1963#1964#0" expanded="true" />
-            <element signature="e#1992#1993#0" expanded="true" />
-            <element signature="e#2023#2024#0" expanded="true" />
-            <element signature="e#2050#2051#0" expanded="true" />
-            <element signature="e#2085#2086#0" expanded="true" />
-            <element signature="e#2116#2117#0" expanded="true" />
-            <element signature="e#2147#2148#0" expanded="true" />
-            <element signature="e#2174#2175#0" expanded="true" />
-            <element signature="e#2206#2207#0" expanded="true" />
-            <element signature="e#2234#2235#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/main/java/DatabaseItemTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/java/Attributes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        <state relative-caret-position="210">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/java/DatabaseItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="5" lean-forward="false" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3141#3142#0" expanded="true" />
+            <element signature="e#3170#3171#0" expanded="true" />
+            <element signature="e#3201#3202#0" expanded="true" />
+            <element signature="e#3228#3229#0" expanded="true" />
+            <element signature="e#3266#3267#0" expanded="true" />
+            <element signature="e#3300#3301#0" expanded="true" />
+            <element signature="e#3334#3335#0" expanded="true" />
+            <element signature="e#3365#3366#0" expanded="true" />
+            <element signature="e#3400#3401#0" expanded="true" />
+            <element signature="e#3429#3430#0" expanded="true" />
+            <element signature="e#3460#3461#0" expanded="true" />
+            <element signature="e#3487#3488#0" expanded="true" />
+            <element signature="e#3522#3523#0" expanded="true" />
+            <element signature="e#3553#3554#0" expanded="true" />
+            <element signature="e#3584#3585#0" expanded="true" />
+            <element signature="e#3611#3612#0" expanded="true" />
+            <element signature="e#3643#3644#0" expanded="true" />
+            <element signature="e#3671#3672#0" expanded="true" />
+            <element signature="e#4443#4444#0" expanded="true" />
+            <element signature="e#4469#4470#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
