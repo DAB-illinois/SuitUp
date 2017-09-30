@@ -17,12 +17,12 @@ public class DatabaseItem {
             "jegging", "trouser", "short", "shorts", "legging", "trousers", "sweatpant", "chino",
             "sweatpant", "john", "tights"};
     private static final String[] FULL_BODY = new String[]{"dress", "shirtdress", "tunic",
-            "jumpsuit", "coverup", "suit"};
+            "jumpsuit", "suit"};
     private static final String[] FOOTWEAR = new String[]{"sneaker", "shoe", "shoes", "loafer",
             "flat", "bootie", "hi-top", "creeper", "boot", "ballerina", "mule", "hiker", "slip-on",
             "oxford", "gilet", "moccasin", "wedge"};
     private static final String[] OUTER = new String[]{"bomber", "cardigan", "sweatshirt",
-            "sweater", "hoodie", "jacket", "coat", "blazer", "flannel", "puffer", "parka", "bike",
+            "sweater", "hoodie", "jacket", "coat", "blazer", "flannel", "puffer", "parka", "biker",
             "vest", "windbreaker", "trench", "peacoat", "lounger", "fleece"};
     private static final String[] IGNORE = new String[]{"print", "bra", "brief", "bikini", "bag",
             "backpack", "scarf", "necklace", "tie", "belt", "set", "socks", "sock", "thong", "2pk",
@@ -256,7 +256,7 @@ public class DatabaseItem {
         if (casualCategoryValue == -1) {
             Double[] typeValues = TYPE_VALUES.get(type.toLowerCase());
             if (typeValues == null) {
-                System.out.println(link);
+                System.out.println("no category:" + link);
                 return new double[]{0.0, 0.0, 0.0, 0.0};
             }
             for (int i = 0; i < typeValues.length; i++) {
