@@ -41,14 +41,18 @@ public class SuitUpAI {
         return truncatedDataBaseItems;
     }
 
-    public HashMap<String, Double[]> retrieveCosinSimilarity(ArrayList<DatabaseItem> truncatedDataBaseItems,
+    public HashMap<String, Double[]> retrieveSortedCosinSimilarity(ArrayList<DatabaseItem> truncatedDataBaseItems,
                                                              DatabaseItem queryItem) {
         HashMap<Double, DatabaseItem> similarityWithQueryitem = new HashMap<>();
-        queryItem.generateValues();
+        double[] queryVectorValues = queryItem.generateValues();
 
         for (DatabaseItem item : truncatedDataBaseItems) {
-            //valueSimilarity.cosineSimilarity(item.getV)
+            double[] dataVectorValues = item.generateValues();
+            double temp = valueSimilarity.cosineSimilarity(dataVectorValues, queryVectorValues);
+            similarityWithQueryitem.put(temp, item);
         }
+
+        
         return null;
     }
 }

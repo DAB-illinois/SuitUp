@@ -8,7 +8,7 @@ public class ValueSimilarity {
 
     //private double cosineValue;
 
-    public double cosineSimilarity(Double[] query, Double[] rec, DatabaseItem databaseItem) {
+    public double cosineSimilarity(double[] query, double[] rec) {
         double scalar = 0, norm1 = 0, norm2 = 0;
 
         scalar = computeValues(query, rec);
@@ -22,7 +22,7 @@ public class ValueSimilarity {
         return scalar / (norm1 * norm2);
     }
 
-    private double computeValues(Double[] queryValues, Double[] recValues) {
+    private double computeValues(double[] queryValues, double[] recValues) {
         double outputValue = 0.0;
 
         for (int i = 0; i < queryValues.length; i++) {

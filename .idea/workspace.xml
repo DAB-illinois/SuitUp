@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15d0b05a-f4e0-413b-a08d-69fdb43ca8c0" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/main/java/Test.java" afterPath="$PROJECT_DIR$/src/main/java/main/java/ValueSimilarity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/main/java/SuitUpAI.java" afterPath="$PROJECT_DIR$/src/main/java/main/java/SuitUpAI.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/main/java/ValueSimilarity.java" afterPath="$PROJECT_DIR$/src/main/java/main/java/ValueSimilarity.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,13 +33,13 @@
             <state relative-caret-position="-400">
               <caret line="443" column="22" lean-forward="false" selection-start-line="443" selection-start-column="22" selection-end-line="443" selection-end-column="22" />
               <folding>
-                <marker date="1506801164000" expanded="true" signature="60901:61145" ph="..." />
-                <marker date="1506801164000" expanded="true" signature="60901:61160" ph="..." />
-                <marker date="1506801164000" expanded="true" signature="60901:61174" ph="..." />
-                <marker date="1506801164000" expanded="true" signature="60901:61189" ph="..." />
-                <marker date="1506801164000" expanded="true" signature="60947:61125" ph="..." />
-                <marker date="1506801164000" expanded="true" signature="60987:61091" ph="..." />
-                <marker date="1506801164000" expanded="true" signature="61008:61069" ph="..." />
+                <marker date="1506801740000" expanded="true" signature="61401:61645" ph="..." />
+                <marker date="1506801740000" expanded="true" signature="61401:61660" ph="..." />
+                <marker date="1506801740000" expanded="true" signature="61401:61674" ph="..." />
+                <marker date="1506801740000" expanded="true" signature="61401:61689" ph="..." />
+                <marker date="1506801740000" expanded="true" signature="61447:61625" ph="..." />
+                <marker date="1506801740000" expanded="true" signature="61487:61591" ph="..." />
+                <marker date="1506801740000" expanded="true" signature="61508:61569" ph="..." />
               </folding>
             </state>
           </provider>
@@ -48,8 +48,8 @@
       <file leaf-file-name="ValueSimilarity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/main/java/ValueSimilarity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+            <state relative-caret-position="345">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,7 +65,7 @@
               <folding>
                 <element signature="e#902#903#0" expanded="true" />
                 <element signature="e#928#929#0" expanded="true" />
-                <marker date="1506796783000" expanded="true" signature="3313:3444" ph="{...}" />
+                <marker date="1506801738000" expanded="true" signature="3221:3352" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -84,31 +84,29 @@
       <file leaf-file-name="DatabaseItem.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/main/java/DatabaseItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1607">
-              <caret line="49" column="27" lean-forward="false" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
+            <state relative-caret-position="455">
+              <caret line="206" column="6" lean-forward="false" selection-start-line="206" selection-start-column="6" selection-end-line="206" selection-end-column="6" />
               <folding>
-                <element signature="e#8822#8823#0" expanded="true" />
-                <element signature="e#8851#8852#0" expanded="true" />
-                <element signature="e#8882#8883#0" expanded="true" />
-                <element signature="e#8909#8910#0" expanded="true" />
-                <element signature="e#8947#8948#0" expanded="true" />
-                <element signature="e#8981#8982#0" expanded="true" />
-                <element signature="e#9015#9016#0" expanded="true" />
-                <element signature="e#9046#9047#0" expanded="true" />
-                <element signature="e#9081#9082#0" expanded="true" />
-                <element signature="e#9110#9111#0" expanded="true" />
-                <element signature="e#9141#9142#0" expanded="true" />
-                <element signature="e#9168#9169#0" expanded="true" />
-                <element signature="e#9203#9204#0" expanded="true" />
-                <element signature="e#9234#9235#0" expanded="true" />
-                <element signature="e#9265#9266#0" expanded="true" />
-                <element signature="e#9292#9293#0" expanded="true" />
-                <element signature="e#9324#9325#0" expanded="true" />
-                <element signature="e#9352#9353#0" expanded="true" />
-                <element signature="e#9390#9391#0" expanded="true" />
-                <element signature="e#9425#9426#0" expanded="true" />
-                <marker date="1506798647000" expanded="false" signature="10196:10207" ph=" { " />
-                <marker date="1506798647000" expanded="false" signature="10218:10224" ph=" }" />
+                <element signature="e#9360#9361#0" expanded="true" />
+                <element signature="e#9389#9390#0" expanded="true" />
+                <element signature="e#9420#9421#0" expanded="true" />
+                <element signature="e#9447#9448#0" expanded="true" />
+                <element signature="e#9485#9486#0" expanded="true" />
+                <element signature="e#9519#9520#0" expanded="true" />
+                <element signature="e#9553#9554#0" expanded="true" />
+                <element signature="e#9584#9585#0" expanded="true" />
+                <element signature="e#9619#9620#0" expanded="true" />
+                <element signature="e#9648#9649#0" expanded="true" />
+                <element signature="e#9679#9680#0" expanded="true" />
+                <element signature="e#9706#9707#0" expanded="true" />
+                <element signature="e#9741#9742#0" expanded="true" />
+                <element signature="e#9772#9773#0" expanded="true" />
+                <element signature="e#9803#9804#0" expanded="true" />
+                <element signature="e#9830#9831#0" expanded="true" />
+                <element signature="e#9862#9863#0" expanded="true" />
+                <element signature="e#9890#9891#0" expanded="true" />
+                <element signature="e#9928#9929#0" expanded="true" />
+                <element signature="e#9963#9964#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -166,8 +164,8 @@
       <file leaf-file-name="SuitUpAI.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/main/java/SuitUpAI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="635">
-              <caret line="51" column="20" lean-forward="false" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+            <state relative-caret-position="605">
+              <caret line="54" column="8" lean-forward="true" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#248#249#0" expanded="true" />
@@ -346,8 +344,11 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/main/java/DatabaseItem.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/mongodb/mongodb/MongoDBUtility.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/main/java/Attributes.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/main/java/SuitUpAI.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/main/java/Test.class</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -658,11 +659,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506798586855</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Basic algorithm for AI is working. I do not know if they actually work but hopefully it does.">
+      <created>1506801728714</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1506801728714</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17615000" />
+    <option name="totallyTimeSpent" value="17995000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1394" height="877" extended-state="6" />
@@ -733,7 +741,8 @@
     <MESSAGE value="Commit!!" />
     <MESSAGE value="Added new Maven library and Dependencies.&#10;Added code that parses String into Json String.&#10;&#10;TODO: The string of data is being truncated for some reason. I need to fix this." />
     <MESSAGE value="ai starting to work" />
-    <option name="LAST_COMMIT_MESSAGE" value="ai starting to work" />
+    <MESSAGE value="Basic algorithm for AI is working. I do not know if they actually work but hopefully it does." />
+    <option name="LAST_COMMIT_MESSAGE" value="Basic algorithm for AI is working. I do not know if they actually work but hopefully it does." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -808,13 +817,13 @@
         <state relative-caret-position="-400">
           <caret line="443" column="22" lean-forward="false" selection-start-line="443" selection-start-column="22" selection-end-line="443" selection-end-column="22" />
           <folding>
-            <marker date="1506801164000" expanded="true" signature="60901:61145" ph="..." />
-            <marker date="1506801164000" expanded="true" signature="60901:61160" ph="..." />
-            <marker date="1506801164000" expanded="true" signature="60901:61174" ph="..." />
-            <marker date="1506801164000" expanded="true" signature="60901:61189" ph="..." />
-            <marker date="1506801164000" expanded="true" signature="60947:61125" ph="..." />
-            <marker date="1506801164000" expanded="true" signature="60987:61091" ph="..." />
-            <marker date="1506801164000" expanded="true" signature="61008:61069" ph="..." />
+            <marker date="1506801740000" expanded="true" signature="61401:61645" ph="..." />
+            <marker date="1506801740000" expanded="true" signature="61401:61660" ph="..." />
+            <marker date="1506801740000" expanded="true" signature="61401:61674" ph="..." />
+            <marker date="1506801740000" expanded="true" signature="61401:61689" ph="..." />
+            <marker date="1506801740000" expanded="true" signature="61447:61625" ph="..." />
+            <marker date="1506801740000" expanded="true" signature="61487:61591" ph="..." />
+            <marker date="1506801740000" expanded="true" signature="61508:61569" ph="..." />
           </folding>
         </state>
       </provider>
@@ -834,7 +843,7 @@
           <folding>
             <element signature="e#902#903#0" expanded="true" />
             <element signature="e#928#929#0" expanded="true" />
-            <marker date="1506796783000" expanded="true" signature="3313:3444" ph="{...}" />
+            <marker date="1506801738000" expanded="true" signature="3221:3352" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -890,51 +899,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/java/DatabaseItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="206" column="6" lean-forward="false" selection-start-line="206" selection-start-column="6" selection-end-line="206" selection-end-column="6" />
+          <folding>
+            <element signature="e#9360#9361#0" expanded="true" />
+            <element signature="e#9389#9390#0" expanded="true" />
+            <element signature="e#9420#9421#0" expanded="true" />
+            <element signature="e#9447#9448#0" expanded="true" />
+            <element signature="e#9485#9486#0" expanded="true" />
+            <element signature="e#9519#9520#0" expanded="true" />
+            <element signature="e#9553#9554#0" expanded="true" />
+            <element signature="e#9584#9585#0" expanded="true" />
+            <element signature="e#9619#9620#0" expanded="true" />
+            <element signature="e#9648#9649#0" expanded="true" />
+            <element signature="e#9679#9680#0" expanded="true" />
+            <element signature="e#9706#9707#0" expanded="true" />
+            <element signature="e#9741#9742#0" expanded="true" />
+            <element signature="e#9772#9773#0" expanded="true" />
+            <element signature="e#9803#9804#0" expanded="true" />
+            <element signature="e#9830#9831#0" expanded="true" />
+            <element signature="e#9862#9863#0" expanded="true" />
+            <element signature="e#9890#9891#0" expanded="true" />
+            <element signature="e#9928#9929#0" expanded="true" />
+            <element signature="e#9963#9964#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/main/java/ValueSimilarity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        <state relative-caret-position="345">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/main/java/DatabaseItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1607">
-          <caret line="49" column="27" lean-forward="false" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
-          <folding>
-            <element signature="e#8822#8823#0" expanded="true" />
-            <element signature="e#8851#8852#0" expanded="true" />
-            <element signature="e#8882#8883#0" expanded="true" />
-            <element signature="e#8909#8910#0" expanded="true" />
-            <element signature="e#8947#8948#0" expanded="true" />
-            <element signature="e#8981#8982#0" expanded="true" />
-            <element signature="e#9015#9016#0" expanded="true" />
-            <element signature="e#9046#9047#0" expanded="true" />
-            <element signature="e#9081#9082#0" expanded="true" />
-            <element signature="e#9110#9111#0" expanded="true" />
-            <element signature="e#9141#9142#0" expanded="true" />
-            <element signature="e#9168#9169#0" expanded="true" />
-            <element signature="e#9203#9204#0" expanded="true" />
-            <element signature="e#9234#9235#0" expanded="true" />
-            <element signature="e#9265#9266#0" expanded="true" />
-            <element signature="e#9292#9293#0" expanded="true" />
-            <element signature="e#9324#9325#0" expanded="true" />
-            <element signature="e#9352#9353#0" expanded="true" />
-            <element signature="e#9390#9391#0" expanded="true" />
-            <element signature="e#9425#9426#0" expanded="true" />
-            <marker date="1506798647000" expanded="false" signature="10196:10207" ph=" { " />
-            <marker date="1506798647000" expanded="false" signature="10218:10224" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/main/java/SuitUpAI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="635">
-          <caret line="51" column="20" lean-forward="false" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+        <state relative-caret-position="605">
+          <caret line="54" column="8" lean-forward="true" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#248#249#0" expanded="true" />
