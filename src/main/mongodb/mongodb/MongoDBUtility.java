@@ -78,14 +78,11 @@ public class MongoDBUtility {
         List<String> types = new ArrayList<String>();
         for (DatabaseItem databaseItem : databaseItems) {
             String type = databaseItem.getType();
-            if (!types.contains(type)) {
-                types.add(type);
+            if (databaseItem.getGeneralType().equals(null)) {
+                System.out.println(databaseItem.getLink());
             }
-            System.out.println(databaseItem.getCategory() + " " + databaseItem.getType() + " " + databaseItem.getLink());
         }
-        for (String type : types) {
-            System.out.println(type);
-        }
+
     }
 
     public static DatabaseItem[] retrieveMongoDatabase() {
