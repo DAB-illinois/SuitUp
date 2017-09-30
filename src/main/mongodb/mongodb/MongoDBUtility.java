@@ -59,20 +59,27 @@ public class MongoDBUtility {
      * @param stringData : string array that has all the data
      * @return jsonData : String array which represents the data that has been converted to a json String
      */
-    public String getJsonFromString(String[] stringData) {
+    public DatabaseItem[] getJsonFromString(String[] stringData) {
         Gson gson = new Gson();
+
+        DatabaseItem[] databaseItems = new DatabaseItem[stringData.length];
 
         String jsonData = "";
         for (int i = 0; i < stringData.length; i++) {
             System.out.println(stringData[i]);
             DatabaseItem databaseItem = gson.fromJson(stringData[i], DatabaseItem.class);
-            jsonData += databaseItem.getName() + "\n";
+            databaseItems[i] = databaseItem;
         }
-        return jsonData;
+        return databaseItems;
     }
 
     public static void main(String[] args) {
         MongoDBUtility testData = new MongoDBUtility();
         System.out.println(testData.getJsonFromString(testData.retrieveData()));
+    }
+
+    public static DatabaseItem[] retrieveMongoDatabase() {
+        MongoDBUtility testData = new MongoDBUtility();
+        return testData.getJsonFromString(testData.retrieveData());
     }
 }
