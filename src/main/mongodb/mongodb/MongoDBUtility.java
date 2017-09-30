@@ -66,7 +66,6 @@ public class MongoDBUtility {
 
         String jsonData = "";
         for (int i = 0; i < stringData.length; i++) {
-            System.out.println(stringData[i]);
             DatabaseItem databaseItem = gson.fromJson(stringData[i], DatabaseItem.class);
             databaseItems[i] = databaseItem;
         }
@@ -75,7 +74,16 @@ public class MongoDBUtility {
 
     public static void main(String[] args) {
         MongoDBUtility testData = new MongoDBUtility();
-        System.out.println(testData.getJsonFromString(testData.retrieveData()));
+        DatabaseItem[] databaseItems = testData.getJsonFromString(testData.retrieveData());
+        double priceMax = Double.parseDouble(databaseItems[0].getPrice());
+        for (DatabaseItem databaseItem : databaseItems) {
+            double priceDouble = Double.parseDouble(databaseItem.getPrice());
+            if (priceDouble > priceMax) {
+                priceMax = priceDouble;
+            }
+            System.out.println(databaseItem.getCategory() + " " + databaseItem.getType() + " " + databaseItem.getLink());
+        }
+        System.out.println(priceMax);
     }
 
     public static DatabaseItem[] retrieveMongoDatabase() {
