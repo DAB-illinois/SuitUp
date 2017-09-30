@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="15d0b05a-f4e0-413b-a08d-69fdb43ca8c0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/main/java/SuitUpAI.java" afterPath="$PROJECT_DIR$/src/main/java/main/java/SuitUpAI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/main/java/ValueSimilarity.java" afterPath="$PROJECT_DIR$/src/main/java/main/java/ValueSimilarity.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,16 +28,16 @@
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-400">
-              <caret line="443" column="22" lean-forward="false" selection-start-line="443" selection-start-column="22" selection-end-line="443" selection-end-column="22" />
+            <state relative-caret-position="-385">
+              <caret line="444" column="22" lean-forward="false" selection-start-line="444" selection-start-column="22" selection-end-line="444" selection-end-column="22" />
               <folding>
-                <marker date="1506801740000" expanded="true" signature="61401:61645" ph="..." />
-                <marker date="1506801740000" expanded="true" signature="61401:61660" ph="..." />
-                <marker date="1506801740000" expanded="true" signature="61401:61674" ph="..." />
-                <marker date="1506801740000" expanded="true" signature="61401:61689" ph="..." />
-                <marker date="1506801740000" expanded="true" signature="61447:61625" ph="..." />
-                <marker date="1506801740000" expanded="true" signature="61487:61591" ph="..." />
-                <marker date="1506801740000" expanded="true" signature="61508:61569" ph="..." />
+                <marker date="1506802088000" expanded="true" signature="61600:61844" ph="..." />
+                <marker date="1506802088000" expanded="true" signature="61600:61859" ph="..." />
+                <marker date="1506802088000" expanded="true" signature="61600:61873" ph="..." />
+                <marker date="1506802088000" expanded="true" signature="61600:61888" ph="..." />
+                <marker date="1506802088000" expanded="true" signature="61646:61824" ph="..." />
+                <marker date="1506802088000" expanded="true" signature="61686:61790" ph="..." />
+                <marker date="1506802088000" expanded="true" signature="61707:61768" ph="..." />
               </folding>
             </state>
           </provider>
@@ -666,11 +664,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506801728714</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="commmit/pull test again">
+      <created>1506802084339</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1506802084339</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17995000" />
+    <option name="totallyTimeSpent" value="18020000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1394" height="877" extended-state="6" />
@@ -742,7 +747,8 @@
     <MESSAGE value="Added new Maven library and Dependencies.&#10;Added code that parses String into Json String.&#10;&#10;TODO: The string of data is being truncated for some reason. I need to fix this." />
     <MESSAGE value="ai starting to work" />
     <MESSAGE value="Basic algorithm for AI is working. I do not know if they actually work but hopefully it does." />
-    <option name="LAST_COMMIT_MESSAGE" value="Basic algorithm for AI is working. I do not know if they actually work but hopefully it does." />
+    <MESSAGE value="commmit/pull test again" />
+    <option name="LAST_COMMIT_MESSAGE" value="commmit/pull test again" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -814,16 +820,16 @@
     <entry file="file://$PROJECT_DIR$/src/url/mongodb/MongoDBUrl.java" />
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-400">
-          <caret line="443" column="22" lean-forward="false" selection-start-line="443" selection-start-column="22" selection-end-line="443" selection-end-column="22" />
+        <state relative-caret-position="-385">
+          <caret line="444" column="22" lean-forward="false" selection-start-line="444" selection-start-column="22" selection-end-line="444" selection-end-column="22" />
           <folding>
-            <marker date="1506801740000" expanded="true" signature="61401:61645" ph="..." />
-            <marker date="1506801740000" expanded="true" signature="61401:61660" ph="..." />
-            <marker date="1506801740000" expanded="true" signature="61401:61674" ph="..." />
-            <marker date="1506801740000" expanded="true" signature="61401:61689" ph="..." />
-            <marker date="1506801740000" expanded="true" signature="61447:61625" ph="..." />
-            <marker date="1506801740000" expanded="true" signature="61487:61591" ph="..." />
-            <marker date="1506801740000" expanded="true" signature="61508:61569" ph="..." />
+            <marker date="1506802088000" expanded="true" signature="61600:61844" ph="..." />
+            <marker date="1506802088000" expanded="true" signature="61600:61859" ph="..." />
+            <marker date="1506802088000" expanded="true" signature="61600:61873" ph="..." />
+            <marker date="1506802088000" expanded="true" signature="61600:61888" ph="..." />
+            <marker date="1506802088000" expanded="true" signature="61646:61824" ph="..." />
+            <marker date="1506802088000" expanded="true" signature="61686:61790" ph="..." />
+            <marker date="1506802088000" expanded="true" signature="61707:61768" ph="..." />
           </folding>
         </state>
       </provider>
