@@ -1,7 +1,5 @@
 package main.java;
 
-import org.jcp.xml.dsig.internal.dom.DOMUtils;
-
 import java.util.HashMap;
 
 public class DatabaseItem {
@@ -31,19 +29,32 @@ public class DatabaseItem {
             "duffle", "halter", "beanie", "rugby", "flex", "tote", "wallet", "folio", "clutch",
             "crossover", "hipster", "hadid"};
 
-    private static final HashMap<String, Double> CASUAL_CATEGORY;
+    // value is for casual. 8-value = formal
+    private static final HashMap<String, Double> CATEGORY_VALUES;
+
     static {
-        CASUAL_CATEGORY = new HashMap<String, Double>();
-        CASUAL_CATEGORY.put("denim", 8.0);
-    }
-    private static final HashMap<String, Double> FORMAL_CATEGORY;
-    static {
-        FORMAL_CATEGORY = new HashMap<String, Double>();
-        FORMAL_CATEGORY.put("denim", 0.0);
+        CATEGORY_VALUES = new HashMap<String, Double>();
+        CATEGORY_VALUES.put("denim", 8.0);
+        CATEGORY_VALUES.put("t-shirts", 8.0);
+        CATEGORY_VALUES.put("shirts", 2.0);
+        CATEGORY_VALUES.put("blouses", 5.0);
+        CATEGORY_VALUES.put("sweater", 8.0);
+        CATEGORY_VALUES.put("jacket", 5.0);
+        CATEGORY_VALUES.put("jean", 8.0);
+        CATEGORY_VALUES.put("pants", 6.5);
+        CATEGORY_VALUES.put("polos", 7.0);
+        CATEGORY_VALUES.put("dresses", 7.0);
+        CATEGORY_VALUES.put("shorts", 8.0);
+        CATEGORY_VALUES.put("footwear", 4.0);
+        CATEGORY_VALUES.put("athleisure", 8.0);
+        CATEGORY_VALUES.put("dressshirts", 0.0);
+        CATEGORY_VALUES.put("suit-separates", 0.0);
+        CATEGORY_VALUES.put("rugbys", 6.0);
     }
 
     // athletic, leisure, business, fancy
     private static final HashMap<String, Double[]> TYPE_VALUES;
+
     static {
         TYPE_VALUES = new HashMap<String, Double[]>();
         TYPE_VALUES.put("bomber", new Double[]{2.0, 5.0, 0.0, 0.0});
@@ -107,7 +118,7 @@ public class DatabaseItem {
         TYPE_VALUES.put("henley", new Double[]{0.0, 8.0, 0.0, 0.0});
         TYPE_VALUES.put("moccasin", new Double[]{0.0, 7.0, 1.0, 0.0});
         TYPE_VALUES.put("shoe", new Double[]{0.0, 2.0, 8.0, 8.0});
-        TYPE_VALUES.put("shoes", new Double[]{0.0, 2.0 , 8.0, 8.0});
+        TYPE_VALUES.put("shoes", new Double[]{0.0, 2.0, 8.0, 8.0});
         TYPE_VALUES.put("loafer", new Double[]{0.0, 2.0, 6.0, 3.0});
         TYPE_VALUES.put("john", new Double[]{0.0, 6.0, 2.0, 0.0});
         TYPE_VALUES.put("flex", new Double[]{0.0, 0.0, 2.0, 8.0});
@@ -139,7 +150,7 @@ public class DatabaseItem {
     private String category;
     private String type;
     private String price; //use in vector (20-1690)
-    private String general_type;
+    private String general_type; //"ignore" if not giving recommendations for
 
     private double athletic; // [0, 8]
     private double leisure; // [0, 8]
@@ -190,13 +201,14 @@ public class DatabaseItem {
         return general_type;
     }
 
-    public void generateValues() {
+    public double[] generateValues() {
         vector = new double[VECTOR_LENGTH];
         vector[0] = generateGenderValue();
         vector[1] = generatePriceValue();
         //casual
         //formal
         //pattern
+        return vector;
     }
 
     private double generateGenderValue() {
@@ -210,13 +222,42 @@ public class DatabaseItem {
     private double generatePriceValue() {
         double priceDouble = Double.parseDouble(this.price);
         priceDouble -= PRICE_MIN;
-        priceDouble -= (PRICE_MAX-PRICE_MIN)/2.0;
-        priceDouble /= (PRICE_MAX-PRICE_MIN)/2;
+        priceDouble -= (PRICE_MAX - PRICE_MIN) / 2.0;
+        priceDouble /= (PRICE_MAX - PRICE_MIN) / 2;
         priceDouble *= PRICE_WEIGHT;
         return priceDouble;
     }
 
-    private double generateCasualValue() {
-        return 0.0;
+    private double[] generateStyleValue() {
+        double[] fourStyles = new double[4];
+        if ("ignore".equalsIgnoreCase(general_type)) {
+            return new double[]{0.0, 0.0, 0.0, 0.0};
+        }
+
+        // get category value
+        String categoryLower = category.toLowerCase();
+        double casualCategoryValue = -1;
+        double formalCategoryValues = -1;
+        for (String c : CATEGORY_VALUES.keySet()) {
+            if (categoryLower.contains(c)) {
+                casualCategoryValue = CATEGORY_VALUES.get(c);
+                formalCategoryValues = 8 - casualCategoryValue;
+                break;
+            }
+        }
+
+        if (casualCategoryValue == -1) {
+            Double[] typeValues = TYPE_VALUES.get(type.toLowerCase());
+            for (int i = 0; i < typeValues.length; i++) {
+                fourStyles[i] = typeValues[i];
+            }
+        } else {
+
+        }
+
+
+
+
+        return fourStyles;
     }
 }

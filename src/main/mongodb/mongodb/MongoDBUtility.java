@@ -75,14 +75,18 @@ public class MongoDBUtility {
     public static void main(String[] args) {
         MongoDBUtility testData = new MongoDBUtility();
         DatabaseItem[] databaseItems = testData.getJsonFromString(testData.retrieveData());
-        List<String> types = new ArrayList<String>();
+        List<String> categories = new ArrayList<String>();
+
         for (DatabaseItem databaseItem : databaseItems) {
-            String type = databaseItem.getType();
-            if (databaseItem.getGeneralType().equals(null)) {
-                System.out.println(databaseItem.getLink());
+            String category = databaseItem.getCategory();
+            if (!categories.contains(category)) {
+                categories.add(category);
             }
         }
 
+        for (String c:categories) {
+            System.out.println(c);
+        }
     }
 
     public static DatabaseItem[] retrieveMongoDatabase() {
