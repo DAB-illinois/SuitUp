@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15d0b05a-f4e0-413b-a08d-69fdb43ca8c0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/main/java/SuitUpAI.class" afterPath="$PROJECT_DIR$/target/classes/main/java/SuitUpAI.class" />
+    <list default="true" id="15d0b05a-f4e0-413b-a08d-69fdb43ca8c0" name="Default" comment="for daniel">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/main/java/SuitUpAI.java" afterPath="$PROJECT_DIR$/src/main/java/main/java/SuitUpAI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/main/java/ValueSimilarity.java" afterPath="$PROJECT_DIR$/src/main/java/main/java/ValueSimilarity.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,16 +31,16 @@
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13986">
-              <caret line="1091" column="22" lean-forward="false" selection-start-line="1091" selection-start-column="22" selection-end-line="1091" selection-end-column="22" />
+            <state relative-caret-position="13971">
+              <caret line="1090" column="22" lean-forward="false" selection-start-line="1090" selection-start-column="22" selection-end-line="1090" selection-end-column="22" />
               <folding>
-                <marker date="1506810012000" expanded="true" signature="92490:92734" ph="..." />
-                <marker date="1506810012000" expanded="true" signature="92490:92749" ph="..." />
-                <marker date="1506810012000" expanded="true" signature="92490:92763" ph="..." />
-                <marker date="1506810012000" expanded="true" signature="92490:92778" ph="..." />
-                <marker date="1506810012000" expanded="true" signature="92536:92714" ph="..." />
-                <marker date="1506810012000" expanded="true" signature="92576:92680" ph="..." />
-                <marker date="1506810012000" expanded="true" signature="92597:92658" ph="..." />
+                <marker date="1506812569000" expanded="true" signature="92611:92855" ph="..." />
+                <marker date="1506812569000" expanded="true" signature="92611:92870" ph="..." />
+                <marker date="1506812569000" expanded="true" signature="92611:92884" ph="..." />
+                <marker date="1506812569000" expanded="true" signature="92611:92899" ph="..." />
+                <marker date="1506812569000" expanded="true" signature="92657:92835" ph="..." />
+                <marker date="1506812569000" expanded="true" signature="92697:92801" ph="..." />
+                <marker date="1506812569000" expanded="true" signature="92718:92779" ph="..." />
               </folding>
             </state>
           </provider>
@@ -61,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RecEngine.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RecEngine.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/main/java/RecEngine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-39">
-              <caret line="35" column="30" lean-forward="true" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+            <state relative-caret-position="201">
+              <caret line="51" column="44" lean-forward="true" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#211#212#0" expanded="true" />
@@ -75,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SuitUpAI.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SuitUpAI.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/main/java/SuitUpAI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-129">
-              <caret line="68" column="12" lean-forward="true" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="12" />
+            <state relative-caret-position="306">
+              <caret line="97" column="45" lean-forward="false" selection-start-line="97" selection-start-column="45" selection-end-line="97" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -200,6 +198,7 @@
         <option value="$PROJECT_DIR$/src/main/java/main/java/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/main/java/DatabaseItem.java" />
         <option value="$PROJECT_DIR$/src/main/java/main/java/ValueSimilarity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/main/java/RecEngine.java" />
         <option value="$PROJECT_DIR$/src/main/java/main/java/SuitUpAI.java" />
       </list>
     </option>
@@ -1430,14 +1429,22 @@
       <option name="project" value="LOCAL" />
       <updated>1506809458449</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="fixed sorting. suit AI works">
+      <created>1506810034712</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1506810034712</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25679000" />
+    <option name="totallyTimeSpent" value="25830000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="733" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1447,9 +1454,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46865204" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46865204" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30877742" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30877742" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23182553" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1511,7 +1518,8 @@
     <MESSAGE value="Is the AI done?" />
     <MESSAGE value="ignore items with general type of ignore" />
     <MESSAGE value="added sorting algorithm for hashmaps" />
-    <option name="LAST_COMMIT_MESSAGE" value="added sorting algorithm for hashmaps" />
+    <MESSAGE value="fixed sorting. suit AI works" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed sorting. suit AI works" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1576,16 +1584,16 @@
     <entry file="file://$PROJECT_DIR$/src/url/mongodb/MongoDBUrl.java" />
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13986">
-          <caret line="1091" column="22" lean-forward="false" selection-start-line="1091" selection-start-column="22" selection-end-line="1091" selection-end-column="22" />
+        <state relative-caret-position="13971">
+          <caret line="1090" column="22" lean-forward="false" selection-start-line="1090" selection-start-column="22" selection-end-line="1090" selection-end-column="22" />
           <folding>
-            <marker date="1506810012000" expanded="true" signature="92490:92734" ph="..." />
-            <marker date="1506810012000" expanded="true" signature="92490:92749" ph="..." />
-            <marker date="1506810012000" expanded="true" signature="92490:92763" ph="..." />
-            <marker date="1506810012000" expanded="true" signature="92490:92778" ph="..." />
-            <marker date="1506810012000" expanded="true" signature="92536:92714" ph="..." />
-            <marker date="1506810012000" expanded="true" signature="92576:92680" ph="..." />
-            <marker date="1506810012000" expanded="true" signature="92597:92658" ph="..." />
+            <marker date="1506812569000" expanded="true" signature="92611:92855" ph="..." />
+            <marker date="1506812569000" expanded="true" signature="92611:92870" ph="..." />
+            <marker date="1506812569000" expanded="true" signature="92611:92884" ph="..." />
+            <marker date="1506812569000" expanded="true" signature="92611:92899" ph="..." />
+            <marker date="1506812569000" expanded="true" signature="92657:92835" ph="..." />
+            <marker date="1506812569000" expanded="true" signature="92697:92801" ph="..." />
+            <marker date="1506812569000" expanded="true" signature="92718:92779" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1675,24 +1683,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/main/java/SuitUpAI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-129">
-          <caret line="68" column="12" lean-forward="true" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/main/java/RecEngine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-39">
-          <caret line="35" column="30" lean-forward="true" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+        <state relative-caret-position="201">
+          <caret line="51" column="44" lean-forward="true" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#211#212#0" expanded="true" />
             <element signature="e#281#282#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/java/SuitUpAI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="97" column="45" lean-forward="false" selection-start-line="97" selection-start-column="45" selection-end-line="97" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
