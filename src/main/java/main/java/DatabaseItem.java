@@ -139,6 +139,7 @@ public class DatabaseItem {
     private String category;
     private String type;
     private String price; //use in vector (20-1690)
+    private String general_type;
 
     private double athletic; // [0, 8]
     private double leisure; // [0, 8]
@@ -183,6 +184,10 @@ public class DatabaseItem {
 
     public String getPrice() {
         return price;
+    }
+
+    public String getGeneralType() {
+        return general_type;
     }
 
     public void generateValues() {
