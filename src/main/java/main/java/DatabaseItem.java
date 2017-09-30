@@ -255,11 +255,19 @@ public class DatabaseItem {
 
         if (casualCategoryValue == -1) {
             Double[] typeValues = TYPE_VALUES.get(type.toLowerCase());
+            if (typeValues == null) {
+                System.out.println(link);
+                return new double[]{0.0, 0.0, 0.0, 0.0};
+            }
             for (int i = 0; i < typeValues.length; i++) {
                 fourStyles[i] = typeValues[i];
             }
         } else {
             Double[] typeValues = TYPE_VALUES.get(type.toLowerCase());
+            if (typeValues == null) {
+                System.out.println(link);
+                return new double[]{0.0, 0.0, 0.0, 0.0};
+            }
             for (int i = 0; i < 2; i++) {
                 fourStyles[i] = typeValues[i]*casualCategoryValue/TYPE_WEIGHT;
             }
