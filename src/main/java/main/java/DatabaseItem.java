@@ -20,10 +20,10 @@ public class DatabaseItem {
             "jumpsuit", "suit"};
     private static final String[] FOOTWEAR = new String[]{"sneaker", "shoe", "shoes", "loafer",
             "flat", "bootie", "hi-top", "creeper", "boot", "ballerina", "mule", "hiker", "slip-on",
-            "oxford", "gilet", "moccasin", "wedge"};
+            "oxford", "moccasin", "wedge"};
     private static final String[] OUTER = new String[]{"bomber", "cardigan", "sweatshirt",
             "sweater", "hoodie", "jacket", "coat", "blazer", "flannel", "puffer", "parka", "biker",
-            "vest", "windbreaker", "trench", "peacoat", "lounger", "fleece"};
+            "vest", "windbreaker", "trench", "peacoat", "lounger", "fleece", "gilet"};
     private static final String[] IGNORE = new String[]{"print", "bra", "brief", "bikini", "bag",
             "backpack", "scarf", "necklace", "tie", "belt", "set", "socks", "sock", "thong", "2pk",
             "3pk", "trunk", "bralette", "watch", "sunglasses", "square", "ring", "cap", "hat", "ii",
