@@ -1,10 +1,7 @@
 package main.java;
 
-import com.sun.corba.se.impl.orb.DataCollectorBase;
 import mongodb.MongoDBUtility;
 
-import javax.xml.crypto.Data;
-import java.awt.image.DataBuffer;
 import java.util.*;
 
 /**
@@ -51,9 +48,8 @@ public class SuitUpAI {
      * @param filteredDataBaseItems : Items that have been truncated based on the user's taste
      * @return sortedSimilarItems : returns the HashMap<DatabaseItem, Double> that is sorted
      */
-    public static HashMap<DatabaseItem, Double> retrieveSortedCosinSimilarity(DatabaseItem queryItem,
-                                                                         ArrayList<DatabaseItem>
-                                                                               filteredDataBaseItems) {
+    public static List<DatabaseItem> retrieveSortedCosineSimilarity(DatabaseItem queryItem,
+                                                ArrayList<DatabaseItem> filteredDataBaseItems) {
         if (filteredDataBaseItems == null || filteredDataBaseItems.size() == 0 || queryItem == null) {
             return null;
         }
@@ -69,27 +65,20 @@ public class SuitUpAI {
         }
 
         List<DatabaseItem> sorted = ValueSimilarity.sort(similarityWithQueryitem);
-
-        /*List<Double> sortedCosines = new ArrayList<Double>(similarityWithQueryitem.values());
-        Collections.sort(sortedCosines);
-        Collections.reverse(sortedCosines);
-*/
-        HashMap<DatabaseItem, Double> sortedSimilarItems = new HashMap<>();
-        for (int i = 0; i < similarityWithQueryitem.size(); i++) {
-            sortedSimilarItems.put(similarityWithQueryitem.get(sortedCosines.get(i)), sortedCosines.get(i));
+        for (int i = 0; i < sorted.size(); i++) {
+            System.out.println(similarityWithQueryitem.get(sorted.get(i)));
         }
 
-        return sortedSimilarItems;
+        return sorted;
     }
 
-    public static void presentItemToUser(DatabaseItem queryItem, HashMap<DatabaseItem, Double> itemPresentOrder) {
+    public static void presentItemToUser(DatabaseItem queryItem, List<DatabaseItem> itemPresentOrder) {
         if (itemPresentOrder == null || itemPresentOrder.size() == 0) {
             return;
         }
         Scanner userInput = new Scanner(System.in);
 
-        List<DatabaseItem> recItems = new ArrayList<DatabaseItem>(itemPresentOrder.keySet());
-        Iterator iterator = recItems.iterator();
+        Iterator iterator = itemPresentOrder.iterator();
         boolean likedRecommendation = false;
 
         while (iterator.hasNext() && !likedRecommendation) {
@@ -114,7 +103,7 @@ public class SuitUpAI {
 
             ArrayList<DatabaseItem> filtered = getAllRelatedItems(queryItem);
             System.out.println(filtered.size());
-            HashMap<DatabaseItem, Double> sorted = retrieveSortedCosinSimilarity(queryItem, filtered);
+            List<DatabaseItem> sorted = retrieveSortedCosineSimilarity(queryItem, filtered);
             presentItemToUser(queryItem, sorted);
         }
     }

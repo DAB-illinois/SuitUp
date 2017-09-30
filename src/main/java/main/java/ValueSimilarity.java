@@ -2,6 +2,7 @@ package main.java;
 
 import mongodb.MongoDBUtility;
 
+import javax.sound.midi.SysexMessage;
 import javax.xml.crypto.Data;
 import java.util.*;
 
@@ -33,7 +34,7 @@ public class ValueSimilarity {
     }
 
     public static List<DatabaseItem> sort(HashMap<DatabaseItem, Double> hashMap) {
-        List<DatabaseItem> keys = new ArrayList<>(hashMap.keySet());
+        HashMap<DatabaseItem, Double> copy = new HashMap<DatabaseItem, Double>(hashMap);
         List<Double> values = new ArrayList<>(hashMap.values());
         Collections.sort(values);
         Collections.reverse(values);
@@ -42,10 +43,12 @@ public class ValueSimilarity {
 
         for (int i = 0; i < values.size(); i++) {
             double value = values.get(i);
-            for (DatabaseItem databaseItem : hashMap.keySet()) {
-                if (hashMap.get(databaseItem) == value) {
+
+            for (DatabaseItem databaseItem : copy.keySet()) {
+                if (copy.get(databaseItem) == value) {
+                    System.out.println(sorted.size());
                     sorted.add(databaseItem);
-                    hashMap.remove(databaseItem);
+                    copy.remove(databaseItem);
                     break;
                 }
             }

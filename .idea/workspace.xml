@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15d0b05a-f4e0-413b-a08d-69fdb43ca8c0" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/main/java/SuitUpAI.class" afterPath="$PROJECT_DIR$/target/classes/main/java/SuitUpAI.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/main/java/SuitUpAI.java" afterPath="$PROJECT_DIR$/src/main/java/main/java/SuitUpAI.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/main/java/ValueSimilarity.java" afterPath="$PROJECT_DIR$/src/main/java/main/java/ValueSimilarity.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -31,16 +33,16 @@
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13956">
-              <caret line="1089" column="22" lean-forward="false" selection-start-line="1089" selection-start-column="22" selection-end-line="1089" selection-end-column="22" />
+            <state relative-caret-position="13986">
+              <caret line="1091" column="22" lean-forward="false" selection-start-line="1091" selection-start-column="22" selection-end-line="1091" selection-end-column="22" />
               <folding>
-                <marker date="1506809302000" expanded="true" signature="90722:90966" ph="..." />
-                <marker date="1506809302000" expanded="true" signature="90722:90981" ph="..." />
-                <marker date="1506809302000" expanded="true" signature="90722:90995" ph="..." />
-                <marker date="1506809302000" expanded="true" signature="90722:91010" ph="..." />
-                <marker date="1506809302000" expanded="true" signature="90768:90946" ph="..." />
-                <marker date="1506809302000" expanded="true" signature="90808:90912" ph="..." />
-                <marker date="1506809302000" expanded="true" signature="90829:90890" ph="..." />
+                <marker date="1506810012000" expanded="true" signature="92490:92734" ph="..." />
+                <marker date="1506810012000" expanded="true" signature="92490:92749" ph="..." />
+                <marker date="1506810012000" expanded="true" signature="92490:92763" ph="..." />
+                <marker date="1506810012000" expanded="true" signature="92490:92778" ph="..." />
+                <marker date="1506810012000" expanded="true" signature="92536:92714" ph="..." />
+                <marker date="1506810012000" expanded="true" signature="92576:92680" ph="..." />
+                <marker date="1506810012000" expanded="true" signature="92597:92658" ph="..." />
               </folding>
             </state>
           </provider>
@@ -59,10 +61,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RecEngine.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RecEngine.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/main/java/RecEngine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
+            <state relative-caret-position="-39">
               <caret line="35" column="30" lean-forward="true" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -76,23 +78,23 @@
       <file leaf-file-name="SuitUpAI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/main/java/SuitUpAI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="76" column="24" lean-forward="false" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
+            <state relative-caret-position="-129">
+              <caret line="68" column="12" lean-forward="true" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3892#3906#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ValueSimilarity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ValueSimilarity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/main/java/ValueSimilarity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="51" column="9" lean-forward="false" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
+            <state relative-caret-position="441">
+              <caret line="54" column="9" lean-forward="true" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1121#1143#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1099,7 +1101,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SuitUpAI">
+  <component name="RunManager" selected="Application.RecEngine">
     <configuration name="MongoDBUtility (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1127,6 +1129,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="url.mongodb.MongoDBUtility" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="SuitUp" />
+      <envs />
+    </configuration>
+    <configuration name="RecEngine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="main.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="main.java.RecEngine" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1238,16 +1259,18 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.MongoDBUtility" />
       <item index="1" class="java.lang.String" itemvalue="Application.MongoDBUtility (1)" />
       <item index="2" class="java.lang.String" itemvalue="Application.SuitUpAI" />
+      <item index="3" class="java.lang.String" itemvalue="Application.RecEngine" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.SuitUpAI" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MongoDBUtility (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Application.MongoDBUtility" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.RecEngine" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SuitUpAI" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MongoDBUtility (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MongoDBUtility" />
       </list>
     </recent_temporary>
   </component>
@@ -1400,15 +1423,21 @@
       <option name="project" value="LOCAL" />
       <updated>1506807703614</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="added sorting algorithm for hashmaps">
+      <created>1506809458449</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1506809458449</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25106000" />
+    <option name="totallyTimeSpent" value="25679000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="733" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1418,7 +1447,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28840125" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46865204" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30877742" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1481,7 +1510,8 @@
     <MESSAGE value="adding the ability to present the recommendation to the user" />
     <MESSAGE value="Is the AI done?" />
     <MESSAGE value="ignore items with general type of ignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="ignore items with general type of ignore" />
+    <MESSAGE value="added sorting algorithm for hashmaps" />
+    <option name="LAST_COMMIT_MESSAGE" value="added sorting algorithm for hashmaps" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1546,16 +1576,16 @@
     <entry file="file://$PROJECT_DIR$/src/url/mongodb/MongoDBUrl.java" />
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13956">
-          <caret line="1089" column="22" lean-forward="false" selection-start-line="1089" selection-start-column="22" selection-end-line="1089" selection-end-column="22" />
+        <state relative-caret-position="13986">
+          <caret line="1091" column="22" lean-forward="false" selection-start-line="1091" selection-start-column="22" selection-end-line="1091" selection-end-column="22" />
           <folding>
-            <marker date="1506809302000" expanded="true" signature="90722:90966" ph="..." />
-            <marker date="1506809302000" expanded="true" signature="90722:90981" ph="..." />
-            <marker date="1506809302000" expanded="true" signature="90722:90995" ph="..." />
-            <marker date="1506809302000" expanded="true" signature="90722:91010" ph="..." />
-            <marker date="1506809302000" expanded="true" signature="90768:90946" ph="..." />
-            <marker date="1506809302000" expanded="true" signature="90808:90912" ph="..." />
-            <marker date="1506809302000" expanded="true" signature="90829:90890" ph="..." />
+            <marker date="1506810012000" expanded="true" signature="92490:92734" ph="..." />
+            <marker date="1506810012000" expanded="true" signature="92490:92749" ph="..." />
+            <marker date="1506810012000" expanded="true" signature="92490:92763" ph="..." />
+            <marker date="1506810012000" expanded="true" signature="92490:92778" ph="..." />
+            <marker date="1506810012000" expanded="true" signature="92536:92714" ph="..." />
+            <marker date="1506810012000" expanded="true" signature="92576:92680" ph="..." />
+            <marker date="1506810012000" expanded="true" signature="92597:92658" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1605,18 +1635,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/main/java/RecEngine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="35" column="30" lean-forward="true" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/main/java/DatabaseItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3613">
@@ -1646,23 +1664,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/main/java/SuitUpAI.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/java/ValueSimilarity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="76" column="24" lean-forward="false" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
+        <state relative-caret-position="441">
+          <caret line="54" column="9" lean-forward="true" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3892#3906#0" expanded="true" />
+            <element signature="e#1121#1143#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/main/java/ValueSimilarity.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/java/SuitUpAI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="51" column="9" lean-forward="false" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
+        <state relative-caret-position="-129">
+          <caret line="68" column="12" lean-forward="true" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/java/RecEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-39">
+          <caret line="35" column="30" lean-forward="true" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
           </folding>
         </state>
       </provider>
