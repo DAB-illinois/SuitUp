@@ -54,7 +54,7 @@ categoryUrls = []
 #crawling the initial urls and storing urls in list
 print("crawling initial urls")
 for url in thUrl:
-	urlLxml = urlHelper.requestUrl(url)
+	urlLxml = urlHelper.getLxml(url)
 	if urlLxml == None:
 		continue
 	for element in urlLxml.iter():
@@ -68,7 +68,7 @@ for url in thUrl:
 # crawling the category urls
 print("crawling category urls")
 for url in categoryUrls:
-	urlLxml = urlHelper.requestUrl(url)
+	urlLxml = urlHelper.getLxml(url)
 	if urlLxml == None:
 		continue
 	for element in urlLxml.iter():
@@ -81,7 +81,7 @@ for url in categoryUrls:
 print("crawling item urls")
 while len(itemUrls) > 0:
 	url = itemUrls[0]
-	urlLxml = urlHelper.requestUrl(url)
+	urlLxml = urlHelper.getLxml(url)
 	if urlLxml == None:
 		continue
 	print("extracting related urls from:", url)
@@ -96,6 +96,7 @@ while len(itemUrls) > 0:
 			if isItem(link) and link not in itemUrls and link not in visitedUrls:
 				itemUrls.append(link)
 
-		
+		if itemDataExtractor.validColor(element):
+			print(itemDataExtractor.getColor(element))
 
 print(len(visitedUrls))

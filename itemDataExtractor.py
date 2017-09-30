@@ -2,15 +2,16 @@
 
 import lxml.html
 from lxml import etree
+import urlHelper
 
 def validColor(element):
-	if element.tag == "span":
+	if element.tag == "img":
 		attrib = element.attrib
-		return("id" in attrib and attrib["id"] == "colorValue")
+		return("class" in attrib and attrib["class"] == "imgSwatch")
 	return False
 
-def getColor(link):
-	rawHtml = str(lxml.html.tostring(element))
-	rawHtml = str(etree.tostring(element, pretty_print=True))
-	return("color: "+element.text_content())#[rawHtml.index(">")+1:rawHtml.index("<")])
+def getColor(element):
+	return element.attrib["title"]
+	
+
 			
