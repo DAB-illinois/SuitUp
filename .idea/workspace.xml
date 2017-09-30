@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15d0b05a-f4e0-413b-a08d-69fdb43ca8c0" name="Default" comment="added hashmap values for type&#10;not finished">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/main/java/Test.class" afterPath="$PROJECT_DIR$/target/classes/main/java/Test.class" />
+    <list default="true" id="15d0b05a-f4e0-413b-a08d-69fdb43ca8c0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SuitUp.iml" afterPath="$PROJECT_DIR$/SuitUp.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/main/java/Attributes.java" afterPath="$PROJECT_DIR$/src/main/java/main/java/Attributes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/main/java/DatabaseItem.java" afterPath="$PROJECT_DIR$/src/main/java/main/java/DatabaseItem.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,7 +34,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/main/java/DatabaseItem.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="309">
-              <caret line="83" column="40" lean-forward="true" selection-start-line="83" selection-start-column="40" selection-end-line="83" selection-end-column="40" />
+              <caret line="83" column="26" lean-forward="true" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <marker date="1506796697000" expanded="false" signature="6425:6436" ph=" { " />
@@ -575,7 +571,7 @@
       <workItem from="1506758993230" duration="3560000" />
       <workItem from="1506770122943" duration="735000" />
       <workItem from="1506786250653" duration="5947000" />
-      <workItem from="1506794213640" duration="2389000" />
+      <workItem from="1506794213640" duration="2434000" />
     </task>
     <task id="LOCAL-00001" summary="added python crawler">
       <created>1506747277906</created>
@@ -647,7 +643,14 @@
       <option name="project" value="LOCAL" />
       <updated>1506792085954</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Values for types">
+      <created>1506796724738</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1506796724738</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -665,7 +668,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16187000" />
+    <option name="totallyTimeSpent" value="16232000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="642" y="0" width="638" height="800" extended-state="0" />
@@ -717,7 +720,8 @@
     <MESSAGE value="added rec engine" />
     <MESSAGE value="added generate gender and price value" />
     <MESSAGE value="added hashmap values for type&#10;not finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="added hashmap values for type&#10;not finished" />
+    <MESSAGE value="Values for types" />
+    <option name="LAST_COMMIT_MESSAGE" value="Values for types" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -861,7 +865,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/main/java/DatabaseItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
-          <caret line="83" column="40" lean-forward="true" selection-start-line="83" selection-start-column="40" selection-end-line="83" selection-end-column="40" />
+          <caret line="83" column="26" lean-forward="true" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
             <marker date="1506796697000" expanded="false" signature="6425:6436" ph=" { " />
