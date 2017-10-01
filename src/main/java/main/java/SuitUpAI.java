@@ -11,7 +11,7 @@ public class SuitUpAI {
 
     private static final String IGNORE = "ignore";
 
-    private static HashMap<DatabaseItem, DatabaseItem> userPreference;
+    private static HashMap<DatabaseItem, DatabaseItem> userPreference = new HashMap<>();
     private static DatabaseItem[] databaseItems;
 
     /**
@@ -93,8 +93,19 @@ public class SuitUpAI {
     }
 
     public static void main(String[] args) {
+        if (args.length == 0) {
+            return;
+        }
+
+        //http://usa.tommy.com/en/men/T-SHIRTS-MEN/long-sleeve-crewneck-tee-dm02788
+        String url = args[0];
+        getRecommendations(url);
+
+    }
+
+    public static void getRecommendations(String link) {
         databaseItems = MongoDBUtility.retrieveMongoDatabase();
-        DatabaseItem queryItem = databaseItems[752];
+        DatabaseItem queryItem = MongoDBUtility.retrieveItemFromLink(link, databaseItems);
         if (!queryItem.getGeneralType().equalsIgnoreCase(IGNORE)) {
             System.out.println(databaseItems[752].toString());
 
