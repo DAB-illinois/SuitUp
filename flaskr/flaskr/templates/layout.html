@@ -1,24 +1,54 @@
 <!doctype html>
-<title>Flaskr</title>
+<title>Suit Up</title>
 <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+<link href="https://fonts.googleapis.com/css?family=Abel|Roboto+Slab" rel="stylesheet">
 <div class=page>
     <h1>Suit Up</h1>
     <h2>Enter a link from Tommy Hilfiger.</h2>
     <form action="." method="POST">
         <input type="text" name="text">
-        <input type="submit" name="my-form" value="Send">
+        <input type="submit" name="my-form" value="Submit">
     </form>
-    <div id="query">
-    	<p class="name">{{ name0 }}</p>
-    	<a href="{{ link0 }}"><img src="{{ img_link0 }}"></a>
+    <div id="query" class="item mid">
+        <p class="name">{{ name0 }}</p>
+        <a href="{{ link0 }}"><img src="{{ img_link0 }}"></a>
     </div>
     
-    <p class="name">{{ name1 }}</p>
-    <a href="{{ link1 }}"><img src="{{ img_link1 }}"></a>
+    <div class="item left">
+    	<div>
+    		<p class="name">{{ name1 }}</p>
+        	<a href="{{ link1 }}"><img src="{{ img_link1 }}"></a>
+    	</div>
+    	<div>
+    		<p class="description price">${{ price1 }}</p>
+    		<p class="description">{{ description1 }}</p>
+    	</div>
+    </div>
+    
+    <div class="item right">
+    	<div>
+    		<p class="name">{{ name2 }}</p>
+        	<a href="{{ link2 }}"><img src="{{ img_link2 }}"></a>
+    	</div>
+    	<div>
+        	<p class="description price">${{ price2 }}</p>
+    		<p class="description">{{ description2 }}</p>
+        </div>
+    </div>
+    
+    <div class="item left">
+    	<div>
+    		<p class="name">{{ name3 }}</p>
+        	<a href="{{ link3 }}"><img src="{{ img_link3 }}"></a>
+    	</div>
+    	<dir>
+    		<p class="description price">${{ price3 }}</p>
+    		<p class="description">{{ description3 }}</p>
+    	</dir>
+        
+    </div>
 
-    <q class="name">{{ name2 }}</q>
-    <a href="{{ link2 }}"><img src="{{ img_link2 }}"></a>
-
-    <p class="name">{{ name3 }}</p>
-    <a href="{{ link3 }}"><img src="{{ img_link3 }}"></a>
+    <div class="footer">
+        <p> © Choi, Wadhwa, Wang. 2017.</p>
+    </div>
 </div>

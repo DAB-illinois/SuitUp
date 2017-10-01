@@ -34,4 +34,11 @@ def my_form_post():
 			have.append(recommendItem)
 			need.remove(recommendItem.general_type)
 
-	return render_template("layout.html", name0=queryItem.name, link0=queryItem.link, img_link0=queryItem.pic_link, name1=have[0].name, link1=have[0].link, img_link1=have[0].pic_link, name2=have[1].name, link2=have[1].link, img_link2=have[1].pic_link, name3=have[2].name, link3=have[2].link, img_link3=have[2].pic_link)
+	return render_template("layout.html", name0=queryItem.name, link0=queryItem.link, img_link0=queryItem.pic_link, 
+		name1=have[0].name, link1=have[0].link, img_link1=have[0].pic_link, price1=have[0].price, description1=fixDescription(have[0].description), 
+		name2=have[1].name, link2=have[1].link, img_link2=have[1].pic_link, price2=have[1].price, description2=fixDescription(have[1].description), 
+		name3=have[2].name, link3=have[2].link, img_link3=have[2].pic_link, price3=have[2].price, description3=fixDescription(have[2].description))
+
+def fixDescription(description):
+	description = description.split("•")
+	return description[0]

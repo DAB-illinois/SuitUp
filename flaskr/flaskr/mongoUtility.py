@@ -42,7 +42,6 @@ def sort(hashMap):
 	sortedCosine = []
 	for i in range(len(values)):
 		value = values[i]
-		print(value)
 
 		for databaseItem in copiedMap.keys():
 			if copiedMap[databaseItem] == value:
