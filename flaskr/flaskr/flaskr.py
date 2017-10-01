@@ -18,10 +18,20 @@ def my_form_post():
 	if str(url) not in list(validUrls):
 		return render_template("layout.html", link = "error: invalid url: '"+url+"'   "+str(validUrls))
 
-	databaseItem = getDocFromLink(url, docs)
-	if databaseItem == None or databaseItem.general_type.lower() == "ignore":
+	queryItem = getDocFromLink(url, docs)
+	if queryItem == None or queryItem.general_type.lower() == "ignore":
 		return render_template("layout.html", link = "error: invalid databaseItem")
 
-	filtered = getAllRelatedItems(databaseItem, docs)
-	sortedCosine = retrieveSortedCosineSimilarity(databaseItem, filtered)
-	return render_template("layout.html", link=sortedCosine[0].link, img_link=sortedCosine[0].pic_link)
+	filtered = getAllRelatedItems(queryItem, docs)
+	sortedCosine = retrieveSortedCosineSimilarity(queryItem, filtered)
+
+	need = ["top","bottom","footwear","outer"]
+	have = []
+	need.remove(queryItem.general_type)
+	for recommendItem in sortedCosine:
+		general_type = recommendItem.general_type
+		if general_type in need:
+			have.append(recommendItem)
+			need.remove(recommendItem.general_type)
+
+	return render_template("layout.html", link0=queryItem.link, img_link0=queryItem.pic_link, link1=have[0].link, img_link1=have[0].pic_link, link2=have[1].link, img_link2=have[1].pic_link, link3=have[2].link, img_link3=have[2].pic_link)
