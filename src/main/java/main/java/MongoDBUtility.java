@@ -18,14 +18,22 @@ public class MongoDBUtility {
             "mongodb.net:27017,cluster0-shard-00-02-dx2qu.mongodb.net:27017/test?ssl=true&replicaSet=" +
             "Cluster0-shard-0&authSource=admin";
 
-    private final String DATABASE_NAME = "bmDataset";
-    private final String COLLECTION_NAME = "tommyHil";
+    private static final String DATABASE_NAME = "bmDataset";
+    private static final String COLLECTION_NAME = "tommyHil";
 
     /**
      * @return the url that directs all the data to/from
      */
     public String getUrl() {
         return url;
+    }
+
+    public static String getCollection() {
+        return COLLECTION_NAME;
+    }
+
+    public static String getDataBase() {
+        return DATABASE_NAME;
     }
 
     /**

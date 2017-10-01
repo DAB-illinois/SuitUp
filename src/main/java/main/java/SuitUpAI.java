@@ -1,5 +1,15 @@
 package main.java;
 
+import com.mongodb.*;
+import com.mongodb.client.MongoDatabase;
+
+import javax.servlet.*;
+import javax.servlet.http.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.UnsupportedEncodingException;
+import java.security.Principal;
+import javax.servlet.http.HttpServletRequest;
 import java.util.*;
 
 /**
@@ -9,8 +19,14 @@ public class SuitUpAI {
 
     private static final String IGNORE = "ignore";
 
+    private static final String USER_COLLECTION_NAME = "users";
+
     private static HashMap<DatabaseItem, DatabaseItem> userPreference = new HashMap<>();
     private static DatabaseItem[] databaseItems;
+
+    private static BasicDBObjectBuilder documentBuilder = BasicDBObjectBuilder.start()
+            .add("database", MongoDBUtility.getDataBase())
+            .add("collection", MongoDBUtility.getCollection());
 
     /**
      * This method checks whether the general type is matching and the general gender is different between all the
@@ -82,11 +98,24 @@ public class SuitUpAI {
             System.out.println("\nIf you like the recommendation, type 'yes'. If not, type 'no'.");
             String answer = userInput.nextLine();
             if (answer.equalsIgnoreCase("yes")) {
-                userPreference.put(queryItem, currentRecommendation);
+                addRetrieveDataFromUserPreference(queryItem, currentRecommendation);
                 likedRecommendation = true;
             } else {
                 System.out.println("Next Recommendation:");
             }
+        }
+    }
+
+    public static void getRecommendations(String link) {
+        databaseItems = MongoDBUtility.retrieveMongoDatabase();
+        DatabaseItem queryItem = MongoDBUtility.retrieveItemFromLink(link, databaseItems);
+        if (!queryItem.getGeneralType().equalsIgnoreCase(IGNORE)) {
+            System.out.println(databaseItems[752].toString());
+
+            ArrayList<DatabaseItem> filtered = getAllRelatedItems(queryItem);
+            System.out.println(filtered.size());
+            List<DatabaseItem> sorted = retrieveSortedCosineSimilarity(queryItem, filtered);
+            presentItemToUser(queryItem, sorted);
         }
     }
 
@@ -103,16 +132,18 @@ public class SuitUpAI {
         }
     }
 
-    public static void getRecommendations(String link) {
-        databaseItems = MongoDBUtility.retrieveMongoDatabase();
-        DatabaseItem queryItem = MongoDBUtility.retrieveItemFromLink(link, databaseItems);
-        if (!queryItem.getGeneralType().equalsIgnoreCase(IGNORE)) {
-            System.out.println(databaseItems[752].toString());
+    public static void addRetrieveDataFromUserPreference(DatabaseItem userQuery, DatabaseItem recItem) {
+        Mongo mongo = new Mongo("localhost", 27017);
+        DB db = mongo.getDB(MongoDBUtility.getCollection());
 
-            ArrayList<DatabaseItem> filtered = getAllRelatedItems(queryItem);
-            System.out.println(filtered.size());
-            List<DatabaseItem> sorted = retrieveSortedCosineSimilarity(queryItem, filtered);
-            presentItemToUser(queryItem, sorted);
-        }
+        DBCollection collection = db.getCollection(USER_COLLECTION_NAME);
+
+        BasicDBObjectBuilder documentBuilderDetail = BasicDBObjectBuilder.start()
+                .add("UserQuery", userQuery)
+                .add("RecommendedIteam", recItem);
+        documentBuilder.add("detail", documentBuilderDetail.get());
+
+        collection.insert(documentBuilder.get());
     }
+
 }
