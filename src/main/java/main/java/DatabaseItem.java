@@ -258,4 +258,10 @@ public class DatabaseItem {
 
         return fourStyles;
     }
+
+    @Override
+    public String toString() {
+        return "Name: " + name + "\nDescription: " + description + "\nPrice: " + price + "\nPic_link: " + pic_link +
+                "\nLink: " + link;
+    }
 }
