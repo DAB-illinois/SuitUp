@@ -30,6 +30,8 @@ input[type="text"] {
 
 div#query{
 	width: 50%;
+    margin: auto;
+    display: block;
 	padding: 0;
 }
 
@@ -43,5 +45,5 @@ img {
 
 p.name {
 	font-size: large;
-	text-align: center;
+	text-align: left;
 }
