@@ -1,5 +1,20 @@
-a,
-h1,
+div {
+    border-style: double;
+    border-top-color: navy;
+    border-left-color: white;
+    border-right-color: red;
+    border-bottom-color: navy;
+}
+h1 {
+    horiz-align: center;
+    text-align: center;
+    color: blue;
+    font-size: large;
+}
 h2 {
     color: #377ba8;
+}
+img {
+    display: block;
+    margin: auto;
 }
