@@ -21,7 +21,6 @@ def my_form_post():
 	queryItem = getDocFromLink(url, docs)
 	if queryItem == None or queryItem.general_type.lower() == "ignore":
 		return render_template("layout.html", link = "error: invalid databaseItem")
-	print("queryItem.link")
 
 	filtered = getAllRelatedItems(queryItem, docs)
 	sortedCosine = retrieveSortedCosineSimilarity(queryItem, filtered)
