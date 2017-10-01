@@ -30,8 +30,8 @@ public class SuitUpAI {
             DatabaseItem currentItem = databaseItems[i];
             if (!queryItem.getName().equalsIgnoreCase(currentItem.getName()) &&
                     queryItem.getGender().equalsIgnoreCase(currentItem.getGender()) &&
-                    !queryItem.getGeneralType().equalsIgnoreCase(currentItem.getGeneralType()) &&
-                    !currentItem.getGeneralType().equalsIgnoreCase(IGNORE)) {
+                        !queryItem.getGeneralType().equalsIgnoreCase(currentItem.getGeneralType()) &&
+                            !currentItem.getGeneralType().equalsIgnoreCase(IGNORE)) {
                 filteredDataBaseItems.add(databaseItems[i]);
             }
         }
@@ -91,14 +91,16 @@ public class SuitUpAI {
     }
 
     public static void main(String[] args) {
-        if (args.length == 0) {
-            return;
+        databaseItems = MongoDBUtility.retrieveMongoDatabase();
+        DatabaseItem queryItem = databaseItems[752];
+        if (!queryItem.getGeneralType().equalsIgnoreCase(IGNORE)) {
+            System.out.println(databaseItems[752].toString());
+
+            ArrayList<DatabaseItem> filtered = getAllRelatedItems(queryItem);
+            System.out.println(filtered.size());
+            List<DatabaseItem> sorted = retrieveSortedCosineSimilarity(queryItem, filtered);
+            presentItemToUser(queryItem, sorted);
         }
-
-        //http://usa.tommy.com/en/men/T-SHIRTS-MEN/long-sleeve-crewneck-tee-dm02788
-        String url = args[0];
-        getRecommendations(url);
-
     }
 
     public static void getRecommendations(String link) {
