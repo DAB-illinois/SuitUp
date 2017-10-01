@@ -1,5 +1,8 @@
 a,
-h1,
+h1 {
+    horiz-align: center;
+    color: blue;
+}
 h2 {
     color: #377ba8;
 }
