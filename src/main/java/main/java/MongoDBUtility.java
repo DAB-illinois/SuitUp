@@ -1,11 +1,10 @@
-package mongodb;
+package main.java;
 
 import com.google.gson.Gson;
 import com.mongodb.MongoClient;
 import com.mongodb.MongoClientURI;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
-import main.java.DatabaseItem;
 import org.bson.Document;
 
 import java.util.*;

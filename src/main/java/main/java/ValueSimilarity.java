@@ -1,9 +1,5 @@
 package main.java;
 
-import mongodb.MongoDBUtility;
-
-import javax.sound.midi.SysexMessage;
-import javax.xml.crypto.Data;
 import java.util.*;
 
 public class ValueSimilarity {
