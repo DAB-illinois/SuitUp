@@ -1,22 +1,44 @@
-div {
-    border-style: double;
-    border-top-color: black;
-    border-left-color: darkred;
-    border-right-color: darkred;
-    border-bottom-color: black;
-    border-width: thick;
+body {
+    padding: 0;
+    margin: 0;
 }
+
 h1 {
-    horiz-align: center;
     text-align: center;
-    color: blue;
-    font-size: xx-large;
+    color: white;
+    font-size: 72px;
+    line-height: 50vh;
+    margin: 0;
+    padding: 0;
+    background: url(../static/back.jpg)
 }
+
 h2 {
-    font-size: medium;
+    font-size: x-large;
+    margin-left: 1%;
     color: dodgerblue;
 }
+
+form {
+    margin-left: 1%;
+    width: 100%;
+}
+
+input[type="text"] {
+	width: 45%;
+}
+
 img {
     display: block;
     margin: auto;
+    border: outset 2px gray;
+}
+
+p {
+    margin-left: 10px;
+}
+
+p.name {
+	font-size: large;
+	text-align: center;
 }

@@ -35,4 +35,4 @@ def my_form_post():
 			have.append(recommendItem)
 			need.remove(recommendItem.general_type)
 
-	return render_template("layout.html", link0=queryItem.link, img_link0=queryItem.pic_link, link1=have[0].link, img_link1=have[0].pic_link, link2=have[1].link, img_link2=have[1].pic_link, link3=have[2].link, img_link3=have[2].pic_link)
+	return render_template("layout.html", name0=queryItem.name, link0=queryItem.link, img_link0=queryItem.pic_link, name1=have[0].name, link1=have[0].link, img_link1=have[0].pic_link, name2=have[1].name, link2=have[1].link, img_link2=have[1].pic_link, name3=have[2].name, link3=have[2].link, img_link3=have[2].pic_link)
