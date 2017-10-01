@@ -1,0 +1,12 @@
+<!doctype html>
+<title>Flaskr</title>
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+<div class=page>
+    <h1>Suit Up!</h1>
+    <h2>Enter a link from Tommy Hilfiger.</h2>
+    <form action="." method="POST">
+        <input type="text" name="text">
+        <input type="submit" name="my-form" value="Send">
+    </form>
+    <p>{{ link }}</p>
+</div>
