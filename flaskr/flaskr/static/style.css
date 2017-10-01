@@ -28,14 +28,17 @@ input[type="text"] {
 	width: 45%;
 }
 
+div#query{
+	width: 50%;
+	padding: 0;
+}
+
 img {
     display: block;
     margin: auto;
     border: outset 2px gray;
-}
-
-p {
-    margin-left: 10px;
+    padding: 0;
+    width: 50%;
 }
 
 p.name {

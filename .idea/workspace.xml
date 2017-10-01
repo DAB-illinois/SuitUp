@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15d0b05a-f4e0-413b-a08d-69fdb43ca8c0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_mongodb_mongodb_driver_3_4_31.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_mongodb_mongodb_driver_3_4_31.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flaskr/flaskr/static/style.css" afterPath="$PROJECT_DIR$/flaskr/flaskr/static/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flaskr/flaskr/templates/layout.html" afterPath="$PROJECT_DIR$/flaskr/flaskr/templates/layout.html" />
     </list>
@@ -30,11 +29,9 @@
       <file leaf-file-name="layout.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flaskr/flaskr/templates/layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-              <folding>
-                <marker date="1506830507000" expanded="true" signature="251:361" ph="..." />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -468,7 +465,7 @@
       <workItem from="1506758762614" duration="42000" />
       <workItem from="1506758993230" duration="3560000" />
       <workItem from="1506813986676" duration="6674000" />
-      <workItem from="1506830110748" duration="329000" />
+      <workItem from="1506830110748" duration="492000" />
     </task>
     <task id="LOCAL-00001" summary="added python crawler">
       <created>1506747277906</created>
@@ -691,7 +688,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36670000" />
+    <option name="totallyTimeSpent" value="36833000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="6" y="23" width="1260" height="731" extended-state="0" />
@@ -919,11 +916,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/flaskr/flaskr/templates/layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding>
-            <marker date="1506830507000" expanded="true" signature="251:361" ph="..." />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
