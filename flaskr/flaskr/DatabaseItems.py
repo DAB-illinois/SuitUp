@@ -51,14 +51,15 @@ class DatabaseItems():
 		self.business = -1
 		self.fancy = -1
 		self.pattern = -1
-		self.vector = []
+		self.vector = [0,0,0,0,0,0]
 
 	def generateValues(self):
-		self.vector.append(self.generateGenderValue())
-		self.vector.append(self.generatePriceValue())
+		self.vector[0] = self.generateGenderValue()
+		self.vector[1] = self.generatePriceValue()
 		styleVector = self.generateStyleValue()
+		styleVectorIndex = 2
 		for i in range(len(styleVector)):
-			self.vector.append(styleVector[i])
+			self.vector[i+styleVectorIndex] = styleVector[i]
 		return self.vector
 
 	def generateGenderValue(self):
@@ -105,7 +106,6 @@ class DatabaseItems():
 				fourStyles.append(typeValues[i] * casualCategoryValue / TYPE_WEIGHT)
 			for i in range(2,4):
 				fourStyles.append(typeValues[i] * formalCategoryValue / TYPE_WEIGHT)
+		if(len(fourStyles) != 4):
+			print(self.url)
 		return fourStyles
-
-
-
