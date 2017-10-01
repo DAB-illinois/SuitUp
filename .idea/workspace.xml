@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15d0b05a-f4e0-413b-a08d-69fdb43ca8c0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/com_google_code_gson_gson_2_8_21.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_mongodb_mongodb_driver_3_4_31.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/com_google_code_gson_gson_2_8_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/org_mongodb_mongodb_driver_3_4_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/main/java/Attributes.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/main/java/SuitUpAI.class" afterPath="$PROJECT_DIR$/target/classes/main/java/SuitUpAI.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SuitUp.iml" afterPath="$PROJECT_DIR$/SuitUp.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flaskr/flaskr.egg-info/SOURCES.txt" afterPath="$PROJECT_DIR$/flaskr/flaskr.egg-info/SOURCES.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flaskr/flaskr/__init__.py" afterPath="$PROJECT_DIR$/flaskr/flaskr/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flaskr/flaskr/flaskr.py" afterPath="$PROJECT_DIR$/flaskr/flaskr/flaskr.py" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,16 +28,16 @@
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4080">
-              <caret line="272" column="22" lean-forward="false" selection-start-line="272" selection-start-column="22" selection-end-line="272" selection-end-column="22" />
+            <state relative-caret-position="3945">
+              <caret line="263" column="22" lean-forward="false" selection-start-line="263" selection-start-column="22" selection-end-line="263" selection-end-column="22" />
               <folding>
-                <marker date="1506825160000" expanded="true" signature="53558:53802" ph="..." />
-                <marker date="1506825160000" expanded="true" signature="53558:53817" ph="..." />
-                <marker date="1506825160000" expanded="true" signature="53558:53831" ph="..." />
-                <marker date="1506825160000" expanded="true" signature="53558:53846" ph="..." />
-                <marker date="1506825160000" expanded="true" signature="53604:53782" ph="..." />
-                <marker date="1506825160000" expanded="true" signature="53644:53748" ph="..." />
-                <marker date="1506825160000" expanded="true" signature="53665:53726" ph="..." />
+                <marker date="1506825233000" expanded="true" signature="52729:52973" ph="..." />
+                <marker date="1506825233000" expanded="true" signature="52729:52988" ph="..." />
+                <marker date="1506825233000" expanded="true" signature="52729:53002" ph="..." />
+                <marker date="1506825233000" expanded="true" signature="52729:53017" ph="..." />
+                <marker date="1506825233000" expanded="true" signature="52775:52953" ph="..." />
+                <marker date="1506825233000" expanded="true" signature="52815:52919" ph="..." />
+                <marker date="1506825233000" expanded="true" signature="52836:52897" ph="..." />
               </folding>
             </state>
           </provider>
@@ -68,7 +58,7 @@
       <file leaf-file-name="SuitUpAI.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/main/java/SuitUpAI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="471">
               <caret line="113" column="9" lean-forward="true" selection-start-line="113" selection-start-column="9" selection-end-line="113" selection-end-column="9" />
               <folding />
             </state>
@@ -469,7 +459,7 @@
       <workItem from="1506757536086" duration="31000" />
       <workItem from="1506758762614" duration="42000" />
       <workItem from="1506758993230" duration="3560000" />
-      <workItem from="1506813986676" duration="6674000" />
+      <workItem from="1506813986676" duration="6763000" />
     </task>
     <task id="LOCAL-00001" summary="added python crawler">
       <created>1506747277906</created>
@@ -660,15 +650,21 @@
       <option name="project" value="LOCAL" />
       <updated>1506818502591</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="flask working">
+      <created>1506825221013</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1506825221013</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33718000" />
+    <option name="totallyTimeSpent" value="33807000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="733" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -681,9 +677,9 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="HDInsight Spark Submission" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26802507" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26802507" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Azure Activity Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30877742" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30877742" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22859451" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -729,7 +725,8 @@
     <MESSAGE value="changed main method" />
     <MESSAGE value="moved mongoDBUtility" />
     <MESSAGE value="deleted files" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleted files" />
+    <MESSAGE value="flask working" />
+    <option name="LAST_COMMIT_MESSAGE" value="flask working" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -793,16 +790,16 @@
     <entry file="file://$PROJECT_DIR$/src/url/mongodb/MongoDBUrl.java" />
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4080">
-          <caret line="272" column="22" lean-forward="false" selection-start-line="272" selection-start-column="22" selection-end-line="272" selection-end-column="22" />
+        <state relative-caret-position="3945">
+          <caret line="263" column="22" lean-forward="false" selection-start-line="263" selection-start-column="22" selection-end-line="263" selection-end-column="22" />
           <folding>
-            <marker date="1506825160000" expanded="true" signature="53558:53802" ph="..." />
-            <marker date="1506825160000" expanded="true" signature="53558:53817" ph="..." />
-            <marker date="1506825160000" expanded="true" signature="53558:53831" ph="..." />
-            <marker date="1506825160000" expanded="true" signature="53558:53846" ph="..." />
-            <marker date="1506825160000" expanded="true" signature="53604:53782" ph="..." />
-            <marker date="1506825160000" expanded="true" signature="53644:53748" ph="..." />
-            <marker date="1506825160000" expanded="true" signature="53665:53726" ph="..." />
+            <marker date="1506825233000" expanded="true" signature="52729:52973" ph="..." />
+            <marker date="1506825233000" expanded="true" signature="52729:52988" ph="..." />
+            <marker date="1506825233000" expanded="true" signature="52729:53002" ph="..." />
+            <marker date="1506825233000" expanded="true" signature="52729:53017" ph="..." />
+            <marker date="1506825233000" expanded="true" signature="52775:52953" ph="..." />
+            <marker date="1506825233000" expanded="true" signature="52815:52919" ph="..." />
+            <marker date="1506825233000" expanded="true" signature="52836:52897" ph="..." />
           </folding>
         </state>
       </provider>
@@ -885,7 +882,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/main/java/SuitUpAI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="471">
           <caret line="113" column="9" lean-forward="true" selection-start-line="113" selection-start-column="9" selection-end-line="113" selection-end-column="9" />
           <folding />
         </state>
