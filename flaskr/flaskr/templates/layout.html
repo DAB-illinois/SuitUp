@@ -2,23 +2,18 @@
 <title>Flaskr</title>
 <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
 <div class=page>
-    <h1>Suit Up!</h1>
+    <h1>Suit Up</h1>
     <h2>Enter a link from Tommy Hilfiger.</h2>
-    
     <form action="." method="POST">
         <input type="text" name="text">
         <input type="submit" name="my-form" value="Send">
     </form>
-
-    <p>{{ link0 }}</p>
-    <img src="{{ img_link0 }}">
-
-    <p>{{ link1 }}</p>
-    <img src="{{ img_link1 }}">
-
-    <p>{{ link2 }}</p>
-    <img src="{{ img_link2 }}">
-
-    <p>{{ link3 }}</p>
-    <img src="{{ img_link3 }}">
+    <p class="name">{{ name0 }}</p>
+    <a href="{{ link0 }}"><img id="query" src="{{ img_link0 }}"></a>
+    <p class="name">{{ name1 }}</p>
+    <a href="{{ link1 }}"><img src="{{ img_link1 }}"></a>
+    <p class="name">{{ name2 }}</p>
+    <a href="{{ link2 }}"><img src="{{ img_link2 }}"></a>
+    <p class="name">{{ name3 }}</p>
+    <a href="{{ link3 }}"><img src="{{ img_link3 }}"></a>
 </div>
