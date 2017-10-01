@@ -24,4 +24,4 @@ def my_form_post():
 
 	filtered = getAllRelatedItems(databaseItem, docs)
 	sortedCosine = retrieveSortedCosineSimilarity(databaseItem, filtered)
-	return render_template("layout.html", link = sortedCosine[0].link)
+	return render_template("layout.html", link=sortedCosine[0].link, img_link=sortedCosine[0].pic_link)
