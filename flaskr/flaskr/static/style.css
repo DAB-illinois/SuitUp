@@ -1,5 +1,22 @@
-a,
-h1,
+div {
+    border-style: double;
+    border-top-color: black;
+    border-left-color: darkred;
+    border-right-color: darkred;
+    border-bottom-color: black;
+    border-width: thick;
+}
+h1 {
+    horiz-align: center;
+    text-align: center;
+    color: blue;
+    font-size: xx-large;
+}
 h2 {
-    color: #377ba8;
+    font-size: medium;
+    color: dodgerblue;
+}
+img {
+    display: block;
+    margin: auto;
 }
