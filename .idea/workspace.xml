@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15d0b05a-f4e0-413b-a08d-69fdb43ca8c0" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/mongodb/mongodb/MongoDBUtility.java" afterPath="$PROJECT_DIR$/src/main/java/main/java/MongoDBUtility.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/com_google_code_gson_gson_2_8_21.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_mongodb_mongodb_driver_3_4_31.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/com_google_code_gson_gson_2_8_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/org_mongodb_mongodb_driver_3_4_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/main/java/Attributes.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/main/java/SuitUpAI.class" afterPath="$PROJECT_DIR$/target/classes/main/java/SuitUpAI.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/main/java/RecEngine.java" afterPath="$PROJECT_DIR$/src/main/java/main/java/RecEngine.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/main/java/SuitUpAI.java" afterPath="$PROJECT_DIR$/src/main/java/main/java/SuitUpAI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/main/java/ValueSimilarity.java" afterPath="$PROJECT_DIR$/src/main/java/main/java/ValueSimilarity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SuitUp.iml" afterPath="$PROJECT_DIR$/SuitUp.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flaskr/flaskr.egg-info/SOURCES.txt" afterPath="$PROJECT_DIR$/flaskr/flaskr.egg-info/SOURCES.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flaskr/flaskr/__init__.py" afterPath="$PROJECT_DIR$/flaskr/flaskr/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flaskr/flaskr/flaskr.py" afterPath="$PROJECT_DIR$/flaskr/flaskr/flaskr.py" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,51 +38,16 @@
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5430">
-              <caret line="362" column="22" lean-forward="false" selection-start-line="362" selection-start-column="22" selection-end-line="362" selection-end-column="22" />
+            <state relative-caret-position="4080">
+              <caret line="272" column="22" lean-forward="false" selection-start-line="272" selection-start-column="22" selection-end-line="272" selection-end-column="22" />
               <folding>
-                <marker date="1506818194000" expanded="true" signature="59627:59748" ph="..." />
-                <marker date="1506818194000" expanded="true" signature="59627:59766" ph="..." />
-                <marker date="1506818194000" expanded="true" signature="59627:59779" ph="..." />
-                <marker date="1506818194000" expanded="true" signature="59627:59794" ph="..." />
-                <marker date="1506818194000" expanded="true" signature="59650:59731" ph="..." />
-                <marker date="1506818194000" expanded="true" signature="59829:62345" ph="..." />
-                <marker date="1506818194000" expanded="true" signature="59842:62330" ph="..." />
-                <marker date="1506818194000" expanded="true" signature="59896:60191" ph="..." />
-                <marker date="1506818194000" expanded="true" signature="59915:60176" ph="..." />
-                <marker date="1506818194000" expanded="true" signature="59978:60156" ph="..." />
-                <marker date="1506818194000" expanded="true" signature="60018:60122" ph="..." />
-                <marker date="1506818194000" expanded="true" signature="60039:60100" ph="..." />
-                <marker date="1506818194000" expanded="true" signature="60241:60568" ph="..." />
-                <marker date="1506818194000" expanded="true" signature="60260:60553" ph="..." />
-                <marker date="1506818194000" expanded="true" signature="60355:60533" ph="..." />
-                <marker date="1506818194000" expanded="true" signature="60395:60499" ph="..." />
-                <marker date="1506818194000" expanded="true" signature="60416:60477" ph="..." />
-                <marker date="1506818194000" expanded="true" signature="60619:60884" ph="..." />
-                <marker date="1506818194000" expanded="true" signature="60638:60869" ph="..." />
-                <marker date="1506818194000" expanded="true" signature="60671:60849" ph="..." />
-                <marker date="1506818194000" expanded="true" signature="60711:60815" ph="..." />
-                <marker date="1506818194000" expanded="true" signature="60732:60793" ph="..." />
-                <marker date="1506818194000" expanded="true" signature="60927:61231" ph="..." />
-                <marker date="1506818194000" expanded="true" signature="60946:61216" ph="..." />
-                <marker date="1506818194000" expanded="true" signature="61018:61196" ph="..." />
-                <marker date="1506818194000" expanded="true" signature="61058:61162" ph="..." />
-                <marker date="1506818194000" expanded="true" signature="61079:61140" ph="..." />
-                <marker date="1506818194000" expanded="true" signature="61282:61591" ph="..." />
-                <marker date="1506818194000" expanded="true" signature="61301:61576" ph="..." />
-                <marker date="1506818194000" expanded="true" signature="61378:61556" ph="..." />
-                <marker date="1506818194000" expanded="true" signature="61418:61522" ph="..." />
-                <marker date="1506818194000" expanded="true" signature="61439:61500" ph="..." />
-                <marker date="1506818194000" expanded="true" signature="61626:61932" ph="..." />
-                <marker date="1506818194000" expanded="true" signature="61645:61917" ph="..." />
-                <marker date="1506818194000" expanded="true" signature="61719:61897" ph="..." />
-                <marker date="1506818194000" expanded="true" signature="61759:61863" ph="..." />
-                <marker date="1506818194000" expanded="true" signature="61780:61841" ph="..." />
-                <marker date="1506818194000" expanded="true" signature="61984:62316" ph="..." />
-                <marker date="1506818194000" expanded="true" signature="62003:62301" ph="..." />
-                <marker date="1506818194000" expanded="true" signature="62103:62281" ph="..." />
-                <marker date="1506818194000" expanded="true" signature="62143:62247" ph="..." />
-                <marker date="1506818194000" expanded="true" signature="62164:62225" ph="..." />
+                <marker date="1506825160000" expanded="true" signature="53558:53802" ph="..." />
+                <marker date="1506825160000" expanded="true" signature="53558:53817" ph="..." />
+                <marker date="1506825160000" expanded="true" signature="53558:53831" ph="..." />
+                <marker date="1506825160000" expanded="true" signature="53558:53846" ph="..." />
+                <marker date="1506825160000" expanded="true" signature="53604:53782" ph="..." />
+                <marker date="1506825160000" expanded="true" signature="53644:53748" ph="..." />
+                <marker date="1506825160000" expanded="true" signature="53665:53726" ph="..." />
               </folding>
             </state>
           </provider>
@@ -95,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SuitUpAI.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SuitUpAI.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/main/java/SuitUpAI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1134">
-              <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+            <state relative-caret-position="300">
+              <caret line="113" column="9" lean-forward="true" selection-start-line="113" selection-start-column="9" selection-end-line="113" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -108,38 +78,20 @@
       <file leaf-file-name="MongoDBUtility.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/main/java/MongoDBUtility.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="366">
+              <caret line="95" column="10" lean-forward="false" selection-start-line="95" selection-start-column="10" selection-end-line="95" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ValueSimilarity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ValueSimilarity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/main/java/ValueSimilarity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="543">
-              <caret line="49" column="9" lean-forward="false" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Clothes.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/main/java/Clothes.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Attributes.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/main/java/Attributes.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+            <state relative-caret-position="245">
+              <caret line="37" column="40" lean-forward="false" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -148,30 +100,9 @@
       <file leaf-file-name="DatabaseItem.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/main/java/DatabaseItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="83" lean-forward="false" selection-start-line="25" selection-start-column="83" selection-end-line="25" selection-end-column="83" />
-              <folding>
-                <element signature="e#9397#9398#0" expanded="true" />
-                <element signature="e#9426#9427#0" expanded="true" />
-                <element signature="e#9457#9458#0" expanded="true" />
-                <element signature="e#9484#9485#0" expanded="true" />
-                <element signature="e#9522#9523#0" expanded="true" />
-                <element signature="e#9556#9557#0" expanded="true" />
-                <element signature="e#9590#9591#0" expanded="true" />
-                <element signature="e#9621#9622#0" expanded="true" />
-                <element signature="e#9656#9657#0" expanded="true" />
-                <element signature="e#9685#9686#0" expanded="true" />
-                <element signature="e#9716#9717#0" expanded="true" />
-                <element signature="e#9743#9744#0" expanded="true" />
-                <element signature="e#9778#9779#0" expanded="true" />
-                <element signature="e#9809#9810#0" expanded="true" />
-                <element signature="e#9840#9841#0" expanded="true" />
-                <element signature="e#9867#9868#0" expanded="true" />
-                <element signature="e#9899#9900#0" expanded="true" />
-                <element signature="e#9927#9928#0" expanded="true" />
-                <element signature="e#9965#9966#0" expanded="true" />
-                <element signature="e#10000#10001#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="414">
+              <caret line="224" column="19" lean-forward="false" selection-start-line="224" selection-start-column="19" selection-end-line="224" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -270,11 +201,6 @@
             <path>
               <item name="SuitUp" type="b2602c69:ProjectViewProjectNode" />
               <item name="SuitUp" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SuitUp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SuitUp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -297,11 +223,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SuitUp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SuitUp" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SuitUp" type="b2602c69:ProjectViewProjectNode" />
@@ -313,6 +234,10 @@
               <item name="SuitUp" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SuitUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -324,12 +249,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
+    <property name="Repository.Attach.Sources" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/danielchoi/IdeaProjects/SuitUp/src/main/java/main/java/ValueSimilarity.java" />
@@ -407,6 +332,25 @@
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="http://usa.tommy.com/en/men/T-SHIRTS-MEN/long-sleeve-crewneck-tee-dm02788" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="SuitUp" />
+      <envs />
+    </configuration>
+    <configuration name="ValueSimilarity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="main.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="main.java.ValueSimilarity" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -496,15 +440,17 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.SuitUpAI" />
       <item index="1" class="java.lang.String" itemvalue="Application.MongoDBUtility" />
       <item index="2" class="java.lang.String" itemvalue="Application.MongoDBUtility (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ValueSimilarity" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.MongoDBUtility (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MongoDBUtility" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.ValueSimilarity" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MongoDBUtility (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MongoDBUtility" />
       </list>
     </recent_temporary>
   </component>
@@ -523,7 +469,7 @@
       <workItem from="1506757536086" duration="31000" />
       <workItem from="1506758762614" duration="42000" />
       <workItem from="1506758993230" duration="3560000" />
-      <workItem from="1506813986676" duration="2245000" />
+      <workItem from="1506813986676" duration="6674000" />
     </task>
     <task id="LOCAL-00001" summary="added python crawler">
       <created>1506747277906</created>
@@ -700,11 +646,25 @@
       <option name="project" value="LOCAL" />
       <updated>1506818179647</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="moved mongoDBUtility">
+      <created>1506818312940</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1506818312940</updated>
+    </task>
+    <task id="LOCAL-00027" summary="deleted files">
+      <created>1506818502591</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1506818502591</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29289000" />
+    <option name="totallyTimeSpent" value="33718000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="733" extended-state="6" />
@@ -721,9 +681,9 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="HDInsight Spark Submission" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26802507" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26802507" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Azure Activity Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30877742" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30877742" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22859451" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -767,14 +727,15 @@
     <MESSAGE value="added python flask server" />
     <MESSAGE value="installed flask app" />
     <MESSAGE value="changed main method" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed main method" />
+    <MESSAGE value="moved mongoDBUtility" />
+    <MESSAGE value="deleted files" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/main/java/ValueSimilarity.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/main/java/Attributes.java" />
     <entry file="file://$PROJECT_DIR$/.project" />
     <entry file="file://$PROJECT_DIR$/src/main/java/main/java/Clothes.java" />
@@ -832,51 +793,16 @@
     <entry file="file://$PROJECT_DIR$/src/url/mongodb/MongoDBUrl.java" />
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5430">
-          <caret line="362" column="22" lean-forward="false" selection-start-line="362" selection-start-column="22" selection-end-line="362" selection-end-column="22" />
+        <state relative-caret-position="4080">
+          <caret line="272" column="22" lean-forward="false" selection-start-line="272" selection-start-column="22" selection-end-line="272" selection-end-column="22" />
           <folding>
-            <marker date="1506818194000" expanded="true" signature="59627:59748" ph="..." />
-            <marker date="1506818194000" expanded="true" signature="59627:59766" ph="..." />
-            <marker date="1506818194000" expanded="true" signature="59627:59779" ph="..." />
-            <marker date="1506818194000" expanded="true" signature="59627:59794" ph="..." />
-            <marker date="1506818194000" expanded="true" signature="59650:59731" ph="..." />
-            <marker date="1506818194000" expanded="true" signature="59829:62345" ph="..." />
-            <marker date="1506818194000" expanded="true" signature="59842:62330" ph="..." />
-            <marker date="1506818194000" expanded="true" signature="59896:60191" ph="..." />
-            <marker date="1506818194000" expanded="true" signature="59915:60176" ph="..." />
-            <marker date="1506818194000" expanded="true" signature="59978:60156" ph="..." />
-            <marker date="1506818194000" expanded="true" signature="60018:60122" ph="..." />
-            <marker date="1506818194000" expanded="true" signature="60039:60100" ph="..." />
-            <marker date="1506818194000" expanded="true" signature="60241:60568" ph="..." />
-            <marker date="1506818194000" expanded="true" signature="60260:60553" ph="..." />
-            <marker date="1506818194000" expanded="true" signature="60355:60533" ph="..." />
-            <marker date="1506818194000" expanded="true" signature="60395:60499" ph="..." />
-            <marker date="1506818194000" expanded="true" signature="60416:60477" ph="..." />
-            <marker date="1506818194000" expanded="true" signature="60619:60884" ph="..." />
-            <marker date="1506818194000" expanded="true" signature="60638:60869" ph="..." />
-            <marker date="1506818194000" expanded="true" signature="60671:60849" ph="..." />
-            <marker date="1506818194000" expanded="true" signature="60711:60815" ph="..." />
-            <marker date="1506818194000" expanded="true" signature="60732:60793" ph="..." />
-            <marker date="1506818194000" expanded="true" signature="60927:61231" ph="..." />
-            <marker date="1506818194000" expanded="true" signature="60946:61216" ph="..." />
-            <marker date="1506818194000" expanded="true" signature="61018:61196" ph="..." />
-            <marker date="1506818194000" expanded="true" signature="61058:61162" ph="..." />
-            <marker date="1506818194000" expanded="true" signature="61079:61140" ph="..." />
-            <marker date="1506818194000" expanded="true" signature="61282:61591" ph="..." />
-            <marker date="1506818194000" expanded="true" signature="61301:61576" ph="..." />
-            <marker date="1506818194000" expanded="true" signature="61378:61556" ph="..." />
-            <marker date="1506818194000" expanded="true" signature="61418:61522" ph="..." />
-            <marker date="1506818194000" expanded="true" signature="61439:61500" ph="..." />
-            <marker date="1506818194000" expanded="true" signature="61626:61932" ph="..." />
-            <marker date="1506818194000" expanded="true" signature="61645:61917" ph="..." />
-            <marker date="1506818194000" expanded="true" signature="61719:61897" ph="..." />
-            <marker date="1506818194000" expanded="true" signature="61759:61863" ph="..." />
-            <marker date="1506818194000" expanded="true" signature="61780:61841" ph="..." />
-            <marker date="1506818194000" expanded="true" signature="61984:62316" ph="..." />
-            <marker date="1506818194000" expanded="true" signature="62003:62301" ph="..." />
-            <marker date="1506818194000" expanded="true" signature="62103:62281" ph="..." />
-            <marker date="1506818194000" expanded="true" signature="62143:62247" ph="..." />
-            <marker date="1506818194000" expanded="true" signature="62164:62225" ph="..." />
+            <marker date="1506825160000" expanded="true" signature="53558:53802" ph="..." />
+            <marker date="1506825160000" expanded="true" signature="53558:53817" ph="..." />
+            <marker date="1506825160000" expanded="true" signature="53558:53831" ph="..." />
+            <marker date="1506825160000" expanded="true" signature="53558:53846" ph="..." />
+            <marker date="1506825160000" expanded="true" signature="53604:53782" ph="..." />
+            <marker date="1506825160000" expanded="true" signature="53644:53748" ph="..." />
+            <marker date="1506825160000" expanded="true" signature="53665:53726" ph="..." />
           </folding>
         </state>
       </provider>
@@ -897,14 +823,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/main/java/Attributes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/main/java/Clothes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -913,32 +831,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/java/Attributes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/java/DatabaseItem.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/java/MongoDBUtility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="95" column="10" lean-forward="false" selection-start-line="95" selection-start-column="10" selection-end-line="95" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/main/java/DatabaseItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="83" lean-forward="false" selection-start-line="25" selection-start-column="83" selection-end-line="25" selection-end-column="83" />
-          <folding>
-            <element signature="e#9397#9398#0" expanded="true" />
-            <element signature="e#9426#9427#0" expanded="true" />
-            <element signature="e#9457#9458#0" expanded="true" />
-            <element signature="e#9484#9485#0" expanded="true" />
-            <element signature="e#9522#9523#0" expanded="true" />
-            <element signature="e#9556#9557#0" expanded="true" />
-            <element signature="e#9590#9591#0" expanded="true" />
-            <element signature="e#9621#9622#0" expanded="true" />
-            <element signature="e#9656#9657#0" expanded="true" />
-            <element signature="e#9685#9686#0" expanded="true" />
-            <element signature="e#9716#9717#0" expanded="true" />
-            <element signature="e#9743#9744#0" expanded="true" />
-            <element signature="e#9778#9779#0" expanded="true" />
-            <element signature="e#9809#9810#0" expanded="true" />
-            <element signature="e#9840#9841#0" expanded="true" />
-            <element signature="e#9867#9868#0" expanded="true" />
-            <element signature="e#9899#9900#0" expanded="true" />
-            <element signature="e#9927#9928#0" expanded="true" />
-            <element signature="e#9965#9966#0" expanded="true" />
-            <element signature="e#10000#10001#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="414">
+          <caret line="224" column="19" lean-forward="false" selection-start-line="224" selection-start-column="19" selection-end-line="224" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/java/ValueSimilarity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="37" column="40" lean-forward="false" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -954,24 +885,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/main/java/SuitUpAI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1134">
-          <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/main/java/MongoDBUtility.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/main/java/ValueSimilarity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="49" column="9" lean-forward="false" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+        <state relative-caret-position="300">
+          <caret line="113" column="9" lean-forward="true" selection-start-line="113" selection-start-column="9" selection-end-line="113" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -1016,7 +931,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>9</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1052,7 +967,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: org.json:json:20090211</last-edited>
+          <last-edited>com.google.code.gson:gson:2.8.21</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
