@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="15d0b05a-f4e0-413b-a08d-69fdb43ca8c0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flaskr/flaskr/static/style.css" afterPath="$PROJECT_DIR$/flaskr/flaskr/static/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flaskr/flaskr/templates/layout.html" afterPath="$PROJECT_DIR$/flaskr/flaskr/templates/layout.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -285,18 +283,8 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/libraries/org_mongodb_mongodb_driver_3_4_31.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/flaskr/flaskr.egg-info/PKG-INFO</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/flaskr/flaskr/__pycache__/DatabaseItems.cpython-34.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/flaskr/flaskr/__pycache__/flaskr.cpython-34.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/flaskr/flaskr/__pycache__/key.cpython-34.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/flaskr/flaskr/__pycache__/mongoUtility.cpython-34.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/flaskr/flaskr/DatabaseItems.py</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/flaskr/flaskr/flaskr.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/flaskr/flaskr/static/style.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/flaskr/flaskr/templates/layout.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/main/java/SuitUpAI.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/main.iml</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Created" />
@@ -304,7 +292,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/flaskr/flaskr/static/back.jpg</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -809,11 +796,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506829635298</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="stuff with css">
+      <created>1506832506102</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1506832506102</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38297000" />
+    <option name="totallyTimeSpent" value="38315000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="735" extended-state="6" />
@@ -903,7 +897,8 @@
     <MESSAGE value="Center allign text on web" />
     <MESSAGE value="Border colors and texts" />
     <MESSAGE value="Border thickness" />
-    <option name="LAST_COMMIT_MESSAGE" value="Border thickness" />
+    <MESSAGE value="stuff with css" />
+    <option name="LAST_COMMIT_MESSAGE" value="stuff with css" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
