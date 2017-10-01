@@ -84,7 +84,7 @@ public class MongoDBUtility {
             }
         }
 
-        for (String c:categories) {
+        for (String c : categories) {
             System.out.println(c);
         }
     }
@@ -92,5 +92,14 @@ public class MongoDBUtility {
     public static DatabaseItem[] retrieveMongoDatabase() {
         MongoDBUtility testData = new MongoDBUtility();
         return testData.getJsonFromString(testData.retrieveData());
+    }
+
+    public static DatabaseItem retrieveItemFromLink(String link, DatabaseItem[] databaseItems) {
+        for (DatabaseItem databaseItem : databaseItems) {
+            if (databaseItem.getLink().equalsIgnoreCase(link)) {
+                return databaseItem;
+            }
+        }
+        return null;
     }
 }
