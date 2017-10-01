@@ -4,26 +4,25 @@ import java.util.HashMap;
 
 public class DatabaseItem {
 
-    private static final int VECTOR_LENGTH = 6;
+    private static final int VECTOR_LENGTH = 7;
     private static final int GENDER_WEIGHT = 10;
     private static final int PRICE_WEIGHT = 5;
-    private static final int TYPE_WEIGHT = 8;
     private static final int PRICE_MIN = 20;
     private static final int PRICE_MAX = 1690;
 
     private static final String[] TOP = new String[]{"tee", "blouse", "polo", "shirt", "boatneck",
             "crewneck", "t-shirt", "top", "tank", "t-shirtdress", "crew", "turtleneck", "henley"};
     private static final String[] BOTTOM = new String[]{"jean", "jogger", "skirt", "pant",
-            "jegging", "trouser", "short", "shorts", "legging", "trousers", "sweatpants", "chino",
+            "jegging", "trouser", "short", "shorts", "legging", "trousers", "sweatpant", "chino",
             "sweatpant", "john", "tights"};
     private static final String[] FULL_BODY = new String[]{"dress", "shirtdress", "tunic",
-            "jumpsuit", "suit"};
+            "jumpsuit", "coverup", "suit"};
     private static final String[] FOOTWEAR = new String[]{"sneaker", "shoe", "shoes", "loafer",
             "flat", "bootie", "hi-top", "creeper", "boot", "ballerina", "mule", "hiker", "slip-on",
-            "oxford", "moccasin", "wedge"};
+            "oxford", "gilet", "moccasin", "wedge"};
     private static final String[] OUTER = new String[]{"bomber", "cardigan", "sweatshirt",
-            "sweater", "hoodie", "jacket", "coat", "blazer", "flannel", "puffer", "parka", "biker",
-            "vest", "windbreaker", "trench", "peacoat", "lounger", "fleece", "gilet"};
+            "sweater", "hoodie", "jacket", "coat", "blazer", "flannel", "puffer", "parka", "bike",
+            "vest", "windbreaker", "trench", "peacoat", "lounger", "fleece"};
     private static final String[] IGNORE = new String[]{"print", "bra", "brief", "bikini", "bag",
             "backpack", "scarf", "necklace", "tie", "belt", "set", "socks", "sock", "thong", "2pk",
             "3pk", "trunk", "bralette", "watch", "sunglasses", "square", "ring", "cap", "hat", "ii",
@@ -206,12 +205,6 @@ public class DatabaseItem {
         vector = new double[VECTOR_LENGTH];
         vector[0] = generateGenderValue();
         vector[1] = generatePriceValue();
-
-        double[] styleVector = generateStyleValue();
-        int vectorStyleIndex = 2;
-        for (int i = 0; i < styleVector.length; i++) {
-            vector[i+vectorStyleIndex] = styleVector[i];
-        }
         //casual
         //formal
         //pattern
@@ -244,44 +237,25 @@ public class DatabaseItem {
         // get category value
         String categoryLower = category.toLowerCase();
         double casualCategoryValue = -1;
-        double formalCategoryValue = -1;
+        double formalCategoryValues = -1;
         for (String c : CATEGORY_VALUES.keySet()) {
             if (categoryLower.contains(c)) {
                 casualCategoryValue = CATEGORY_VALUES.get(c);
-                formalCategoryValue = TYPE_WEIGHT - casualCategoryValue;
+                formalCategoryValues = 8 - casualCategoryValue;
                 break;
             }
         }
 
         if (casualCategoryValue == -1) {
             Double[] typeValues = TYPE_VALUES.get(type.toLowerCase());
-            if (typeValues == null) {
-                System.out.println("no category:" + link);
-                return new double[]{0.0, 0.0, 0.0, 0.0};
-            }
             for (int i = 0; i < typeValues.length; i++) {
                 fourStyles[i] = typeValues[i];
             }
         } else {
-            Double[] typeValues = TYPE_VALUES.get(type.toLowerCase());
-            if (typeValues == null) {
-                System.out.println(link);
-                return new double[]{0.0, 0.0, 0.0, 0.0};
-            }
-            for (int i = 0; i < 2; i++) {
-                fourStyles[i] = typeValues[i]*casualCategoryValue/TYPE_WEIGHT;
-            }
-            for (int i = 2; i < 4; i++) {
-                fourStyles[i] = typeValues[i]*formalCategoryValue/TYPE_WEIGHT;
-            }
+
         }
 
-        return fourStyles;
-    }
 
-    @Override
-    public String toString() {
-        return "Name: " + name + "\nDescription " + description + "\nPrice: " + price + "\nPic_link: " + pic_link +
-                "\nLink: " + link;
+        return fourStyles;
     }
 }
