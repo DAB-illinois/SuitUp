@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15d0b05a-f4e0-413b-a08d-69fdb43ca8c0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/main/java/DatabaseItem.class" afterPath="$PROJECT_DIR$/target/classes/main/java/DatabaseItem.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/main/java/SuitUpAI.class" afterPath="$PROJECT_DIR$/target/classes/main/java/SuitUpAI.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SuitUp.iml" afterPath="$PROJECT_DIR$/SuitUp.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/main/java/DatabaseItem.java" afterPath="$PROJECT_DIR$/src/main/java/main/java/DatabaseItem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/main/java/MongoDBUtility.java" afterPath="$PROJECT_DIR$/src/main/java/main/java/MongoDBUtility.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/main/java/SuitUpAI.java" afterPath="$PROJECT_DIR$/src/main/java/main/java/SuitUpAI.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -60,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/flaskr/flaskr/static/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="645">
-              <caret line="43" column="1" lean-forward="false" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+              <caret line="48" column="1" lean-forward="false" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -70,7 +63,7 @@
         <entry file="file://$PROJECT_DIR$/flaskr/flaskr/templates/layout.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+              <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -304,10 +297,7 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/flaskr/flaskr/__pycache__/DatabaseItems.cpython-34.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/flaskr/flaskr/__pycache__/flaskr.cpython-34.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/flaskr/flaskr/__pycache__/key.cpython-34.pyc</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/flaskr/flaskr/__pycache__/mongoUtility.cpython-34.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/flaskr/flaskr/DatabaseItems.py</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/flaskr/flaskr/flaskr.py</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/flaskr/flaskr/static/style.css</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/flaskr/flaskr/templates/layout.html</PATH>
@@ -318,7 +308,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/flaskr/flaskr/static/back.jpg</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -858,11 +847,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506831335733</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="added user settings for AI">
+      <created>1506839173323</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1506839173324</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43627000" />
+    <option name="totallyTimeSpent" value="43666000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1394" height="877" extended-state="6" />
@@ -954,7 +950,8 @@
     <MESSAGE value="Border colors and texts" />
     <MESSAGE value="Border thickness" />
     <MESSAGE value="libraries added" />
-    <option name="LAST_COMMIT_MESSAGE" value="libraries added" />
+    <MESSAGE value="added user settings for AI" />
+    <option name="LAST_COMMIT_MESSAGE" value="added user settings for AI" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -996,47 +993,47 @@
         <state relative-caret-position="6915">
           <caret line="461" column="22" lean-forward="false" selection-start-line="461" selection-start-column="22" selection-end-line="461" selection-end-column="22" />
           <folding>
-            <marker date="1506837253000" expanded="true" signature="71099:71115" ph="..." />
-            <marker date="1506837253000" expanded="true" signature="71099:71133" ph="..." />
-            <marker date="1506837253000" expanded="true" signature="71099:71146" ph="..." />
-            <marker date="1506837253000" expanded="true" signature="71099:71161" ph="..." />
-            <marker date="1506837253000" expanded="true" signature="73616:73904" ph="..." />
-            <marker date="1506837253000" expanded="true" signature="73616:73889" ph="..." />
-            <marker date="1506837253000" expanded="true" signature="71263:71558" ph="..." />
-            <marker date="1506837253000" expanded="true" signature="71282:71543" ph="..." />
-            <marker date="1506837253000" expanded="true" signature="71345:71523" ph="..." />
-            <marker date="1506837253000" expanded="true" signature="71385:71489" ph="..." />
-            <marker date="1506837253000" expanded="true" signature="71406:71467" ph="..." />
-            <marker date="1506837253000" expanded="true" signature="71608:71935" ph="..." />
-            <marker date="1506837253000" expanded="true" signature="71627:71920" ph="..." />
-            <marker date="1506837253000" expanded="true" signature="71722:71900" ph="..." />
-            <marker date="1506837253000" expanded="true" signature="71762:71866" ph="..." />
-            <marker date="1506837253000" expanded="true" signature="71783:71844" ph="..." />
-            <marker date="1506837253000" expanded="true" signature="71986:72251" ph="..." />
-            <marker date="1506837253000" expanded="true" signature="72005:72236" ph="..." />
-            <marker date="1506837253000" expanded="true" signature="72038:72216" ph="..." />
-            <marker date="1506837253000" expanded="true" signature="72078:72182" ph="..." />
-            <marker date="1506837253000" expanded="true" signature="72099:72160" ph="..." />
-            <marker date="1506837253000" expanded="true" signature="72294:72600" ph="..." />
-            <marker date="1506837253000" expanded="true" signature="72313:72585" ph="..." />
-            <marker date="1506837253000" expanded="true" signature="72387:72565" ph="..." />
-            <marker date="1506837253000" expanded="true" signature="72427:72531" ph="..." />
-            <marker date="1506837253000" expanded="true" signature="72448:72509" ph="..." />
-            <marker date="1506837253000" expanded="true" signature="72651:72960" ph="..." />
-            <marker date="1506837253000" expanded="true" signature="72670:72945" ph="..." />
-            <marker date="1506837253000" expanded="true" signature="72747:72925" ph="..." />
-            <marker date="1506837253000" expanded="true" signature="72787:72891" ph="..." />
-            <marker date="1506837253000" expanded="true" signature="72808:72869" ph="..." />
-            <marker date="1506837253000" expanded="true" signature="72995:73301" ph="..." />
-            <marker date="1506837253000" expanded="true" signature="73014:73286" ph="..." />
-            <marker date="1506837253000" expanded="true" signature="73088:73266" ph="..." />
-            <marker date="1506837253000" expanded="true" signature="73128:73232" ph="..." />
-            <marker date="1506837253000" expanded="true" signature="73149:73210" ph="..." />
-            <marker date="1506837253000" expanded="true" signature="73616:73875" ph="..." />
-            <marker date="1506837253000" expanded="true" signature="73616:73860" ph="..." />
-            <marker date="1506837253000" expanded="true" signature="73662:73840" ph="..." />
-            <marker date="1506837253000" expanded="true" signature="73702:73806" ph="..." />
-            <marker date="1506837253000" expanded="true" signature="73723:73784" ph="..." />
+            <marker date="1506839185000" expanded="true" signature="71099:71115" ph="..." />
+            <marker date="1506839185000" expanded="true" signature="71099:71133" ph="..." />
+            <marker date="1506839185000" expanded="true" signature="71099:71146" ph="..." />
+            <marker date="1506839185000" expanded="true" signature="71099:71161" ph="..." />
+            <marker date="1506839185000" expanded="true" signature="73226:73514" ph="..." />
+            <marker date="1506839185000" expanded="true" signature="73226:73499" ph="..." />
+            <marker date="1506839185000" expanded="true" signature="71263:71558" ph="..." />
+            <marker date="1506839185000" expanded="true" signature="71282:71543" ph="..." />
+            <marker date="1506839185000" expanded="true" signature="71345:71523" ph="..." />
+            <marker date="1506839185000" expanded="true" signature="71385:71489" ph="..." />
+            <marker date="1506839185000" expanded="true" signature="71406:71467" ph="..." />
+            <marker date="1506839185000" expanded="true" signature="71608:71935" ph="..." />
+            <marker date="1506839185000" expanded="true" signature="71627:71920" ph="..." />
+            <marker date="1506839185000" expanded="true" signature="71722:71900" ph="..." />
+            <marker date="1506839185000" expanded="true" signature="71762:71866" ph="..." />
+            <marker date="1506839185000" expanded="true" signature="71783:71844" ph="..." />
+            <marker date="1506839185000" expanded="true" signature="71986:72251" ph="..." />
+            <marker date="1506839185000" expanded="true" signature="72005:72236" ph="..." />
+            <marker date="1506839185000" expanded="true" signature="72038:72216" ph="..." />
+            <marker date="1506839185000" expanded="true" signature="72078:72182" ph="..." />
+            <marker date="1506839185000" expanded="true" signature="72099:72160" ph="..." />
+            <marker date="1506839185000" expanded="true" signature="72294:72600" ph="..." />
+            <marker date="1506839185000" expanded="true" signature="72313:72585" ph="..." />
+            <marker date="1506839185000" expanded="true" signature="72387:72565" ph="..." />
+            <marker date="1506839185000" expanded="true" signature="72427:72531" ph="..." />
+            <marker date="1506839185000" expanded="true" signature="72448:72509" ph="..." />
+            <marker date="1506839185000" expanded="true" signature="72651:72960" ph="..." />
+            <marker date="1506839185000" expanded="true" signature="72670:72945" ph="..." />
+            <marker date="1506839185000" expanded="true" signature="72747:72925" ph="..." />
+            <marker date="1506839185000" expanded="true" signature="72787:72891" ph="..." />
+            <marker date="1506839185000" expanded="true" signature="72808:72869" ph="..." />
+            <marker date="1506839185000" expanded="true" signature="72995:73301" ph="..." />
+            <marker date="1506839185000" expanded="true" signature="73014:73286" ph="..." />
+            <marker date="1506839185000" expanded="true" signature="73088:73266" ph="..." />
+            <marker date="1506839185000" expanded="true" signature="73128:73232" ph="..." />
+            <marker date="1506839185000" expanded="true" signature="73149:73210" ph="..." />
+            <marker date="1506839185000" expanded="true" signature="73226:73485" ph="..." />
+            <marker date="1506839185000" expanded="true" signature="73226:73470" ph="..." />
+            <marker date="1506839185000" expanded="true" signature="73272:73450" ph="..." />
+            <marker date="1506839185000" expanded="true" signature="73312:73416" ph="..." />
+            <marker date="1506839185000" expanded="true" signature="73333:73394" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1122,7 +1119,7 @@
     <entry file="file://$PROJECT_DIR$/flaskr/flaskr/static/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
-          <caret line="43" column="1" lean-forward="false" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+          <caret line="48" column="1" lean-forward="false" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1138,7 +1135,7 @@
     <entry file="file://$PROJECT_DIR$/flaskr/flaskr/templates/layout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+          <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
           <folding />
         </state>
       </provider>
