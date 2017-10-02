@@ -9,18 +9,18 @@ app.config.from_object(__name__) # load config from this file , flaskr.py
 # Load default config and override config from an environment variable
 @app.route('/')
 def my_form():
-    return render_template("layout.html")
+    return render_template("layout.html", visibility="invisible", footer_absolute="absolute")
 
 @app.route('/', methods=['POST'])
 def my_form_post():
 	url = request.form['text']
 
 	if str(url) not in list(validUrls):
-		return render_template("layout.html", link = "error: invalid url: '"+url+"'   "+str(validUrls))
+		return render_template("layout.html", visibility="invisible", footer_absolute="absolute", message="Error: Invalid URL: "+url)
 
 	queryItem = getDocFromLink(url, docs)
 	if queryItem == None or queryItem.general_type.lower() == "ignore":
-		return render_template("layout.html", link = "error: invalid databaseItem")
+		return render_template("layout.html", visibility="invisible", footer_absolute="absolute", message="Error: Not in database")
 
 	filtered = getAllRelatedItems(queryItem, docs)
 	sortedCosine = retrieveSortedCosineSimilarity(queryItem, filtered)
@@ -34,7 +34,7 @@ def my_form_post():
 			have.append(recommendItem)
 			need.remove(recommendItem.general_type)
 
-	return render_template("layout.html", name0=queryItem.name, link0=queryItem.link, img_link0=queryItem.pic_link, 
+	return render_template("layout.html", visibility="visible", name0=queryItem.name, link0=queryItem.link, img_link0=queryItem.pic_link, 
 		name1=have[0].name, link1=have[0].link, img_link1=have[0].pic_link, price1=have[0].price, description1=fixDescription(have[0].description), 
 		name2=have[1].name, link2=have[1].link, img_link2=have[1].pic_link, price2=have[1].price, description2=fixDescription(have[1].description), 
 		name3=have[2].name, link3=have[2].link, img_link3=have[2].pic_link, price3=have[2].price, description3=fixDescription(have[2].description))

@@ -9,12 +9,13 @@
         <input type="text" name="text">
         <input type="submit" name="my-form" value="Submit">
     </form>
-    <div id="query" class="item mid">
+    <h2 class="error">{{ message }}</h2>
+    <div id="query" class="{{ visibility }} item mid">
         <p class="name">{{ name0 }}</p>
         <a href="{{ link0 }}"><img src="{{ img_link0 }}"></a>
     </div>
     
-    <div class="item left">
+    <div class="{{ visibility }} item left">
     	<div>
     		<p class="name">{{ name1 }}</p>
         	<a href="{{ link1 }}"><img src="{{ img_link1 }}"></a>
@@ -25,7 +26,7 @@
     	</div>
     </div>
     
-    <div class="item right">
+    <div class="{{ visibility }} item right">
     	<div>
     		<p class="name">{{ name2 }}</p>
         	<a href="{{ link2 }}"><img src="{{ img_link2 }}"></a>
@@ -36,7 +37,7 @@
         </div>
     </div>
     
-    <div class="item left">
+    <div class="{{ visibility }} item left">
     	<div>
     		<p class="name">{{ name3 }}</p>
         	<a href="{{ link3 }}"><img src="{{ img_link3 }}"></a>
@@ -48,7 +49,7 @@
         
     </div>
 
-    <div class="footer">
+    <div class="{{ footer_absolute }} footer">
         <p> © Choi, Wadhwa, Wang. 2017.</p>
     </div>
 </div>
