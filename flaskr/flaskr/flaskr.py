@@ -27,17 +27,19 @@ def my_form_post():
 
 	need = ["top","bottom","footwear","outer"]
 	have = []
+	haveCosine = []
 	need.remove(queryItem.general_type)
 	for recommendItem in sortedCosine:
-		general_type = recommendItem.general_type
+		general_type = recommendItem[0].general_type
 		if general_type in need:
-			have.append(recommendItem)
-			need.remove(recommendItem.general_type)
+			have.append(recommendItem[0])
+			haveCosine.append(recommendItem[1])
+			need.remove(recommendItem[0].general_type)
 
 	return render_template("layout.html", visibility="visible", name0=queryItem.name, link0=queryItem.link, img_link0=queryItem.pic_link, 
-		name1=have[0].name, link1=have[0].link, img_link1=have[0].pic_link, price1=have[0].price, description1=fixDescription(have[0].description), 
-		name2=have[1].name, link2=have[1].link, img_link2=have[1].pic_link, price2=have[1].price, description2=fixDescription(have[1].description), 
-		name3=have[2].name, link3=have[2].link, img_link3=have[2].pic_link, price3=have[2].price, description3=fixDescription(have[2].description))
+		name1=have[0].name, link1=have[0].link, img_link1=have[0].pic_link, price1=have[0].price, description1=fixDescription(have[0].description), cosine1=haveCosine[0], 
+		name2=have[1].name, link2=have[1].link, img_link2=have[1].pic_link, price2=have[1].price, description2=fixDescription(have[1].description), cosine2=haveCosine[1],
+		name3=have[2].name, link3=have[2].link, img_link3=have[2].pic_link, price3=have[2].price, description3=fixDescription(have[2].description), cosine3=haveCosine[2])
 
 def fixDescription(description):
 	description = description.split("•")

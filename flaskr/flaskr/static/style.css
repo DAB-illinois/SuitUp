@@ -109,6 +109,7 @@ p.name {
 
 .footer p {
     background: url(../static/back.jpg);
+    background-position: bottom;
     color: white;
     position: relative;
     font-size: 1em;
@@ -116,6 +117,7 @@ p.name {
     text-transform: uppercase;
     line-height: 20vh;
     letter-spacing: 5px;
+    width: 100%;
     padding: 0;
     margin: 0;  
     bottom: 0;

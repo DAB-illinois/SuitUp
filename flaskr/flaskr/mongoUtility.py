@@ -45,7 +45,7 @@ def sort(hashMap):
 
 		for databaseItem in copiedMap.keys():
 			if copiedMap[databaseItem] == value:
-				sortedCosine.append(databaseItem)
+				sortedCosine.append([databaseItem, value])
 				del copiedMap[databaseItem]
 				break
 	return sortedCosine
