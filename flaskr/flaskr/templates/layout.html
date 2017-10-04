@@ -12,46 +12,45 @@
     <h2 class="error">{{ message }}</h2>
     <div id="query" class="{{ visibility }} item mid">
         <p class="name">{{ name0 }}</p>
+        <p class="vector">{{ vector0 }}</p>
         <a href="{{ link0 }}"><img src="{{ img_link0 }}"></a>
     </div>
-    
     <div class="{{ visibility }} item left">
-    	<div>
-    		<p class="name">{{ name1 }}</p>
-        	<a href="{{ link1 }}"><img src="{{ img_link1 }}"></a>
-    	</div>
-    	<div>
-    		<p class="description price">${{ price1 }}</p>
-    		<p class="description">{{ description1 }}</p>
-    		<p class="description">Cosine Value: {{ cosine1 }}</p>
-    	</div>
-    </div>
-    
-    <div class="{{ visibility }} item right">
-    	<div>
-    		<p class="name">{{ name2 }}</p>
-        	<a href="{{ link2 }}"><img src="{{ img_link2 }}"></a>
-    	</div>
-    	<div>
-        	<p class="description price">${{ price2 }}</p>
-    		<p class="description">{{ description2 }}</p>
-    		<p class="description">Cosine Value: {{ cosine2 }}</p>
+        <div>
+            <p class="name">{{ name1 }}</p>
+            <a href="{{ link1 }}"><img src="{{ img_link1 }}"></a>
+        </div>
+        <div>
+            <p class="description price">${{ price1 }}</p>
+            <p class="description">{{ description1 }}</p>
+            <p class="description">Cosine Value: {{ cosine1 }}</p>
+            <p class="description">{{ vector1 }}</p>
         </div>
     </div>
-    
-    <div class="{{ visibility }} item left">
-    	<div>
-    		<p class="name">{{ name3 }}</p>
-        	<a href="{{ link3 }}"><img src="{{ img_link3 }}"></a>
-    	</div>
-    	<div>
-    		<p class="description price">${{ price3 }}</p>
-    		<p class="description">{{ description3 }}</p>
-    		<p class="description">Cosine Value: {{ cosine3 }}</p>
-    	</div>
-        
+    <div class="{{ visibility }} item right">
+        <div>
+            <p class="name">{{ name2 }}</p>
+            <a href="{{ link2 }}"><img src="{{ img_link2 }}"></a>
+        </div>
+        <div>
+            <p class="description price">${{ price2 }}</p>
+            <p class="description">{{ description2 }}</p>
+            <p class="description">Cosine Value: {{ cosine2 }}</p>
+            <p class="description">{{ vector2 }}</p>
+        </div>
     </div>
-
+    <div class="{{ visibility }} item left">
+        <div>
+            <p class="name">{{ name3 }}</p>
+            <a href="{{ link3 }}"><img src="{{ img_link3 }}"></a>
+        </div>
+        <div>
+            <p class="description price">${{ price3 }}</p>
+            <p class="description">{{ description3 }}</p>
+            <p class="description">Cosine Value: {{ cosine3 }}</p>
+            <p class="description">{{ vector3 }}</p>
+        </div>
+    </div>
     <div class="{{ footer_absolute }} footer">
         <p> © Choi, Wadhwa, Wang. 2017.</p>
     </div>

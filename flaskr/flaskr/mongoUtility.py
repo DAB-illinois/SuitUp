@@ -16,68 +16,70 @@ docs = []
 validUrls = []
 
 for data in result:
-	databaseItem = DatabaseItems(data["gender"], data["link"], data["description"], data["pic_link"], data["colors"], data["name"], data["category"], data["type"], data["price"], data["general_type"])
-	docs.append(databaseItem)
+	database_item = DatabaseItems(data["gender"], data["link"], 
+		data["description"], data["pic_link"], data["colors"], 
+		data["name"], data["category"], data["type"], data["price"], 
+		data["general_type"])
+	docs.append(database_item)
 	validUrls.append(data["link"])
 
-def cosineSimilarity(query, rec):
-	scalar = computeDotProduct(query, rec);
-	norm1 = computeDotProduct(query, query) ** 0.5
-	norm2 = computeDotProduct(rec, rec) ** 0.5
+def cosine_similarity(query, rec):
+	scalar = compute_pot_product(query, rec);
+	norm1 = compute_pot_product(query, query) ** 0.5
+	norm2 = compute_pot_product(rec, rec) ** 0.5
 
 	return scalar / float(norm1 * norm2)
 
-def computeDotProduct(queryValues, recValues):
+def compute_pot_product(query_values, rec_values):
 	value = 0
-	for i in range(len(queryValues)):
-		value += queryValues[i] * recValues[i]
+	for i in range(len(query_values)):
+		value += query_values[i] * rec_values[i]
 	return value
 
-def sort(hashMap):
-	copiedMap = hashMap.copy()
-	values = hashMap.values()
+def sort(hash_map):
+	copiedMap = hash_map.copy()
+	values = hash_map.values()
 	values = sorted(values)
 	values.reverse()
 
-	sortedCosine = []
+	sorted_cosine = []
 	for i in range(len(values)):
 		value = values[i]
 
-		for databaseItem in copiedMap.keys():
-			if copiedMap[databaseItem] == value:
-				sortedCosine.append([databaseItem, value])
-				del copiedMap[databaseItem]
+		for database_item in copiedMap.keys():
+			if copiedMap[database_item] == value:
+				sorted_cosine.append([database_item, value])
+				del copiedMap[database_item]
 				break
-	return sortedCosine
+	return sorted_cosine
 
-def getDocFromLink(link1, docs):
-	for databaseItem in docs:
-		if databaseItem.link == link1:
-			return databaseItem
+def get_doc_from_link(link1, docs):
+	for database_item in docs:
+		if database_item.link == link1:
+			return database_item
 	return None
 
-def getAllRelatedItems(queryItem, databaseItems):
-	if databaseItems == None or len(databaseItems) == 0 or queryItem == None:
+def get_all_related_items(query_item, database_items):
+	if database_items == None or len(database_items) == 0 or query_item == None:
 		return None
-	filteredDataBaseItems = []
+	filtered_data_base_items = []
 
-	for i in range(len(databaseItems)):
-		currentItem = databaseItems[i]
-		if (queryItem.name.lower() != currentItem.name.lower()) and (queryItem.gender.lower() == currentItem.gender.lower()) and (queryItem.general_type.lower() != currentItem.general_type.lower()) and (currentItem.general_type.lower != "ignore"):
-			filteredDataBaseItems.append(currentItem)
-	return filteredDataBaseItems
+	for i in range(len(database_items)):
+		currentItem = database_items[i]
+		if (query_item.name.lower() != currentItem.name.lower()) and (query_item.gender.lower() == currentItem.gender.lower()) and (query_item.general_type.lower() != currentItem.general_type.lower()) and (currentItem.general_type.lower != "ignore"):
+			filtered_data_base_items.append(currentItem)
+	return filtered_data_base_items
 
-def retrieveSortedCosineSimilarity(queryItem, filteredDataBaseItems):
-	if filteredDataBaseItems == None or len(filteredDataBaseItems) == 0 or queryItem == None:
+def retrieve_sorted_cosine_similarity(query_item, filtered_data_base_items):
+	if filtered_data_base_items == None or len(filtered_data_base_items) == 0 or query_item == None:
 		return None
 
-	similarityWithQueryitem = {}
-	queryVectorValues = queryItem.generateValues()
+	similarity_with_query_item = {}
+	query_vector_values = query_item.generateValues()
 
-	for item in filteredDataBaseItems:
-		itemVectorValues = item.generateValues()
-		cosine = cosineSimilarity(queryVectorValues, itemVectorValues)
-		similarityWithQueryitem[item] = cosine
+	for item in filtered_data_base_items:
+		item_vector_values = item.generateValues()
+		cosine = cosine_similarity(query_vector_values, item_vector_values)
+		similarity_with_query_item[item] = cosine
 
-	sortedCosine = sort(similarityWithQueryitem)
-	return sortedCosine
+	return sort(similarity_with_query_item)

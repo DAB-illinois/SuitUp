@@ -35,7 +35,7 @@ TYPE_VALUES = {"bomber": [2.0, 5.0, 0.0, 0.0], "tee": [4.5, 6.5, 0.0, 0.0], "t-s
 		"trench": [0.0, 6.0, 6.0, 6.0], "windbreaker": [0.0, 8.0, 0.0, 0.0]}
 
 class DatabaseItems():
-	def __init__(self, gender, link, description, pic_link, colors, name, category, clothingType, price, general_type):
+	def __init__(self, gender, link, description, pic_link, colors, name, category, clothing_type, price, general_type):
 		self.gender = gender
 		self.link = link
 		self.description = description
@@ -43,7 +43,7 @@ class DatabaseItems():
 		self.colors = colors
 		self.name = name
 		self.category = category
-		self.clothingType = clothingType
+		self.clothing_type = clothing_type
 		self.price = price
 		self.general_type = general_type #"ignore" if not giving recommendations for
 		self.athletic = -1
@@ -93,13 +93,13 @@ class DatabaseItems():
 				break
 
 		if casualCategoryValue == -1:
-			typeValues = TYPE_VALUES[self.clothingType.lower()]
+			typeValues = TYPE_VALUES[self.clothing_type.lower()]
 			if typeValues == None:
 				return [0,0,0,0]
 			for i in range(len(typeValues)):
 				fourStyles.append(typeValues[i])
 		else:
-			typeValues = TYPE_VALUES[self.clothingType.lower()]
+			typeValues = TYPE_VALUES[self.clothing_type.lower()]
 			if typeValues == None:
 				return [0,0,0,0]
 			for i in range(2):
