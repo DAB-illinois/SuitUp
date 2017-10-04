@@ -4,8 +4,6 @@
     <list default="true" id="15d0b05a-f4e0-413b-a08d-69fdb43ca8c0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flaskr/flaskr/flaskr.py" afterPath="$PROJECT_DIR$/flaskr/flaskr/flaskr.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flaskr/flaskr/mongoUtility.py" afterPath="$PROJECT_DIR$/flaskr/flaskr/mongoUtility.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flaskr/flaskr/static/style.css" afterPath="$PROJECT_DIR$/flaskr/flaskr/static/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flaskr/flaskr/templates/layout.html" afterPath="$PROJECT_DIR$/flaskr/flaskr/templates/layout.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -59,13 +57,8 @@
             <state relative-caret-position="135">
               <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
               <folding>
-                <marker date="1507076677000" expanded="true" signature="750:1058" ph="..." />
-                <marker date="1507076677000" expanded="true" signature="761:874" ph="..." />
-                <marker date="1507076677000" expanded="true" signature="885:1058" ph="..." />
-                <marker date="1507076677000" expanded="true" signature="1940:1959" ph="..." />
-                <marker date="1507076677000" expanded="true" signature="1959:1979" ph="..." />
-                <marker date="1507076677000" expanded="true" signature="2027:2082" ph="..." />
-                <marker date="1507076677000" expanded="true" signature="2082:2089" ph="..." />
+                <marker date="1507083626000" expanded="true" signature="1313:1368" ph="..." />
+                <marker date="1507083626000" expanded="true" signature="1368:1375" ph="..." />
               </folding>
             </state>
           </provider>
@@ -506,7 +499,7 @@
       <workItem from="1506831929667" duration="318000" />
       <workItem from="1506956962574" duration="31000" />
       <workItem from="1507061438738" duration="459000" />
-      <workItem from="1507075869762" duration="1031000" />
+      <workItem from="1507075869762" duration="1071000" />
     </task>
     <task id="LOCAL-00001" summary="added python crawler">
       <created>1506747277906</created>
@@ -736,7 +729,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39107000" />
+    <option name="totallyTimeSpent" value="39147000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="6" y="23" width="1260" height="731" extended-state="0" />
@@ -949,13 +942,8 @@
         <state relative-caret-position="135">
           <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
           <folding>
-            <marker date="1507076677000" expanded="true" signature="750:1058" ph="..." />
-            <marker date="1507076677000" expanded="true" signature="761:874" ph="..." />
-            <marker date="1507076677000" expanded="true" signature="885:1058" ph="..." />
-            <marker date="1507076677000" expanded="true" signature="1940:1959" ph="..." />
-            <marker date="1507076677000" expanded="true" signature="1959:1979" ph="..." />
-            <marker date="1507076677000" expanded="true" signature="2027:2082" ph="..." />
-            <marker date="1507076677000" expanded="true" signature="2082:2089" ph="..." />
+            <marker date="1507083626000" expanded="true" signature="1313:1368" ph="..." />
+            <marker date="1507083626000" expanded="true" signature="1368:1375" ph="..." />
           </folding>
         </state>
       </provider>
