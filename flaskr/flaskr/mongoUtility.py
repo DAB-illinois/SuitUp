@@ -1,8 +1,8 @@
 from pymongo import MongoClient
 import json
 from collections import namedtuple
-from .key import *
-from .DatabaseItems import *
+from key import *
+from DatabaseItems import *
 
 DATABASE_NAME = "bmDataset"
 COLLECTION_NAME = "tommyHil"

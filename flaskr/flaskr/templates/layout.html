@@ -15,21 +15,20 @@
         <p class="vector">{{ vector0 }}</p>
         <a href="{{ link0 }}"><img src="{{ img_link0 }}"></a>
     </div>
-
     {% for result in results %}
-	    <div class="{{ visibility }} item {{ results[result][1]}}">
-	        <div>
-	            <p class="name">{{ result.name }}</p>
-	            <a href="{{ result.link }}"><img src="{{ result.pic_link }}"></a>
-	        </div>
-	        <div>
-	            <p class="description price">${{ result.price }}</p>
-	            <p class="description">{{ result.description }}</p>
-	            <p class="description">Cosine Value: {{ results[result][0] }}</p>
-	            <p class="description">{{ result.vector }}</p>
-	        </div>
-	    </div>
-  	{% endfor %}
+    <div class="{{ visibility }} item {{ result[2]}}">
+        <div>
+            <p class="name">{{ result[0].name }}</p>
+            <a href="{{ result[0].link }}"><img src="{{ result[0].pic_link }}"></a>
+        </div>
+        <div>
+            <p class="description price">${{ result[0].price }}</p>
+            <p class="description">{{ result[0].description }}</p>
+            <p class="description">Cosine Value: {{ result[1] }}</p>
+            <p class="description">{{ result[0].vector }}</p>
+        </div>
+    </div>
+    {% endfor %}
     <div class="{{ footer_absolute }} footer">
         <p> © Choi, Wadhwa, Wang. 2017.</p>
     </div>

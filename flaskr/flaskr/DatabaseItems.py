@@ -45,21 +45,22 @@ class DatabaseItems():
 		self.category = category
 		self.clothing_type = clothing_type
 		self.price = price
-		self.general_type = general_type #"ignore" if not giving recommendations for
+		self.general_type = general_type # "ignore" if not giving recommendations for
 		self.athletic = -1
 		self.leisure = -1
 		self.business = -1
 		self.fancy = -1
 		self.pattern = -1
-		self.vector = [0,0,0,0,0,0]
+		self.vector = [0] * VECTOR_LENGTH
 
 	def generateValues(self):
-		self.vector[0] = self.generateGenderValue()
-		self.vector[1] = self.generatePriceValue()
-		styleVector = self.generateStyleValue()
-		styleVectorIndex = 2
-		for i in range(len(styleVector)):
-			self.vector[i+styleVectorIndex] = styleVector[i]
+		if self.vector == [0] * VECTOR_LENGTH:
+			self.vector[0] = self.generateGenderValue()
+			self.vector[1] = self.generatePriceValue()
+			styleVector = self.generateStyleValue()
+			styleVectorIndex = 2
+			for i in range(len(styleVector)):
+				self.vector[i + styleVectorIndex] = styleVector[i]
 		return self.vector
 
 	def generateGenderValue(self):
@@ -97,7 +98,7 @@ class DatabaseItems():
 			if typeValues == None:
 				return [0,0,0,0]
 			for i in range(len(typeValues)):
-				fourStyles.append(typeValues[i])
+				fourStyles.append(typeValues[i] * 1 / 2)
 		else:
 			typeValues = TYPE_VALUES[self.clothing_type.lower()]
 			if typeValues == None:
@@ -106,6 +107,4 @@ class DatabaseItems():
 				fourStyles.append(typeValues[i] * casualCategoryValue / TYPE_WEIGHT)
 			for i in range(2,4):
 				fourStyles.append(typeValues[i] * formalCategoryValue / TYPE_WEIGHT)
-		if(len(fourStyles) != 4):
-			print(self.url)
 		return fourStyles

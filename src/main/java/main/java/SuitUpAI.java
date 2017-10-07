@@ -3,13 +3,10 @@ package main.java;
 import com.mongodb.*;
 import com.mongodb.client.MongoDatabase;
 
-import javax.servlet.*;
-import javax.servlet.http.*;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.security.Principal;
-import javax.servlet.http.HttpServletRequest;
 import java.util.*;
 
 /**

@@ -1,2 +1,1 @@
-export FLASK_APP=flaskr
-flask run
+python3 flaskr.py
